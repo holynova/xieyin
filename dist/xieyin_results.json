@@ -21,66 +21,6 @@
       "pinyin_target": "yú yīn niǎo niǎo"
     },
     {
-      "original_text": "王毕",
-      "replaced_word": "王弼",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "六【王弼】，四海一，蜀山兀，阿房出。覆压三百余里，隔离天日。",
-      "pinyin_orig": "wáng bì",
-      "pinyin_target": "wáng bì"
-    },
-    {
-      "original_text": "王毕",
-      "replaced_word": "王必",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "六【王必】，四海一，蜀山兀，阿房出。覆压三百余里，隔离天日。",
-      "pinyin_orig": "wáng bì",
-      "pinyin_target": "wáng bì"
-    },
-    {
-      "original_text": "海一",
-      "replaced_word": "海伊",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "六王毕，四【海伊】，蜀山兀，阿房出。覆压三百余里，隔离天日。",
-      "pinyin_orig": "hǎi yī",
-      "pinyin_target": "hǎi yī"
-    },
-    {
-      "original_text": "山兀",
-      "replaced_word": "山坞",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "六王毕，四海一，蜀【山坞】，阿房出。覆压三百余里，隔离天日。",
-      "pinyin_orig": "shān wù",
-      "pinyin_target": "shān wù"
-    },
-    {
-      "original_text": "覆压",
-      "replaced_word": "负压",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "六王毕，四海一，蜀山兀，阿房出。【负压】三百余里，隔离天日。",
-      "pinyin_orig": "fù yā",
-      "pinyin_target": "fù yā"
-    },
-    {
-      "original_text": "隔离",
-      "replaced_word": "蛤蜊",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "六王毕，四海一，蜀山兀，阿房出。覆压三百余里，【蛤蜊】天日。",
-      "pinyin_orig": "gé lí",
-      "pinyin_target": "gé lí"
-    },
-    {
       "original_text": "云何",
       "replaced_word": "云和",
       "length": 2,
@@ -99,266 +39,6 @@
       "pun_sentence": "长桥卧波，未【云河】龙？复道行空，不霁何虹？高低冥迷，不知西东。",
       "pinyin_orig": "yún hé",
       "pinyin_target": "yún hé"
-    },
-    {
-      "original_text": "何龙",
-      "replaced_word": "合龙",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "长桥卧波，未云【合龙】？复道行空，不霁何虹？高低冥迷，不知西东。",
-      "pinyin_orig": "hé lóng",
-      "pinyin_target": "hé lóng"
-    },
-    {
-      "original_text": "何龙",
-      "replaced_word": "和龙",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "长桥卧波，未云【和龙】？复道行空，不霁何虹？高低冥迷，不知西东。",
-      "pinyin_orig": "hé lóng",
-      "pinyin_target": "hé lóng"
-    },
-    {
-      "original_text": "复道",
-      "replaced_word": "付到",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "长桥卧波，未云何龙？【付到】行空，不霁何虹？高低冥迷，不知西东。",
-      "pinyin_orig": "fù dào",
-      "pinyin_target": "fù dào"
-    },
-    {
-      "original_text": "复道",
-      "replaced_word": "妇道",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "长桥卧波，未云何龙？【妇道】行空，不霁何虹？高低冥迷，不知西东。",
-      "pinyin_orig": "fù dào",
-      "pinyin_target": "fù dào"
-    },
-    {
-      "original_text": "复道",
-      "replaced_word": "附到",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "长桥卧波，未云何龙？【附到】行空，不霁何虹？高低冥迷，不知西东。",
-      "pinyin_orig": "fù dào",
-      "pinyin_target": "fù dào"
-    },
-    {
-      "original_text": "不霁",
-      "replaced_word": "不济",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "长桥卧波，未云何龙？复道行空，【不济】何虹？高低冥迷，不知西东。",
-      "pinyin_orig": "bú jì",
-      "pinyin_target": "bú jì"
-    },
-    {
-      "original_text": "不霁",
-      "replaced_word": "不计",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "长桥卧波，未云何龙？复道行空，【不计】何虹？高低冥迷，不知西东。",
-      "pinyin_orig": "bú jì",
-      "pinyin_target": "bú jì"
-    },
-    {
-      "original_text": "霁何",
-      "replaced_word": "季荷",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "长桥卧波，未云何龙？复道行空，不【季荷】虹？高低冥迷，不知西东。",
-      "pinyin_orig": "jì hé",
-      "pinyin_target": "jì hé"
-    },
-    {
-      "original_text": "不知",
-      "replaced_word": "不支",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "长桥卧波，未云何龙？复道行空，不霁何虹？高低冥迷，【不支】西东。",
-      "pinyin_orig": "bù zhī",
-      "pinyin_target": "bù zhī"
-    },
-    {
-      "original_text": "知西",
-      "replaced_word": "支息",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "长桥卧波，未云何龙？复道行空，不霁何虹？高低冥迷，不【支息】东。",
-      "pinyin_orig": "zhī xī",
-      "pinyin_target": "zhī xī"
-    },
-    {
-      "original_text": "知西",
-      "replaced_word": "知悉",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "长桥卧波，未云何龙？复道行空，不霁何虹？高低冥迷，不【知悉】东。",
-      "pinyin_orig": "zhī xī",
-      "pinyin_target": "zhī xī"
-    },
-    {
-      "original_text": "呜呼",
-      "replaced_word": "乌呼",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "【乌呼】！灭六国者六国也，非秦也；族秦者秦也，非天下也。",
-      "pinyin_orig": "wū hū",
-      "pinyin_target": "wū hū"
-    },
-    {
-      "original_text": "呜呼",
-      "replaced_word": "於乎",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "【於乎】！灭六国者六国也，非秦也；族秦者秦也，非天下也。",
-      "pinyin_orig": "wū hū",
-      "pinyin_target": "wū hū"
-    },
-    {
-      "original_text": "国也",
-      "replaced_word": "国野",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "呜呼！灭六国者六【国野】，非秦也；族秦者秦也，非天下也。",
-      "pinyin_orig": "guó yě",
-      "pinyin_target": "guó yě"
-    },
-    {
-      "original_text": "非秦",
-      "replaced_word": "飞禽",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "呜呼！灭六国者六国也，【飞禽】也；族秦者秦也，非天下也。",
-      "pinyin_orig": "fēi qín",
-      "pinyin_target": "fēi qín"
-    },
-    {
-      "original_text": "非天",
-      "replaced_word": "飞天",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "呜呼！灭六国者六国也，非秦也；族秦者秦也，【飞天】下也。",
-      "pinyin_orig": "fēi tiān",
-      "pinyin_target": "fēi tiān"
-    },
-    {
-      "original_text": "下也",
-      "replaced_word": "下野",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "呜呼！灭六国者六国也，非秦也；族秦者秦也，非天【下野】。",
-      "pinyin_orig": "xià yě",
-      "pinyin_target": "xià yě"
-    },
-    {
-      "original_text": "戌之",
-      "replaced_word": "需知",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "壬【需知】秋，七月既望，苏子与客泛舟游于赤壁之下。清风徐来，水波不兴。举酒属客，诵明月之诗，歌窈窕之章。",
-      "pinyin_orig": "xū zhī",
-      "pinyin_target": "xū zhī"
-    },
-    {
-      "original_text": "戌之",
-      "replaced_word": "须知",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "壬【须知】秋，七月既望，苏子与客泛舟游于赤壁之下。清风徐来，水波不兴。举酒属客，诵明月之诗，歌窈窕之章。",
-      "pinyin_orig": "xū zhī",
-      "pinyin_target": "xū zhī"
-    },
-    {
-      "original_text": "月既",
-      "replaced_word": "月季",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "壬戌之秋，七【月季】望，苏子与客泛舟游于赤壁之下。清风徐来，水波不兴。举酒属客，诵明月之诗，歌窈窕之章。",
-      "pinyin_orig": "yuè jì",
-      "pinyin_target": "yuè jì"
-    },
-    {
-      "original_text": "既望",
-      "replaced_word": "冀望",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "壬戌之秋，七月【冀望】，苏子与客泛舟游于赤壁之下。清风徐来，水波不兴。举酒属客，诵明月之诗，歌窈窕之章。",
-      "pinyin_orig": "jì wàng",
-      "pinyin_target": "jì wàng"
-    },
-    {
-      "original_text": "既望",
-      "replaced_word": "寄望",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "壬戌之秋，七月【寄望】，苏子与客泛舟游于赤壁之下。清风徐来，水波不兴。举酒属客，诵明月之诗，歌窈窕之章。",
-      "pinyin_orig": "jì wàng",
-      "pinyin_target": "jì wàng"
-    },
-    {
-      "original_text": "客泛",
-      "replaced_word": "客饭",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "壬戌之秋，七月既望，苏子与【客饭】舟游于赤壁之下。清风徐来，水波不兴。举酒属客，诵明月之诗，歌窈窕之章。",
-      "pinyin_orig": "kè fàn",
-      "pinyin_target": "kè fàn"
-    },
-    {
-      "original_text": "舟游",
-      "replaced_word": "周游",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "壬戌之秋，七月既望，苏子与客泛【周游】于赤壁之下。清风徐来，水波不兴。举酒属客，诵明月之诗，歌窈窕之章。",
-      "pinyin_orig": "zhōu yóu",
-      "pinyin_target": "zhōu yóu"
-    },
-    {
-      "original_text": "游于",
-      "replaced_word": "鱿鱼",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "壬戌之秋，七月既望，苏子与客泛舟【鱿鱼】赤壁之下。清风徐来，水波不兴。举酒属客，诵明月之诗，歌窈窕之章。",
-      "pinyin_orig": "yóu yú",
-      "pinyin_target": "yóu yú"
-    },
-    {
-      "original_text": "游于",
-      "replaced_word": "游鱼",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "壬戌之秋，七月既望，苏子与客泛舟【游鱼】赤壁之下。清风徐来，水波不兴。举酒属客，诵明月之诗，歌窈窕之章。",
-      "pinyin_orig": "yóu yú",
-      "pinyin_target": "yóu yú"
     },
     {
       "original_text": "游于",
@@ -381,166 +61,6 @@
       "pinyin_target": "yú chì"
     },
     {
-      "original_text": "清风",
-      "replaced_word": "清丰",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "壬戌之秋，七月既望，苏子与客泛舟游于赤壁之下。【清丰】徐来，水波不兴。举酒属客，诵明月之诗，歌窈窕之章。",
-      "pinyin_orig": "qīng fēng",
-      "pinyin_target": "qīng fēng"
-    },
-    {
-      "original_text": "清风",
-      "replaced_word": "轻风",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "壬戌之秋，七月既望，苏子与客泛舟游于赤壁之下。【轻风】徐来，水波不兴。举酒属客，诵明月之诗，歌窈窕之章。",
-      "pinyin_orig": "qīng fēng",
-      "pinyin_target": "qīng fēng"
-    },
-    {
-      "original_text": "清风",
-      "replaced_word": "青峰",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "壬戌之秋，七月既望，苏子与客泛舟游于赤壁之下。【青峰】徐来，水波不兴。举酒属客，诵明月之诗，歌窈窕之章。",
-      "pinyin_orig": "qīng fēng",
-      "pinyin_target": "qīng fēng"
-    },
-    {
-      "original_text": "清风",
-      "replaced_word": "青蜂",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "壬戌之秋，七月既望，苏子与客泛舟游于赤壁之下。【青蜂】徐来，水波不兴。举酒属客，诵明月之诗，歌窈窕之章。",
-      "pinyin_orig": "qīng fēng",
-      "pinyin_target": "qīng fēng"
-    },
-    {
-      "original_text": "清风",
-      "replaced_word": "青锋",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "壬戌之秋，七月既望，苏子与客泛舟游于赤壁之下。【青锋】徐来，水波不兴。举酒属客，诵明月之诗，歌窈窕之章。",
-      "pinyin_orig": "qīng fēng",
-      "pinyin_target": "qīng fēng"
-    },
-    {
-      "original_text": "清风",
-      "replaced_word": "青风",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "壬戌之秋，七月既望，苏子与客泛舟游于赤壁之下。【青风】徐来，水波不兴。举酒属客，诵明月之诗，歌窈窕之章。",
-      "pinyin_orig": "qīng fēng",
-      "pinyin_target": "qīng fēng"
-    },
-    {
-      "original_text": "诵明",
-      "replaced_word": "宋明",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "壬戌之秋，七月既望，苏子与客泛舟游于赤壁之下。清风徐来，水波不兴。举酒属客，【宋明】月之诗，歌窈窕之章。",
-      "pinyin_orig": "sòng míng",
-      "pinyin_target": "sòng míng"
-    },
-    {
-      "original_text": "月之",
-      "replaced_word": "月氏",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "壬戌之秋，七月既望，苏子与客泛舟游于赤壁之下。清风徐来，水波不兴。举酒属客，诵明【月氏】诗，歌窈窕之章。",
-      "pinyin_orig": "yuè zhī",
-      "pinyin_target": "yuè zhī"
-    },
-    {
-      "original_text": "月之",
-      "replaced_word": "阅知",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "壬戌之秋，七月既望，苏子与客泛舟游于赤壁之下。清风徐来，水波不兴。举酒属客，诵明【阅知】诗，歌窈窕之章。",
-      "pinyin_orig": "yuè zhī",
-      "pinyin_target": "yuè zhī"
-    },
-    {
-      "original_text": "客有",
-      "replaced_word": "刻有",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "【刻有】吹洞箫者，倚歌而和之。其声呜呜然，如怨如慕，如泣如诉；余音袅袅，不绝如缕。",
-      "pinyin_orig": "kè yǒu",
-      "pinyin_target": "kè yǒu"
-    },
-    {
-      "original_text": "吹洞",
-      "replaced_word": "吹动",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "客有【吹动】箫者，倚歌而和之。其声呜呜然，如怨如慕，如泣如诉；余音袅袅，不绝如缕。",
-      "pinyin_orig": "chuī dòng",
-      "pinyin_target": "chuī dòng"
-    },
-    {
-      "original_text": "洞箫",
-      "replaced_word": "洞萧",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "客有吹【洞萧】者，倚歌而和之。其声呜呜然，如怨如慕，如泣如诉；余音袅袅，不绝如缕。",
-      "pinyin_orig": "dòng xiāo",
-      "pinyin_target": "dòng xiāo"
-    },
-    {
-      "original_text": "歌而",
-      "replaced_word": "哥儿",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "客有吹洞箫者，倚【哥儿】和之。其声呜呜然，如怨如慕，如泣如诉；余音袅袅，不绝如缕。",
-      "pinyin_orig": "gē ér",
-      "pinyin_target": "gē ér"
-    },
-    {
-      "original_text": "歌而",
-      "replaced_word": "歌儿",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "客有吹洞箫者，倚【歌儿】和之。其声呜呜然，如怨如慕，如泣如诉；余音袅袅，不绝如缕。",
-      "pinyin_orig": "gē ér",
-      "pinyin_target": "gē ér"
-    },
-    {
-      "original_text": "其声",
-      "replaced_word": "奇声",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "客有吹洞箫者，倚歌而和之。【奇声】呜呜然，如怨如慕，如泣如诉；余音袅袅，不绝如缕。",
-      "pinyin_orig": "qí shēng",
-      "pinyin_target": "qí shēng"
-    },
-    {
-      "original_text": "其声",
-      "replaced_word": "齐声",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "客有吹洞箫者，倚歌而和之。【齐声】呜呜然，如怨如慕，如泣如诉；余音袅袅，不绝如缕。",
-      "pinyin_orig": "qí shēng",
-      "pinyin_target": "qí shēng"
-    },
-    {
       "original_text": "如怨",
       "replaced_word": "如愿",
       "length": 2,
@@ -551,36 +71,6 @@
       "pinyin_target": "rú yuàn"
     },
     {
-      "original_text": "如诉",
-      "replaced_word": "茹素",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "客有吹洞箫者，倚歌而和之。其声呜呜然，如怨如慕，如泣【茹素】；余音袅袅，不绝如缕。",
-      "pinyin_orig": "rú sù",
-      "pinyin_target": "rú sù"
-    },
-    {
-      "original_text": "袅袅",
-      "replaced_word": "嫋嫋",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "客有吹洞箫者，倚歌而和之。其声呜呜然，如怨如慕，如泣如诉；余音【嫋嫋】，不绝如缕。",
-      "pinyin_orig": "niǎo niǎo",
-      "pinyin_target": "niǎo niǎo"
-    },
-    {
-      "original_text": "袅袅",
-      "replaced_word": "鸟鸟",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "客有吹洞箫者，倚歌而和之。其声呜呜然，如怨如慕，如泣如诉；余音【鸟鸟】，不绝如缕。",
-      "pinyin_orig": "niǎo niǎo",
-      "pinyin_target": "niǎo niǎo"
-    },
-    {
       "original_text": "不绝",
       "replaced_word": "不觉",
       "length": 2,
@@ -589,86 +79,6 @@
       "pun_sentence": "客有吹洞箫者，倚歌而和之。其声呜呜然，如怨如慕，如泣如诉；余音袅袅，【不觉】如缕。",
       "pinyin_orig": "bù jué",
       "pinyin_target": "bù jué"
-    },
-    {
-      "original_text": "新府",
-      "replaced_word": "心腑",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "豫章故郡，洪都【心腑】。星分翼轸，地接衡庐。襟三江而带五湖，控蛮荆而引瓯越。",
-      "pinyin_orig": "xīn fǔ",
-      "pinyin_target": "xīn fǔ"
-    },
-    {
-      "original_text": "翼轸",
-      "replaced_word": "义诊",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "豫章故郡，洪都新府。星分【义诊】，地接衡庐。襟三江而带五湖，控蛮荆而引瓯越。",
-      "pinyin_orig": "yì zhěn",
-      "pinyin_target": "yì zhěn"
-    },
-    {
-      "original_text": "翼轸",
-      "replaced_word": "疫疹",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "豫章故郡，洪都新府。星分【疫疹】，地接衡庐。襟三江而带五湖，控蛮荆而引瓯越。",
-      "pinyin_orig": "yì zhěn",
-      "pinyin_target": "yì zhěn"
-    },
-    {
-      "original_text": "五湖",
-      "replaced_word": "五胡",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "豫章故郡，洪都新府。星分翼轸，地接衡庐。襟三江而带【五胡】，控蛮荆而引瓯越。",
-      "pinyin_orig": "wǔ hú",
-      "pinyin_target": "wǔ hú"
-    },
-    {
-      "original_text": "齐飞",
-      "replaced_word": "齐妃",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "落霞与孤鹜【齐妃】，秋水共长天一色。渔舟唱晚，响穷彭蠡之滨；雁阵惊寒，声断衡阳之浦。",
-      "pinyin_orig": "qí fēi",
-      "pinyin_target": "qí fēi"
-    },
-    {
-      "original_text": "渔舟",
-      "replaced_word": "于洲",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "落霞与孤鹜齐飞，秋水共长天一色。【于洲】唱晚，响穷彭蠡之滨；雁阵惊寒，声断衡阳之浦。",
-      "pinyin_orig": "yú zhōu",
-      "pinyin_target": "yú zhōu"
-    },
-    {
-      "original_text": "渔舟",
-      "replaced_word": "渝州",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "落霞与孤鹜齐飞，秋水共长天一色。【渝州】唱晚，响穷彭蠡之滨；雁阵惊寒，声断衡阳之浦。",
-      "pinyin_orig": "yú zhōu",
-      "pinyin_target": "yú zhōu"
-    },
-    {
-      "original_text": "蠡之",
-      "replaced_word": "梨汁",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "落霞与孤鹜齐飞，秋水共长天一色。渔舟唱晚，响穷彭【梨汁】滨；雁阵惊寒，声断衡阳之浦。",
-      "pinyin_orig": "lí zhī",
-      "pinyin_target": "lí zhī"
     },
     {
       "original_text": "阵惊",
@@ -691,16 +101,6 @@
       "pinyin_target": "zhèn jīng"
     },
     {
-      "original_text": "阳之",
-      "replaced_word": "羊脂",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "落霞与孤鹜齐飞，秋水共长天一色。渔舟唱晚，响穷彭蠡之滨；雁阵惊寒，声断衡【羊脂】浦。",
-      "pinyin_orig": "yáng zhī",
-      "pinyin_target": "yáng zhī"
-    },
-    {
       "original_text": "婉若",
       "replaced_word": "宛若",
       "length": 2,
@@ -711,26 +111,6 @@
       "pinyin_target": "wǎn ruò"
     },
     {
-      "original_text": "游龙",
-      "replaced_word": "油龙",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "翩若惊鸿，婉若【油龙】。荣曜秋菊，华茂春松。髣髴兮若轻云之蔽月，飘飖兮若流风之回雪。",
-      "pinyin_orig": "yóu lóng",
-      "pinyin_target": "yóu lóng"
-    },
-    {
-      "original_text": "荣曜",
-      "replaced_word": "荣耀",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "翩若惊鸿，婉若游龙。【荣耀】秋菊，华茂春松。髣髴兮若轻云之蔽月，飘飖兮若流风之回雪。",
-      "pinyin_orig": "róng yào",
-      "pinyin_target": "róng yào"
-    },
-    {
       "original_text": "髣髴",
       "replaced_word": "仿佛",
       "length": 2,
@@ -739,66 +119,6 @@
       "pun_sentence": "翩若惊鸿，婉若游龙。荣曜秋菊，华茂春松。【仿佛】兮若轻云之蔽月，飘飖兮若流风之回雪。",
       "pinyin_orig": "fǎng fú",
       "pinyin_target": "fǎng fú"
-    },
-    {
-      "original_text": "轻云",
-      "replaced_word": "青云",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "翩若惊鸿，婉若游龙。荣曜秋菊，华茂春松。髣髴兮若【青云】之蔽月，飘飖兮若流风之回雪。",
-      "pinyin_orig": "qīng yún",
-      "pinyin_target": "qīng yún"
-    },
-    {
-      "original_text": "蔽月",
-      "replaced_word": "璧月",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "翩若惊鸿，婉若游龙。荣曜秋菊，华茂春松。髣髴兮若轻云之【璧月】，飘飖兮若流风之回雪。",
-      "pinyin_orig": "bì yuè",
-      "pinyin_target": "bì yuè"
-    },
-    {
-      "original_text": "飘飖",
-      "replaced_word": "飘摇",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "翩若惊鸿，婉若游龙。荣曜秋菊，华茂春松。髣髴兮若轻云之蔽月，【飘摇】兮若流风之回雪。",
-      "pinyin_orig": "piāo yáo",
-      "pinyin_target": "piāo yáo"
-    },
-    {
-      "original_text": "流风",
-      "replaced_word": "刘锋",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "翩若惊鸿，婉若游龙。荣曜秋菊，华茂春松。髣髴兮若轻云之蔽月，飘飖兮若【刘锋】之回雪。",
-      "pinyin_orig": "liú fēng",
-      "pinyin_target": "liú fēng"
-    },
-    {
-      "original_text": "流风",
-      "replaced_word": "刘封",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "翩若惊鸿，婉若游龙。荣曜秋菊，华茂春松。髣髴兮若轻云之蔽月，飘飖兮若【刘封】之回雪。",
-      "pinyin_orig": "liú fēng",
-      "pinyin_target": "liú fēng"
-    },
-    {
-      "original_text": "风之",
-      "replaced_word": "疯枝",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "翩若惊鸿，婉若游龙。荣曜秋菊，华茂春松。髣髴兮若轻云之蔽月，飘飖兮若流【疯枝】回雪。",
-      "pinyin_orig": "fēng zhī",
-      "pinyin_target": "fēng zhī"
     },
     {
       "original_text": "声呜呜然",
@@ -889,16 +209,6 @@
       "pun_sentence": "六王毕，【四害】一，蜀山兀，阿房出。覆压三百余里，隔离天日。",
       "pinyin_orig": "sì hǎi",
       "pinyin_target": "sì hài"
-    },
-    {
-      "original_text": "四海",
-      "replaced_word": "斯海",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "六王毕，【斯海】一，蜀山兀，阿房出。覆压三百余里，隔离天日。",
-      "pinyin_orig": "sì hǎi",
-      "pinyin_target": "sī hǎi"
     },
     {
       "original_text": "四海",
@@ -1002,16 +312,6 @@
     },
     {
       "original_text": "余里",
-      "replaced_word": "余例",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "六王毕，四海一，蜀山兀，阿房出。覆压三百【余例】，隔离天日。",
-      "pinyin_orig": "yú lǐ",
-      "pinyin_target": "yú lì"
-    },
-    {
-      "original_text": "余里",
       "replaced_word": "余利",
       "length": 2,
       "match_type": "全同音异声调",
@@ -1082,36 +382,6 @@
     },
     {
       "original_text": "隔离",
-      "replaced_word": "个例",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "六王毕，四海一，蜀山兀，阿房出。覆压三百余里，【个例】天日。",
-      "pinyin_orig": "gé lí",
-      "pinyin_target": "gè lì"
-    },
-    {
-      "original_text": "隔离",
-      "replaced_word": "个里",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "六王毕，四海一，蜀山兀，阿房出。覆压三百余里，【个里】天日。",
-      "pinyin_orig": "gé lí",
-      "pinyin_target": "gè lǐ"
-    },
-    {
-      "original_text": "隔离",
-      "replaced_word": "割礼",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "六王毕，四海一，蜀山兀，阿房出。覆压三百余里，【割礼】天日。",
-      "pinyin_orig": "gé lí",
-      "pinyin_target": "gē lǐ"
-    },
-    {
-      "original_text": "隔离",
       "replaced_word": "割离",
       "length": 2,
       "match_type": "全同音异声调",
@@ -1152,26 +422,6 @@
     },
     {
       "original_text": "隔离",
-      "replaced_word": "哥里",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "六王毕，四海一，蜀山兀，阿房出。覆压三百余里，【哥里】天日。",
-      "pinyin_orig": "gé lí",
-      "pinyin_target": "gē lǐ"
-    },
-    {
-      "original_text": "隔离",
-      "replaced_word": "戈里",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "六王毕，四海一，蜀山兀，阿房出。覆压三百余里，【戈里】天日。",
-      "pinyin_orig": "gé lí",
-      "pinyin_target": "gē lǐ"
-    },
-    {
-      "original_text": "隔离",
       "replaced_word": "格利",
       "length": 2,
       "match_type": "全同音异声调",
@@ -1191,16 +441,6 @@
       "pinyin_target": "gé lì"
     },
     {
-      "original_text": "隔离",
-      "replaced_word": "格里",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "六王毕，四海一，蜀山兀，阿房出。覆压三百余里，【格里】天日。",
-      "pinyin_orig": "gé lí",
-      "pinyin_target": "gé lǐ"
-    },
-    {
       "original_text": "离天",
       "replaced_word": "力天",
       "length": 2,
@@ -1209,16 +449,6 @@
       "pun_sentence": "六王毕，四海一，蜀山兀，阿房出。覆压三百余里，隔【力天】日。",
       "pinyin_orig": "lí tiān",
       "pinyin_target": "lì tiān"
-    },
-    {
-      "original_text": "离天",
-      "replaced_word": "犁田",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "六王毕，四海一，蜀山兀，阿房出。覆压三百余里，隔【犁田】日。",
-      "pinyin_orig": "lí tiān",
-      "pinyin_target": "lí tián"
     },
     {
       "original_text": "长桥",
@@ -1239,16 +469,6 @@
       "pun_sentence": "长桥卧波，【微云】何龙？复道行空，不霁何虹？高低冥迷，不知西东。",
       "pinyin_orig": "wèi yún",
       "pinyin_target": "wēi yún"
-    },
-    {
-      "original_text": "云何",
-      "replaced_word": "蕴和",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "长桥卧波，未【蕴和】龙？复道行空，不霁何虹？高低冥迷，不知西东。",
-      "pinyin_orig": "yún hé",
-      "pinyin_target": "yùn hé"
     },
     {
       "original_text": "云何",
@@ -1279,66 +499,6 @@
       "pun_sentence": "长桥卧波，未云【合拢】？复道行空，不霁何虹？高低冥迷，不知西东。",
       "pinyin_orig": "hé lóng",
       "pinyin_target": "hé lǒng"
-    },
-    {
-      "original_text": "复道",
-      "replaced_word": "伏倒",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "长桥卧波，未云何龙？【伏倒】行空，不霁何虹？高低冥迷，不知西东。",
-      "pinyin_orig": "fù dào",
-      "pinyin_target": "fú dǎo"
-    },
-    {
-      "original_text": "复道",
-      "replaced_word": "伏到",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "长桥卧波，未云何龙？【伏到】行空，不霁何虹？高低冥迷，不知西东。",
-      "pinyin_orig": "fù dào",
-      "pinyin_target": "fú dào"
-    },
-    {
-      "original_text": "复道",
-      "replaced_word": "富岛",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "长桥卧波，未云何龙？【富岛】行空，不霁何虹？高低冥迷，不知西东。",
-      "pinyin_orig": "fù dào",
-      "pinyin_target": "fù dǎo"
-    },
-    {
-      "original_text": "复道",
-      "replaced_word": "敷到",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "长桥卧波，未云何龙？【敷到】行空，不霁何虹？高低冥迷，不知西东。",
-      "pinyin_orig": "fù dào",
-      "pinyin_target": "fū dào"
-    },
-    {
-      "original_text": "复道",
-      "replaced_word": "服到",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "长桥卧波，未云何龙？【服到】行空，不霁何虹？高低冥迷，不知西东。",
-      "pinyin_orig": "fù dào",
-      "pinyin_target": "fú dào"
-    },
-    {
-      "original_text": "复道",
-      "replaced_word": "浮岛",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "长桥卧波，未云何龙？【浮岛】行空，不霁何虹？高低冥迷，不知西东。",
-      "pinyin_orig": "fù dào",
-      "pinyin_target": "fú dǎo"
     },
     {
       "original_text": "复道",
@@ -1392,76 +552,6 @@
     },
     {
       "original_text": "不霁",
-      "replaced_word": "不箕",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "长桥卧波，未云何龙？复道行空，【不箕】何虹？高低冥迷，不知西东。",
-      "pinyin_orig": "bú jì",
-      "pinyin_target": "bù jī"
-    },
-    {
-      "original_text": "不霁",
-      "replaced_word": "不羁",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "长桥卧波，未云何龙？复道行空，【不羁】何虹？高低冥迷，不知西东。",
-      "pinyin_orig": "bú jì",
-      "pinyin_target": "bù jī"
-    },
-    {
-      "original_text": "不霁",
-      "replaced_word": "布机",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "长桥卧波，未云何龙？复道行空，【布机】何虹？高低冥迷，不知西东。",
-      "pinyin_orig": "bú jì",
-      "pinyin_target": "bù jī"
-    },
-    {
-      "original_text": "不霁",
-      "replaced_word": "簿籍",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "长桥卧波，未云何龙？复道行空，【簿籍】何虹？高低冥迷，不知西东。",
-      "pinyin_orig": "bú jì",
-      "pinyin_target": "bù jí"
-    },
-    {
-      "original_text": "不霁",
-      "replaced_word": "簿记",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "长桥卧波，未云何龙？复道行空，【簿记】何虹？高低冥迷，不知西东。",
-      "pinyin_orig": "bú jì",
-      "pinyin_target": "bù jì"
-    },
-    {
-      "original_text": "不霁",
-      "replaced_word": "补剂",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "长桥卧波，未云何龙？复道行空，【补剂】何虹？高低冥迷，不知西东。",
-      "pinyin_orig": "bú jì",
-      "pinyin_target": "bǔ jì"
-    },
-    {
-      "original_text": "不霁",
-      "replaced_word": "补济",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "长桥卧波，未云何龙？复道行空，【补济】何虹？高低冥迷，不知西东。",
-      "pinyin_orig": "bú jì",
-      "pinyin_target": "bǔ jì"
-    },
-    {
-      "original_text": "不霁",
       "replaced_word": "补给",
       "length": 2,
       "match_type": "全同音异声调",
@@ -1469,46 +559,6 @@
       "pun_sentence": "长桥卧波，未云何龙？复道行空，【补给】何虹？高低冥迷，不知西东。",
       "pinyin_orig": "bú jì",
       "pinyin_target": "bǔ jǐ"
-    },
-    {
-      "original_text": "不霁",
-      "replaced_word": "补记",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "长桥卧波，未云何龙？复道行空，【补记】何虹？高低冥迷，不知西东。",
-      "pinyin_orig": "bú jì",
-      "pinyin_target": "bǔ jì"
-    },
-    {
-      "original_text": "不霁",
-      "replaced_word": "部级",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "长桥卧波，未云何龙？复道行空，【部级】何虹？高低冥迷，不知西东。",
-      "pinyin_orig": "bú jì",
-      "pinyin_target": "bù jí"
-    },
-    {
-      "original_text": "不霁",
-      "replaced_word": "部际",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "长桥卧波，未云何龙？复道行空，【部际】何虹？高低冥迷，不知西东。",
-      "pinyin_orig": "bú jì",
-      "pinyin_target": "bù jì"
-    },
-    {
-      "original_text": "霁何",
-      "replaced_word": "集合",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "长桥卧波，未云何龙？复道行空，不【集合】虹？高低冥迷，不知西东。",
-      "pinyin_orig": "jì hé",
-      "pinyin_target": "jí hé"
     },
     {
       "original_text": "霁何",
@@ -1519,6 +569,16 @@
       "pun_sentence": "长桥卧波，未云何龙？复道行空，不【几何】虹？高低冥迷，不知西东。",
       "pinyin_orig": "jì hé",
       "pinyin_target": "jǐ hé"
+    },
+    {
+      "original_text": "霁何",
+      "replaced_word": "集合",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "长桥卧波，未云何龙？复道行空，不【集合】虹？高低冥迷，不知西东。",
+      "pinyin_orig": "jì hé",
+      "pinyin_target": "jí hé"
     },
     {
       "original_text": "霁何",
@@ -1632,6 +692,36 @@
     },
     {
       "original_text": "不知",
+      "replaced_word": "不致",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "长桥卧波，未云何龙？复道行空，不霁何虹？高低冥迷，【不致】西东。",
+      "pinyin_orig": "bù zhī",
+      "pinyin_target": "bú zhì"
+    },
+    {
+      "original_text": "不知",
+      "replaced_word": "不止",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "长桥卧波，未云何龙？复道行空，不霁何虹？高低冥迷，【不止】西东。",
+      "pinyin_orig": "bù zhī",
+      "pinyin_target": "bù zhǐ"
+    },
+    {
+      "original_text": "不知",
+      "replaced_word": "布置",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "长桥卧波，未云何龙？复道行空，不霁何虹？高低冥迷，【布置】西东。",
+      "pinyin_orig": "bù zhī",
+      "pinyin_target": "bù zhì"
+    },
+    {
+      "original_text": "不知",
       "replaced_word": "不值",
       "length": 2,
       "match_type": "全同音异声调",
@@ -1649,16 +739,6 @@
       "pun_sentence": "长桥卧波，未云何龙？复道行空，不霁何虹？高低冥迷，【不智】西东。",
       "pinyin_orig": "bù zhī",
       "pinyin_target": "bú zhì"
-    },
-    {
-      "original_text": "不知",
-      "replaced_word": "不止",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "长桥卧波，未云何龙？复道行空，不霁何虹？高低冥迷，【不止】西东。",
-      "pinyin_orig": "bù zhī",
-      "pinyin_target": "bù zhǐ"
     },
     {
       "original_text": "不知",
@@ -1682,31 +762,11 @@
     },
     {
       "original_text": "不知",
-      "replaced_word": "不致",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "长桥卧波，未云何龙？复道行空，不霁何虹？高低冥迷，【不致】西东。",
-      "pinyin_orig": "bù zhī",
-      "pinyin_target": "bú zhì"
-    },
-    {
-      "original_text": "不知",
       "replaced_word": "布制",
       "length": 2,
       "match_type": "全同音异声调",
       "is_same_tone": false,
       "pun_sentence": "长桥卧波，未云何龙？复道行空，不霁何虹？高低冥迷，【布制】西东。",
-      "pinyin_orig": "bù zhī",
-      "pinyin_target": "bù zhì"
-    },
-    {
-      "original_text": "不知",
-      "replaced_word": "布置",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "长桥卧波，未云何龙？复道行空，不霁何虹？高低冥迷，【布置】西东。",
       "pinyin_orig": "bù zhī",
       "pinyin_target": "bù zhì"
     },
@@ -1817,16 +877,6 @@
       "match_type": "全同音异声调",
       "is_same_tone": false,
       "pun_sentence": "【五湖】！灭六国者六国也，非秦也；族秦者秦也，非天下也。",
-      "pinyin_orig": "wū hū",
-      "pinyin_target": "wǔ hú"
-    },
-    {
-      "original_text": "呜呼",
-      "replaced_word": "五胡",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "【五胡】！灭六国者六国也，非秦也；族秦者秦也，非天下也。",
       "pinyin_orig": "wū hū",
       "pinyin_target": "wǔ hú"
     },
@@ -2392,6 +1442,36 @@
     },
     {
       "original_text": "游于",
+      "replaced_word": "犹豫",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "壬戌之秋，七月既望，苏子与客泛舟【犹豫】赤壁之下。清风徐来，水波不兴。举酒属客，诵明月之诗，歌窈窕之章。",
+      "pinyin_orig": "yóu yú",
+      "pinyin_target": "yóu yù"
+    },
+    {
+      "original_text": "游于",
+      "replaced_word": "有余",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "壬戌之秋，七月既望，苏子与客泛舟【有余】赤壁之下。清风徐来，水波不兴。举酒属客，诵明月之诗，歌窈窕之章。",
+      "pinyin_orig": "yóu yú",
+      "pinyin_target": "yǒu yú"
+    },
+    {
+      "original_text": "游于",
+      "replaced_word": "有雨",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "壬戌之秋，七月既望，苏子与客泛舟【有雨】赤壁之下。清风徐来，水波不兴。举酒属客，诵明月之诗，歌窈窕之章。",
+      "pinyin_orig": "yóu yú",
+      "pinyin_target": "yǒu yǔ"
+    },
+    {
+      "original_text": "游于",
       "replaced_word": "优于",
       "length": 2,
       "match_type": "全同音异声调",
@@ -2469,36 +1549,6 @@
       "pun_sentence": "壬戌之秋，七月既望，苏子与客泛舟【忧郁】赤壁之下。清风徐来，水波不兴。举酒属客，诵明月之诗，歌窈窕之章。",
       "pinyin_orig": "yóu yú",
       "pinyin_target": "yōu yù"
-    },
-    {
-      "original_text": "游于",
-      "replaced_word": "有余",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "壬戌之秋，七月既望，苏子与客泛舟【有余】赤壁之下。清风徐来，水波不兴。举酒属客，诵明月之诗，歌窈窕之章。",
-      "pinyin_orig": "yóu yú",
-      "pinyin_target": "yǒu yú"
-    },
-    {
-      "original_text": "游于",
-      "replaced_word": "犹豫",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "壬戌之秋，七月既望，苏子与客泛舟【犹豫】赤壁之下。清风徐来，水波不兴。举酒属客，诵明月之诗，歌窈窕之章。",
-      "pinyin_orig": "yóu yú",
-      "pinyin_target": "yóu yù"
-    },
-    {
-      "original_text": "游于",
-      "replaced_word": "有雨",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "壬戌之秋，七月既望，苏子与客泛舟【有雨】赤壁之下。清风徐来，水波不兴。举酒属客，诵明月之诗，歌窈窕之章。",
-      "pinyin_orig": "yóu yú",
-      "pinyin_target": "yǒu yǔ"
     },
     {
       "original_text": "于赤",
@@ -2762,6 +1812,16 @@
     },
     {
       "original_text": "不兴",
+      "replaced_word": "步行",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "壬戌之秋，七月既望，苏子与客泛舟游于赤壁之下。清风徐来，水波【步行】。举酒属客，诵明月之诗，歌窈窕之章。",
+      "pinyin_orig": "bù xīng",
+      "pinyin_target": "bù xíng"
+    },
+    {
+      "original_text": "不兴",
       "replaced_word": "不幸",
       "length": 2,
       "match_type": "全同音异声调",
@@ -2797,16 +1857,6 @@
       "match_type": "全同音异声调",
       "is_same_tone": false,
       "pun_sentence": "壬戌之秋，七月既望，苏子与客泛舟游于赤壁之下。清风徐来，水波【布行】。举酒属客，诵明月之诗，歌窈窕之章。",
-      "pinyin_orig": "bù xīng",
-      "pinyin_target": "bù xíng"
-    },
-    {
-      "original_text": "不兴",
-      "replaced_word": "步行",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "壬戌之秋，七月既望，苏子与客泛舟游于赤壁之下。清风徐来，水波【步行】。举酒属客，诵明月之诗，歌窈窕之章。",
       "pinyin_orig": "bù xīng",
       "pinyin_target": "bù xíng"
     },
@@ -2972,6 +2022,26 @@
     },
     {
       "original_text": "之诗",
+      "replaced_word": "知识",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "壬戌之秋，七月既望，苏子与客泛舟游于赤壁之下。清风徐来，水波不兴。举酒属客，诵明月【知识】，歌窈窕之章。",
+      "pinyin_orig": "zhī shī",
+      "pinyin_target": "zhī shi"
+    },
+    {
+      "original_text": "之诗",
+      "replaced_word": "指示",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "壬戌之秋，七月既望，苏子与客泛舟游于赤壁之下。清风徐来，水波不兴。举酒属客，诵明月【指示】，歌窈窕之章。",
+      "pinyin_orig": "zhī shī",
+      "pinyin_target": "zhǐ shì"
+    },
+    {
+      "original_text": "之诗",
       "replaced_word": "芝士",
       "length": 2,
       "match_type": "全同音异声调",
@@ -3082,26 +2152,6 @@
     },
     {
       "original_text": "之诗",
-      "replaced_word": "指示",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "壬戌之秋，七月既望，苏子与客泛舟游于赤壁之下。清风徐来，水波不兴。举酒属客，诵明月【指示】，歌窈窕之章。",
-      "pinyin_orig": "zhī shī",
-      "pinyin_target": "zhǐ shì"
-    },
-    {
-      "original_text": "之诗",
-      "replaced_word": "支使",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "壬戌之秋，七月既望，苏子与客泛舟游于赤壁之下。清风徐来，水波不兴。举酒属客，诵明月【支使】，歌窈窕之章。",
-      "pinyin_orig": "zhī shī",
-      "pinyin_target": "zhī shǐ"
-    },
-    {
-      "original_text": "之诗",
       "replaced_word": "智士",
       "length": 2,
       "match_type": "全同音异声调",
@@ -3189,16 +2239,6 @@
       "pun_sentence": "壬戌之秋，七月既望，苏子与客泛舟游于赤壁之下。清风徐来，水波不兴。举酒属客，诵明月【知事】，歌窈窕之章。",
       "pinyin_orig": "zhī shī",
       "pinyin_target": "zhī shì"
-    },
-    {
-      "original_text": "之诗",
-      "replaced_word": "知识",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "壬戌之秋，七月既望，苏子与客泛舟游于赤壁之下。清风徐来，水波不兴。举酒属客，诵明月【知识】，歌窈窕之章。",
-      "pinyin_orig": "zhī shī",
-      "pinyin_target": "zhī shi"
     },
     {
       "original_text": "之诗",
@@ -3922,26 +2962,6 @@
     },
     {
       "original_text": "余音",
-      "replaced_word": "雨音",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "客有吹洞箫者，倚歌而和之。其声呜呜然，如怨如慕，如泣如诉；【雨音】袅袅，不绝如缕。",
-      "pinyin_orig": "yú yīn",
-      "pinyin_target": "yǔ yīn"
-    },
-    {
-      "original_text": "余音",
-      "replaced_word": "玉音",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "客有吹洞箫者，倚歌而和之。其声呜呜然，如怨如慕，如泣如诉；【玉音】袅袅，不绝如缕。",
-      "pinyin_orig": "yú yīn",
-      "pinyin_target": "yù yīn"
-    },
-    {
-      "original_text": "余音",
       "replaced_word": "语音",
       "length": 2,
       "match_type": "全同音异声调",
@@ -4152,16 +3172,6 @@
     },
     {
       "original_text": "翼轸",
-      "replaced_word": "一真",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "豫章故郡，洪都新府。星分【一真】，地接衡庐。襟三江而带五湖，控蛮荆而引瓯越。",
-      "pinyin_orig": "yì zhěn",
-      "pinyin_target": "yì zhēn"
-    },
-    {
-      "original_text": "翼轸",
       "replaced_word": "一帧",
       "length": 2,
       "match_type": "全同音异声调",
@@ -4192,16 +3202,6 @@
     },
     {
       "original_text": "翼轸",
-      "replaced_word": "一阵",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "豫章故郡，洪都新府。星分【一阵】，地接衡庐。襟三江而带五湖，控蛮荆而引瓯越。",
-      "pinyin_orig": "yì zhěn",
-      "pinyin_target": "yí zhèn"
-    },
-    {
-      "original_text": "翼轸",
       "replaced_word": "仪真",
       "length": 2,
       "match_type": "全同音异声调",
@@ -4219,16 +3219,6 @@
       "pun_sentence": "豫章故郡，洪都新府。星分【疑阵】，地接衡庐。襟三江而带五湖，控蛮荆而引瓯越。",
       "pinyin_orig": "yì zhěn",
       "pinyin_target": "yí zhèn"
-    },
-    {
-      "original_text": "地接",
-      "replaced_word": "地节",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "豫章故郡，洪都新府。星分翼轸，【地节】衡庐。襟三江而带五湖，控蛮荆而引瓯越。",
-      "pinyin_orig": "dì jiē",
-      "pinyin_target": "dì jié"
     },
     {
       "original_text": "地接",
@@ -4269,16 +3259,6 @@
       "pun_sentence": "豫章故郡，洪都新府。星分翼轸，【砥节】衡庐。襟三江而带五湖，控蛮荆而引瓯越。",
       "pinyin_orig": "dì jiē",
       "pinyin_target": "dǐ jié"
-    },
-    {
-      "original_text": "地接",
-      "replaced_word": "缔结",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "豫章故郡，洪都新府。星分翼轸，【缔结】衡庐。襟三江而带五湖，控蛮荆而引瓯越。",
-      "pinyin_orig": "dì jiē",
-      "pinyin_target": "dì jié"
     },
     {
       "original_text": "地接",
@@ -4362,16 +3342,6 @@
     },
     {
       "original_text": "五湖",
-      "replaced_word": "乌呼",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "豫章故郡，洪都新府。星分翼轸，地接衡庐。襟三江而带【乌呼】，控蛮荆而引瓯越。",
-      "pinyin_orig": "wǔ hú",
-      "pinyin_target": "wū hū"
-    },
-    {
-      "original_text": "五湖",
       "replaced_word": "五户",
       "length": 2,
       "match_type": "全同音异声调",
@@ -4397,16 +3367,6 @@
       "match_type": "全同音异声调",
       "is_same_tone": false,
       "pun_sentence": "豫章故郡，洪都新府。星分翼轸，地接衡庐。襟三江而带【呜呼】，控蛮荆而引瓯越。",
-      "pinyin_orig": "wǔ hú",
-      "pinyin_target": "wū hū"
-    },
-    {
-      "original_text": "五湖",
-      "replaced_word": "於乎",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "豫章故郡，洪都新府。星分翼轸，地接衡庐。襟三江而带【於乎】，控蛮荆而引瓯越。",
       "pinyin_orig": "wǔ hú",
       "pinyin_target": "wū hū"
     },
@@ -4479,26 +3439,6 @@
       "pun_sentence": "【落下】与孤鹜齐飞，秋水共长天一色。渔舟唱晚，响穷彭蠡之滨；雁阵惊寒，声断衡阳之浦。",
       "pinyin_orig": "luò xiá",
       "pinyin_target": "luò xià"
-    },
-    {
-      "original_text": "霞与",
-      "replaced_word": "夏雨",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "落【夏雨】孤鹜齐飞，秋水共长天一色。渔舟唱晚，响穷彭蠡之滨；雁阵惊寒，声断衡阳之浦。",
-      "pinyin_orig": "xiá yǔ",
-      "pinyin_target": "xià yǔ"
-    },
-    {
-      "original_text": "霞与",
-      "replaced_word": "夏禹",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "落【夏禹】孤鹜齐飞，秋水共长天一色。渔舟唱晚，响穷彭蠡之滨；雁阵惊寒，声断衡阳之浦。",
-      "pinyin_orig": "xiá yǔ",
-      "pinyin_target": "xià yǔ"
     },
     {
       "original_text": "霞与",
@@ -4612,6 +3552,26 @@
     },
     {
       "original_text": "孤鹜",
+      "replaced_word": "鼓舞",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "落霞与【鼓舞】齐飞，秋水共长天一色。渔舟唱晚，响穷彭蠡之滨；雁阵惊寒，声断衡阳之浦。",
+      "pinyin_orig": "gū wù",
+      "pinyin_target": "gǔ wǔ"
+    },
+    {
+      "original_text": "孤鹜",
+      "replaced_word": "谷物",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "落霞与【谷物】齐飞，秋水共长天一色。渔舟唱晚，响穷彭蠡之滨；雁阵惊寒，声断衡阳之浦。",
+      "pinyin_orig": "gū wù",
+      "pinyin_target": "gǔ wù"
+    },
+    {
+      "original_text": "孤鹜",
       "replaced_word": "古屋",
       "length": 2,
       "match_type": "全同音异声调",
@@ -4639,46 +3599,6 @@
       "pun_sentence": "落霞与【固无】齐飞，秋水共长天一色。渔舟唱晚，响穷彭蠡之滨；雁阵惊寒，声断衡阳之浦。",
       "pinyin_orig": "gū wù",
       "pinyin_target": "gù wú"
-    },
-    {
-      "original_text": "孤鹜",
-      "replaced_word": "谷物",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "落霞与【谷物】齐飞，秋水共长天一色。渔舟唱晚，响穷彭蠡之滨；雁阵惊寒，声断衡阳之浦。",
-      "pinyin_orig": "gū wù",
-      "pinyin_target": "gǔ wù"
-    },
-    {
-      "original_text": "孤鹜",
-      "replaced_word": "鼓舞",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "落霞与【鼓舞】齐飞，秋水共长天一色。渔舟唱晚，响穷彭蠡之滨；雁阵惊寒，声断衡阳之浦。",
-      "pinyin_orig": "gū wù",
-      "pinyin_target": "gǔ wǔ"
-    },
-    {
-      "original_text": "鹜齐",
-      "replaced_word": "吴起",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "落霞与孤【吴起】飞，秋水共长天一色。渔舟唱晚，响穷彭蠡之滨；雁阵惊寒，声断衡阳之浦。",
-      "pinyin_orig": "wù qí",
-      "pinyin_target": "wú qǐ"
-    },
-    {
-      "original_text": "鹜齐",
-      "replaced_word": "吴绮",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "落霞与孤【吴绮】飞，秋水共长天一色。渔舟唱晚，响穷彭蠡之滨；雁阵惊寒，声断衡阳之浦。",
-      "pinyin_orig": "wù qí",
-      "pinyin_target": "wú qǐ"
     },
     {
       "original_text": "鹜齐",
@@ -4812,16 +3732,6 @@
     },
     {
       "original_text": "鹜齐",
-      "replaced_word": "武器",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "落霞与孤【武器】飞，秋水共长天一色。渔舟唱晚，响穷彭蠡之滨；雁阵惊寒，声断衡阳之浦。",
-      "pinyin_orig": "wù qí",
-      "pinyin_target": "wǔ qì"
-    },
-    {
-      "original_text": "鹜齐",
       "replaced_word": "污气",
       "length": 2,
       "match_type": "全同音异声调",
@@ -4862,21 +3772,21 @@
     },
     {
       "original_text": "齐飞",
-      "replaced_word": "岂非",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "落霞与孤鹜【岂非】，秋水共长天一色。渔舟唱晚，响穷彭蠡之滨；雁阵惊寒，声断衡阳之浦。",
-      "pinyin_orig": "qí fēi",
-      "pinyin_target": "qǐ fēi"
-    },
-    {
-      "original_text": "齐飞",
       "replaced_word": "起飞",
       "length": 2,
       "match_type": "全同音异声调",
       "is_same_tone": false,
       "pun_sentence": "落霞与孤鹜【起飞】，秋水共长天一色。渔舟唱晚，响穷彭蠡之滨；雁阵惊寒，声断衡阳之浦。",
+      "pinyin_orig": "qí fēi",
+      "pinyin_target": "qǐ fēi"
+    },
+    {
+      "original_text": "齐飞",
+      "replaced_word": "岂非",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "落霞与孤鹜【岂非】，秋水共长天一色。渔舟唱晚，响穷彭蠡之滨；雁阵惊寒，声断衡阳之浦。",
       "pinyin_orig": "qí fēi",
       "pinyin_target": "qǐ fēi"
     },
@@ -4962,16 +3872,6 @@
     },
     {
       "original_text": "天一",
-      "replaced_word": "天仪",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "落霞与孤鹜齐飞，秋水共长【天仪】色。渔舟唱晚，响穷彭蠡之滨；雁阵惊寒，声断衡阳之浦。",
-      "pinyin_orig": "tiān yī",
-      "pinyin_target": "tiān yí"
-    },
-    {
-      "original_text": "天一",
       "replaced_word": "天义",
       "length": 2,
       "match_type": "全同音异声调",
@@ -5041,26 +3941,6 @@
       "pinyin_target": "yù zhōu"
     },
     {
-      "original_text": "舟唱",
-      "replaced_word": "周长",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "落霞与孤鹜齐飞，秋水共长天一色。渔【周长】晚，响穷彭蠡之滨；雁阵惊寒，声断衡阳之浦。",
-      "pinyin_orig": "zhōu chàng",
-      "pinyin_target": "zhōu cháng"
-    },
-    {
-      "original_text": "彭蠡",
-      "replaced_word": "彭莉",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "落霞与孤鹜齐飞，秋水共长天一色。渔舟唱晚，响穷【彭莉】之滨；雁阵惊寒，声断衡阳之浦。",
-      "pinyin_orig": "péng lí",
-      "pinyin_target": "péng lì"
-    },
-    {
       "original_text": "彭蠡",
       "replaced_word": "棚里",
       "length": 2,
@@ -5072,43 +3952,13 @@
     },
     {
       "original_text": "蠡之",
-      "replaced_word": "李治",
+      "replaced_word": "离职",
       "length": 2,
       "match_type": "全同音异声调",
       "is_same_tone": false,
-      "pun_sentence": "落霞与孤鹜齐飞，秋水共长天一色。渔舟唱晚，响穷彭【李治】滨；雁阵惊寒，声断衡阳之浦。",
+      "pun_sentence": "落霞与孤鹜齐飞，秋水共长天一色。渔舟唱晚，响穷彭【离职】滨；雁阵惊寒，声断衡阳之浦。",
       "pinyin_orig": "lí zhī",
-      "pinyin_target": "lǐ zhì"
-    },
-    {
-      "original_text": "蠡之",
-      "replaced_word": "李贽",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "落霞与孤鹜齐飞，秋水共长天一色。渔舟唱晚，响穷彭【李贽】滨；雁阵惊寒，声断衡阳之浦。",
-      "pinyin_orig": "lí zhī",
-      "pinyin_target": "lǐ zhì"
-    },
-    {
-      "original_text": "蠡之",
-      "replaced_word": "利智",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "落霞与孤鹜齐飞，秋水共长天一色。渔舟唱晚，响穷彭【利智】滨；雁阵惊寒，声断衡阳之浦。",
-      "pinyin_orig": "lí zhī",
-      "pinyin_target": "lì zhì"
-    },
-    {
-      "original_text": "蠡之",
-      "replaced_word": "厉志",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "落霞与孤鹜齐飞，秋水共长天一色。渔舟唱晚，响穷彭【厉志】滨；雁阵惊寒，声断衡阳之浦。",
-      "pinyin_orig": "lí zhī",
-      "pinyin_target": "lì zhì"
+      "pinyin_target": "lí zhí"
     },
     {
       "original_text": "蠡之",
@@ -5179,16 +4029,6 @@
       "pun_sentence": "落霞与孤鹜齐飞，秋水共长天一色。渔舟唱晚，响穷彭【礼治】滨；雁阵惊寒，声断衡阳之浦。",
       "pinyin_orig": "lí zhī",
       "pinyin_target": "lǐ zhì"
-    },
-    {
-      "original_text": "蠡之",
-      "replaced_word": "离职",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "落霞与孤鹜齐飞，秋水共长天一色。渔舟唱晚，响穷彭【离职】滨；雁阵惊寒，声断衡阳之浦。",
-      "pinyin_orig": "lí zhī",
-      "pinyin_target": "lí zhí"
     },
     {
       "original_text": "蠡之",
@@ -5602,16 +4442,6 @@
     },
     {
       "original_text": "风之",
-      "replaced_word": "冯至",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "翩若惊鸿，婉若游龙。荣曜秋菊，华茂春松。髣髴兮若轻云之蔽月，飘飖兮若流【冯至】回雪。",
-      "pinyin_orig": "fēng zhī",
-      "pinyin_target": "féng zhì"
-    },
-    {
-      "original_text": "风之",
       "replaced_word": "奉旨",
       "length": 2,
       "match_type": "全同音异声调",
@@ -5773,46 +4603,6 @@
       "pinyin_target": "kě dào"
     },
     {
-      "original_text": "可道",
-      "replaced_word": "渴到",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "道【渴到】，非常道。名可名，非常名。无名天地之始；有名万物之母。",
-      "pinyin_orig": "kě dào",
-      "pinyin_target": "kě dào"
-    },
-    {
-      "original_text": "常道",
-      "replaced_word": "嚐到",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "道可道，非【嚐到】。名可名，非常名。无名天地之始；有名万物之母。",
-      "pinyin_orig": "cháng dào",
-      "pinyin_target": "cháng dào"
-    },
-    {
-      "original_text": "常道",
-      "replaced_word": "尝到",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "道可道，非【尝到】。名可名，非常名。无名天地之始；有名万物之母。",
-      "pinyin_orig": "cháng dào",
-      "pinyin_target": "cháng dào"
-    },
-    {
-      "original_text": "常道",
-      "replaced_word": "肠道",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "道可道，非【肠道】。名可名，非常名。无名天地之始；有名万物之母。",
-      "pinyin_orig": "cháng dào",
-      "pinyin_target": "cháng dào"
-    },
-    {
       "original_text": "常名",
       "replaced_word": "长明",
       "length": 2,
@@ -5821,26 +4611,6 @@
       "pun_sentence": "道可道，非常道。名可名，非【长明】。无名天地之始；有名万物之母。",
       "pinyin_orig": "cháng míng",
       "pinyin_target": "cháng míng"
-    },
-    {
-      "original_text": "常名",
-      "replaced_word": "长鸣",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "道可道，非常道。名可名，非【长鸣】。无名天地之始；有名万物之母。",
-      "pinyin_orig": "cháng míng",
-      "pinyin_target": "cháng míng"
-    },
-    {
-      "original_text": "无名",
-      "replaced_word": "无明",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "道可道，非常道。名可名，非常名。【无明】天地之始；有名万物之母。",
-      "pinyin_orig": "wú míng",
-      "pinyin_target": "wú míng"
     },
     {
       "original_text": "名天",
@@ -5853,96 +4623,6 @@
       "pinyin_target": "míng tiān"
     },
     {
-      "original_text": "天地",
-      "replaced_word": "天帝",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "道可道，非常道。名可名，非常名。无名【天帝】之始；有名万物之母。",
-      "pinyin_orig": "tiān dì",
-      "pinyin_target": "tiān dì"
-    },
-    {
-      "original_text": "地之",
-      "replaced_word": "地支",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "道可道，非常道。名可名，非常名。无名天【地支】始；有名万物之母。",
-      "pinyin_orig": "dì zhī",
-      "pinyin_target": "dì zhī"
-    },
-    {
-      "original_text": "地之",
-      "replaced_word": "第只",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "道可道，非常道。名可名，非常名。无名天【第只】始；有名万物之母。",
-      "pinyin_orig": "dì zhī",
-      "pinyin_target": "dì zhī"
-    },
-    {
-      "original_text": "之始",
-      "replaced_word": "支使",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "道可道，非常道。名可名，非常名。无名天地【支使】；有名万物之母。",
-      "pinyin_orig": "zhī shǐ",
-      "pinyin_target": "zhī shǐ"
-    },
-    {
-      "original_text": "名万",
-      "replaced_word": "铭万",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "道可道，非常道。名可名，非常名。无名天地之始；有【铭万】物之母。",
-      "pinyin_orig": "míng wàn",
-      "pinyin_target": "míng wàn"
-    },
-    {
-      "original_text": "之母",
-      "replaced_word": "知母",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "道可道，非常道。名可名，非常名。无名天地之始；有名万物【知母】。",
-      "pinyin_orig": "zhī mǔ",
-      "pinyin_target": "zhī mǔ"
-    },
-    {
-      "original_text": "下皆",
-      "replaced_word": "下接",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "天【下接】知美之为美，斯恶已。皆知善之为善，斯不善已。",
-      "pinyin_orig": "xià jiē",
-      "pinyin_target": "xià jiē"
-    },
-    {
-      "original_text": "皆知",
-      "replaced_word": "接枝",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "天下【接枝】美之为美，斯恶已。皆知善之为善，斯不善已。",
-      "pinyin_orig": "jiē zhī",
-      "pinyin_target": "jiē zhī"
-    },
-    {
-      "original_text": "美之",
-      "replaced_word": "每支",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "天下皆知【每支】为美，斯恶已。皆知善之为善，斯不善已。",
-      "pinyin_orig": "měi zhī",
-      "pinyin_target": "měi zhī"
-    },
-    {
       "original_text": "美之",
       "replaced_word": "每枝",
       "length": 2,
@@ -5953,56 +4633,6 @@
       "pinyin_target": "měi zhī"
     },
     {
-      "original_text": "之为",
-      "replaced_word": "只为",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "天下皆知美【只为】美，斯恶已。皆知善之为善，斯不善已。",
-      "pinyin_orig": "zhī wèi",
-      "pinyin_target": "zhī wèi"
-    },
-    {
-      "original_text": "皆知",
-      "replaced_word": "接枝",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "天下皆知美之为美，斯恶已。【接枝】善之为善，斯不善已。",
-      "pinyin_orig": "jiē zhī",
-      "pinyin_target": "jiē zhī"
-    },
-    {
-      "original_text": "之为",
-      "replaced_word": "只为",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "天下皆知美之为美，斯恶已。皆知善【只为】善，斯不善已。",
-      "pinyin_orig": "zhī wèi",
-      "pinyin_target": "zhī wèi"
-    },
-    {
-      "original_text": "斯不",
-      "replaced_word": "丝布",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "天下皆知美之为美，斯恶已。皆知善之为善，【丝布】善已。",
-      "pinyin_orig": "sī bù",
-      "pinyin_target": "sī bù"
-    },
-    {
-      "original_text": "上善",
-      "replaced_word": "尚善",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "【尚善】若水。水善利万物而不争，处众人之所恶，故几于道。",
-      "pinyin_orig": "shàng shàn",
-      "pinyin_target": "shàng shàn"
-    },
-    {
       "original_text": "若水",
       "replaced_word": "弱水",
       "length": 2,
@@ -6011,46 +4641,6 @@
       "pun_sentence": "上善【弱水】。水善利万物而不争，处众人之所恶，故几于道。",
       "pinyin_orig": "ruò shuǐ",
       "pinyin_target": "ruò shuǐ"
-    },
-    {
-      "original_text": "众人",
-      "replaced_word": "仲壬",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "上善若水。水善利万物而不争，处【仲壬】之所恶，故几于道。",
-      "pinyin_orig": "zhòng rén",
-      "pinyin_target": "zhòng rén"
-    },
-    {
-      "original_text": "众人",
-      "replaced_word": "仲仁",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "上善若水。水善利万物而不争，处【仲仁】之所恶，故几于道。",
-      "pinyin_orig": "zhòng rén",
-      "pinyin_target": "zhòng rén"
-    },
-    {
-      "original_text": "众人",
-      "replaced_word": "重人",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "上善若水。水善利万物而不争，处【重人】之所恶，故几于道。",
-      "pinyin_orig": "zhòng rén",
-      "pinyin_target": "zhòng rén"
-    },
-    {
-      "original_text": "之所",
-      "replaced_word": "支索",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "上善若水。水善利万物而不争，处众人【支索】恶，故几于道。",
-      "pinyin_orig": "zhī suǒ",
-      "pinyin_target": "zhī suǒ"
     },
     {
       "original_text": "于道",
@@ -6223,16 +4813,6 @@
       "pinyin_target": "wú xíng"
     },
     {
-      "original_text": "无名",
-      "replaced_word": "无明",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "大音希声，大象无形。道隐【无明】。夫唯道，善贷且成。",
-      "pinyin_orig": "wú míng",
-      "pinyin_target": "wú míng"
-    },
-    {
       "original_text": "唯道",
       "replaced_word": "维道",
       "length": 2,
@@ -6263,16 +4843,6 @@
       "pinyin_target": "zhī xíng"
     },
     {
-      "original_text": "之所",
-      "replaced_word": "支索",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "祸兮福【支索】倚，福兮祸之所伏。",
-      "pinyin_orig": "zhī suǒ",
-      "pinyin_target": "zhī suǒ"
-    },
-    {
       "original_text": "所倚",
       "replaced_word": "所以",
       "length": 2,
@@ -6291,16 +4861,6 @@
       "pun_sentence": "祸兮福之所倚，福兮【获知】所伏。",
       "pinyin_orig": "huò zhī",
       "pinyin_target": "huò zhī"
-    },
-    {
-      "original_text": "之所",
-      "replaced_word": "支索",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "祸兮福之所倚，福兮祸【支索】伏。",
-      "pinyin_orig": "zhī suǒ",
-      "pinyin_target": "zhī suǒ"
     },
     {
       "original_text": "所伏",
@@ -7154,6 +5714,26 @@
     },
     {
       "original_text": "之始",
+      "replaced_word": "知识",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "道可道，非常道。名可名，非常名。无名天地【知识】；有名万物之母。",
+      "pinyin_orig": "zhī shǐ",
+      "pinyin_target": "zhī shi"
+    },
+    {
+      "original_text": "之始",
+      "replaced_word": "指示",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "道可道，非常道。名可名，非常名。无名天地【指示】；有名万物之母。",
+      "pinyin_orig": "zhī shǐ",
+      "pinyin_target": "zhǐ shì"
+    },
+    {
+      "original_text": "之始",
       "replaced_word": "芝士",
       "length": 2,
       "match_type": "全同音异声调",
@@ -7264,16 +5844,6 @@
     },
     {
       "original_text": "之始",
-      "replaced_word": "指示",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "道可道，非常道。名可名，非常名。无名天地【指示】；有名万物之母。",
-      "pinyin_orig": "zhī shǐ",
-      "pinyin_target": "zhǐ shì"
-    },
-    {
-      "original_text": "之始",
       "replaced_word": "智士",
       "length": 2,
       "match_type": "全同音异声调",
@@ -7361,16 +5931,6 @@
       "pun_sentence": "道可道，非常道。名可名，非常名。无名天地【知事】；有名万物之母。",
       "pinyin_orig": "zhī shǐ",
       "pinyin_target": "zhī shì"
-    },
-    {
-      "original_text": "之始",
-      "replaced_word": "知识",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "道可道，非常道。名可名，非常名。无名天地【知识】；有名万物之母。",
-      "pinyin_orig": "zhī shǐ",
-      "pinyin_target": "zhī shi"
     },
     {
       "original_text": "之始",
@@ -10834,43 +9394,13 @@
     },
     {
       "original_text": "里之",
-      "replaced_word": "李治",
+      "replaced_word": "离职",
       "length": 2,
       "match_type": "全同音异声调",
       "is_same_tone": false,
-      "pun_sentence": "千【李治】行，始于足下。",
+      "pun_sentence": "千【离职】行，始于足下。",
       "pinyin_orig": "lǐ zhī",
-      "pinyin_target": "lǐ zhì"
-    },
-    {
-      "original_text": "里之",
-      "replaced_word": "李贽",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "千【李贽】行，始于足下。",
-      "pinyin_orig": "lǐ zhī",
-      "pinyin_target": "lǐ zhì"
-    },
-    {
-      "original_text": "里之",
-      "replaced_word": "利智",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "千【利智】行，始于足下。",
-      "pinyin_orig": "lǐ zhī",
-      "pinyin_target": "lì zhì"
-    },
-    {
-      "original_text": "里之",
-      "replaced_word": "厉志",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "千【厉志】行，始于足下。",
-      "pinyin_orig": "lǐ zhī",
-      "pinyin_target": "lì zhì"
+      "pinyin_target": "lí zhí"
     },
     {
       "original_text": "里之",
@@ -10914,16 +9444,6 @@
     },
     {
       "original_text": "里之",
-      "replaced_word": "梨汁",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "千【梨汁】行，始于足下。",
-      "pinyin_orig": "lǐ zhī",
-      "pinyin_target": "lí zhī"
-    },
-    {
-      "original_text": "里之",
       "replaced_word": "理智",
       "length": 2,
       "match_type": "全同音异声调",
@@ -10951,16 +9471,6 @@
       "pun_sentence": "千【礼治】行，始于足下。",
       "pinyin_orig": "lǐ zhī",
       "pinyin_target": "lǐ zhì"
-    },
-    {
-      "original_text": "里之",
-      "replaced_word": "离职",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "千【离职】行，始于足下。",
-      "pinyin_orig": "lǐ zhī",
-      "pinyin_target": "lí zhí"
     },
     {
       "original_text": "里之",
@@ -11694,6 +10204,16 @@
     },
     {
       "original_text": "之道",
+      "replaced_word": "指导",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "天【指导】，损有余而补不足。人之道，则不然，损不足以奉有余。",
+      "pinyin_orig": "zhī dào",
+      "pinyin_target": "zhǐ dǎo"
+    },
+    {
+      "original_text": "之道",
       "replaced_word": "之岛",
       "length": 2,
       "match_type": "全同音异声调",
@@ -11731,16 +10251,6 @@
       "pun_sentence": "天【指到】，损有余而补不足。人之道，则不然，损不足以奉有余。",
       "pinyin_orig": "zhī dào",
       "pinyin_target": "zhǐ dào"
-    },
-    {
-      "original_text": "之道",
-      "replaced_word": "指导",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "天【指导】，损有余而补不足。人之道，则不然，损不足以奉有余。",
-      "pinyin_orig": "zhī dào",
-      "pinyin_target": "zhǐ dǎo"
     },
     {
       "original_text": "之道",
@@ -11794,13 +10304,33 @@
     },
     {
       "original_text": "有余",
-      "replaced_word": "鱿鱼",
+      "replaced_word": "犹豫",
       "length": 2,
       "match_type": "全同音异声调",
       "is_same_tone": false,
-      "pun_sentence": "天之道，损【鱿鱼】而补不足。人之道，则不然，损不足以奉有余。",
+      "pun_sentence": "天之道，损【犹豫】而补不足。人之道，则不然，损不足以奉有余。",
+      "pinyin_orig": "yǒu yú",
+      "pinyin_target": "yóu yù"
+    },
+    {
+      "original_text": "有余",
+      "replaced_word": "由于",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "天之道，损【由于】而补不足。人之道，则不然，损不足以奉有余。",
       "pinyin_orig": "yǒu yú",
       "pinyin_target": "yóu yú"
+    },
+    {
+      "original_text": "有余",
+      "replaced_word": "有雨",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "天之道，损【有雨】而补不足。人之道，则不然，损不足以奉有余。",
+      "pinyin_orig": "yǒu yú",
+      "pinyin_target": "yǒu yǔ"
     },
     {
       "original_text": "有余",
@@ -11881,46 +10411,6 @@
       "pun_sentence": "天之道，损【忧郁】而补不足。人之道，则不然，损不足以奉有余。",
       "pinyin_orig": "yǒu yú",
       "pinyin_target": "yōu yù"
-    },
-    {
-      "original_text": "有余",
-      "replaced_word": "游鱼",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "天之道，损【游鱼】而补不足。人之道，则不然，损不足以奉有余。",
-      "pinyin_orig": "yǒu yú",
-      "pinyin_target": "yóu yú"
-    },
-    {
-      "original_text": "有余",
-      "replaced_word": "犹豫",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "天之道，损【犹豫】而补不足。人之道，则不然，损不足以奉有余。",
-      "pinyin_orig": "yǒu yú",
-      "pinyin_target": "yóu yù"
-    },
-    {
-      "original_text": "有余",
-      "replaced_word": "由于",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "天之道，损【由于】而补不足。人之道，则不然，损不足以奉有余。",
-      "pinyin_orig": "yǒu yú",
-      "pinyin_target": "yóu yú"
-    },
-    {
-      "original_text": "有余",
-      "replaced_word": "有雨",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "天之道，损【有雨】而补不足。人之道，则不然，损不足以奉有余。",
-      "pinyin_orig": "yǒu yú",
-      "pinyin_target": "yǒu yǔ"
     },
     {
       "original_text": "余而",
@@ -12094,6 +10584,16 @@
     },
     {
       "original_text": "之道",
+      "replaced_word": "指导",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "天之道，损有余而补不足。人【指导】，则不然，损不足以奉有余。",
+      "pinyin_orig": "zhī dào",
+      "pinyin_target": "zhǐ dǎo"
+    },
+    {
+      "original_text": "之道",
       "replaced_word": "之岛",
       "length": 2,
       "match_type": "全同音异声调",
@@ -12131,16 +10631,6 @@
       "pun_sentence": "天之道，损有余而补不足。人【指到】，则不然，损不足以奉有余。",
       "pinyin_orig": "zhī dào",
       "pinyin_target": "zhǐ dào"
-    },
-    {
-      "original_text": "之道",
-      "replaced_word": "指导",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "天之道，损有余而补不足。人【指导】，则不然，损不足以奉有余。",
-      "pinyin_orig": "zhī dào",
-      "pinyin_target": "zhǐ dǎo"
     },
     {
       "original_text": "之道",
@@ -12324,13 +10814,33 @@
     },
     {
       "original_text": "有余",
-      "replaced_word": "鱿鱼",
+      "replaced_word": "犹豫",
       "length": 2,
       "match_type": "全同音异声调",
       "is_same_tone": false,
-      "pun_sentence": "天之道，损有余而补不足。人之道，则不然，损不足以奉【鱿鱼】。",
+      "pun_sentence": "天之道，损有余而补不足。人之道，则不然，损不足以奉【犹豫】。",
+      "pinyin_orig": "yǒu yú",
+      "pinyin_target": "yóu yù"
+    },
+    {
+      "original_text": "有余",
+      "replaced_word": "由于",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "天之道，损有余而补不足。人之道，则不然，损不足以奉【由于】。",
       "pinyin_orig": "yǒu yú",
       "pinyin_target": "yóu yú"
+    },
+    {
+      "original_text": "有余",
+      "replaced_word": "有雨",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "天之道，损有余而补不足。人之道，则不然，损不足以奉【有雨】。",
+      "pinyin_orig": "yǒu yú",
+      "pinyin_target": "yǒu yǔ"
     },
     {
       "original_text": "有余",
@@ -12411,46 +10921,6 @@
       "pun_sentence": "天之道，损有余而补不足。人之道，则不然，损不足以奉【忧郁】。",
       "pinyin_orig": "yǒu yú",
       "pinyin_target": "yōu yù"
-    },
-    {
-      "original_text": "有余",
-      "replaced_word": "游鱼",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "天之道，损有余而补不足。人之道，则不然，损不足以奉【游鱼】。",
-      "pinyin_orig": "yǒu yú",
-      "pinyin_target": "yóu yú"
-    },
-    {
-      "original_text": "有余",
-      "replaced_word": "犹豫",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "天之道，损有余而补不足。人之道，则不然，损不足以奉【犹豫】。",
-      "pinyin_orig": "yǒu yú",
-      "pinyin_target": "yóu yù"
-    },
-    {
-      "original_text": "有余",
-      "replaced_word": "由于",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "天之道，损有余而补不足。人之道，则不然，损不足以奉【由于】。",
-      "pinyin_orig": "yǒu yú",
-      "pinyin_target": "yóu yú"
-    },
-    {
-      "original_text": "有余",
-      "replaced_word": "有雨",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "天之道，损有余而补不足。人之道，则不然，损不足以奉【有雨】。",
-      "pinyin_orig": "yǒu yú",
-      "pinyin_target": "yǒu yǔ"
     },
     {
       "original_text": "信言",
@@ -12894,6 +11364,16 @@
     },
     {
       "original_text": "国之",
+      "replaced_word": "果汁",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "柔弱胜刚强。鱼不可脱于渊，【果汁】利器不可以示人。",
+      "pinyin_orig": "guó zhī",
+      "pinyin_target": "guǒ zhī"
+    },
+    {
+      "original_text": "国之",
       "replaced_word": "粿汁",
       "length": 2,
       "match_type": "全同音异声调",
@@ -12909,16 +11389,6 @@
       "match_type": "全同音异声调",
       "is_same_tone": false,
       "pun_sentence": "柔弱胜刚强。鱼不可脱于渊，【果枝】利器不可以示人。",
-      "pinyin_orig": "guó zhī",
-      "pinyin_target": "guǒ zhī"
-    },
-    {
-      "original_text": "国之",
-      "replaced_word": "果汁",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "柔弱胜刚强。鱼不可脱于渊，【果汁】利器不可以示人。",
       "pinyin_orig": "guó zhī",
       "pinyin_target": "guǒ zhī"
     },
@@ -13384,26 +11854,6 @@
     },
     {
       "original_text": "以示",
-      "replaced_word": "一世",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "柔弱胜刚强。鱼不可脱于渊，国之利器不可【一世】人。",
-      "pinyin_orig": "yǐ shì",
-      "pinyin_target": "yí shì"
-    },
-    {
-      "original_text": "以示",
-      "replaced_word": "一事",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "柔弱胜刚强。鱼不可脱于渊，国之利器不可【一事】人。",
-      "pinyin_orig": "yǐ shì",
-      "pinyin_target": "yí shì"
-    },
-    {
-      "original_text": "以示",
       "replaced_word": "一十",
       "length": 2,
       "match_type": "全同音异声调",
@@ -13421,16 +11871,6 @@
       "pun_sentence": "柔弱胜刚强。鱼不可脱于渊，国之利器不可【一师】人。",
       "pinyin_orig": "yǐ shì",
       "pinyin_target": "yì shī"
-    },
-    {
-      "original_text": "以示",
-      "replaced_word": "一式",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "柔弱胜刚强。鱼不可脱于渊，国之利器不可【一式】人。",
-      "pinyin_orig": "yǐ shì",
-      "pinyin_target": "yí shì"
     },
     {
       "original_text": "以示",
@@ -13471,16 +11911,6 @@
       "pun_sentence": "柔弱胜刚强。鱼不可脱于渊，国之利器不可【以使】人。",
       "pinyin_orig": "yǐ shì",
       "pinyin_target": "yǐ shǐ"
-    },
-    {
-      "original_text": "以示",
-      "replaced_word": "仪式",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "柔弱胜刚强。鱼不可脱于渊，国之利器不可【仪式】人。",
-      "pinyin_orig": "yǐ shì",
-      "pinyin_target": "yí shì"
     },
     {
       "original_text": "以示",
@@ -13561,16 +11991,6 @@
       "pun_sentence": "柔弱胜刚强。鱼不可脱于渊，国之利器不可【医师】人。",
       "pinyin_orig": "yǐ shì",
       "pinyin_target": "yī shī"
-    },
-    {
-      "original_text": "以示",
-      "replaced_word": "宜市",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "柔弱胜刚强。鱼不可脱于渊，国之利器不可【宜市】人。",
-      "pinyin_orig": "yǐ shì",
-      "pinyin_target": "yí shì"
     },
     {
       "original_text": "以示",
@@ -13804,16 +12224,6 @@
     },
     {
       "original_text": "以示",
-      "replaced_word": "遗事",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "柔弱胜刚强。鱼不可脱于渊，国之利器不可【遗事】人。",
-      "pinyin_orig": "yǐ shì",
-      "pinyin_target": "yí shì"
-    },
-    {
-      "original_text": "以示",
       "replaced_word": "遗失",
       "length": 2,
       "match_type": "全同音异声调",
@@ -14014,16 +12424,6 @@
     },
     {
       "original_text": "知止",
-      "replaced_word": "吱吱",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "知足不辱，【吱吱】不殆，可以长久。",
-      "pinyin_orig": "zhī zhǐ",
-      "pinyin_target": "zhī zhī"
-    },
-    {
-      "original_text": "知止",
       "replaced_word": "指指",
       "length": 2,
       "match_type": "全同音异声调",
@@ -14124,16 +12524,6 @@
     },
     {
       "original_text": "知止",
-      "replaced_word": "蜘蜘",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "知足不辱，【蜘蜘】不殆，可以长久。",
-      "pinyin_orig": "zhī zhǐ",
-      "pinyin_target": "zhī zhī"
-    },
-    {
-      "original_text": "知止",
       "replaced_word": "质直",
       "length": 2,
       "match_type": "全同音异声调",
@@ -14141,16 +12531,6 @@
       "pun_sentence": "知足不辱，【质直】不殆，可以长久。",
       "pinyin_orig": "zhī zhǐ",
       "pinyin_target": "zhì zhí"
-    },
-    {
-      "original_text": "止不",
-      "replaced_word": "支部",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "知足不辱，知【支部】殆，可以长久。",
-      "pinyin_orig": "zhǐ bù",
-      "pinyin_target": "zhī bù"
     },
     {
       "original_text": "止不",
@@ -14365,26 +12745,6 @@
   ],
   "《论语全篇精选》": [
     {
-      "original_text": "而时",
-      "replaced_word": "儿时",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "学【儿时】习之，不亦说乎？有朋自远方来，不亦乐乎？人不知而不愠，不亦君子乎？",
-      "pinyin_orig": "ér shí",
-      "pinyin_target": "ér shí"
-    },
-    {
-      "original_text": "时习",
-      "replaced_word": "十席",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "学而【十席】之，不亦说乎？有朋自远方来，不亦乐乎？人不知而不愠，不亦君子乎？",
-      "pinyin_orig": "shí xí",
-      "pinyin_target": "shí xí"
-    },
-    {
       "original_text": "时习",
       "replaced_word": "实习",
       "length": 2,
@@ -14393,366 +12753,6 @@
       "pun_sentence": "学而【实习】之，不亦说乎？有朋自远方来，不亦乐乎？人不知而不愠，不亦君子乎？",
       "pinyin_orig": "shí xí",
       "pinyin_target": "shí xí"
-    },
-    {
-      "original_text": "不亦",
-      "replaced_word": "不义",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "学而时习之，【不义】说乎？有朋自远方来，不亦乐乎？人不知而不愠，不亦君子乎？",
-      "pinyin_orig": "bú yì",
-      "pinyin_target": "bú yì"
-    },
-    {
-      "original_text": "不亦",
-      "replaced_word": "不意",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "学而时习之，【不意】说乎？有朋自远方来，不亦乐乎？人不知而不愠，不亦君子乎？",
-      "pinyin_orig": "bú yì",
-      "pinyin_target": "bú yì"
-    },
-    {
-      "original_text": "不亦",
-      "replaced_word": "不易",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "学而时习之，【不易】说乎？有朋自远方来，不亦乐乎？人不知而不愠，不亦君子乎？",
-      "pinyin_orig": "bú yì",
-      "pinyin_target": "bú yì"
-    },
-    {
-      "original_text": "亦说",
-      "replaced_word": "异说",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "学而时习之，不【异说】乎？有朋自远方来，不亦乐乎？人不知而不愠，不亦君子乎？",
-      "pinyin_orig": "yì shuō",
-      "pinyin_target": "yì shuō"
-    },
-    {
-      "original_text": "亦说",
-      "replaced_word": "臆说",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "学而时习之，不【臆说】乎？有朋自远方来，不亦乐乎？人不知而不愠，不亦君子乎？",
-      "pinyin_orig": "yì shuō",
-      "pinyin_target": "yì shuō"
-    },
-    {
-      "original_text": "有朋",
-      "replaced_word": "友朋",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "学而时习之，不亦说乎？【友朋】自远方来，不亦乐乎？人不知而不愠，不亦君子乎？",
-      "pinyin_orig": "yǒu péng",
-      "pinyin_target": "yǒu péng"
-    },
-    {
-      "original_text": "不亦",
-      "replaced_word": "不义",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "学而时习之，不亦说乎？有朋自远方来，【不义】乐乎？人不知而不愠，不亦君子乎？",
-      "pinyin_orig": "bú yì",
-      "pinyin_target": "bú yì"
-    },
-    {
-      "original_text": "不亦",
-      "replaced_word": "不意",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "学而时习之，不亦说乎？有朋自远方来，【不意】乐乎？人不知而不愠，不亦君子乎？",
-      "pinyin_orig": "bú yì",
-      "pinyin_target": "bú yì"
-    },
-    {
-      "original_text": "不亦",
-      "replaced_word": "不易",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "学而时习之，不亦说乎？有朋自远方来，【不易】乐乎？人不知而不愠，不亦君子乎？",
-      "pinyin_orig": "bú yì",
-      "pinyin_target": "bú yì"
-    },
-    {
-      "original_text": "亦乐",
-      "replaced_word": "逸乐",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "学而时习之，不亦说乎？有朋自远方来，不【逸乐】乎？人不知而不愠，不亦君子乎？",
-      "pinyin_orig": "yì lè",
-      "pinyin_target": "yì lè"
-    },
-    {
-      "original_text": "人不",
-      "replaced_word": "人部",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "学而时习之，不亦说乎？有朋自远方来，不亦乐乎？【人部】知而不愠，不亦君子乎？",
-      "pinyin_orig": "rén bù",
-      "pinyin_target": "rén bù"
-    },
-    {
-      "original_text": "人不",
-      "replaced_word": "仁布",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "学而时习之，不亦说乎？有朋自远方来，不亦乐乎？【仁布】知而不愠，不亦君子乎？",
-      "pinyin_orig": "rén bù",
-      "pinyin_target": "rén bù"
-    },
-    {
-      "original_text": "不知",
-      "replaced_word": "不支",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人【不支】而不愠，不亦君子乎？",
-      "pinyin_orig": "bù zhī",
-      "pinyin_target": "bù zhī"
-    },
-    {
-      "original_text": "知而",
-      "replaced_word": "汁儿",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人不【汁儿】不愠，不亦君子乎？",
-      "pinyin_orig": "zhī ér",
-      "pinyin_target": "zhī ér"
-    },
-    {
-      "original_text": "不愠",
-      "replaced_word": "不孕",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人不知而【不孕】，不亦君子乎？",
-      "pinyin_orig": "bú yùn",
-      "pinyin_target": "bú yùn"
-    },
-    {
-      "original_text": "不亦",
-      "replaced_word": "不义",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人不知而不愠，【不义】君子乎？",
-      "pinyin_orig": "bú yì",
-      "pinyin_target": "bú yì"
-    },
-    {
-      "original_text": "不亦",
-      "replaced_word": "不意",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人不知而不愠，【不意】君子乎？",
-      "pinyin_orig": "bú yì",
-      "pinyin_target": "bú yì"
-    },
-    {
-      "original_text": "不亦",
-      "replaced_word": "不易",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人不知而不愠，【不易】君子乎？",
-      "pinyin_orig": "bú yì",
-      "pinyin_target": "bú yì"
-    },
-    {
-      "original_text": "亦君",
-      "replaced_word": "易军",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人不知而不愠，不【易军】子乎？",
-      "pinyin_orig": "yì jūn",
-      "pinyin_target": "yì jūn"
-    },
-    {
-      "original_text": "亦君",
-      "replaced_word": "义军",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人不知而不愠，不【义军】子乎？",
-      "pinyin_orig": "yì jūn",
-      "pinyin_target": "yì jūn"
-    },
-    {
-      "original_text": "亦君",
-      "replaced_word": "抑菌",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人不知而不愠，不【抑菌】子乎？",
-      "pinyin_orig": "yì jūn",
-      "pinyin_target": "yì jūn"
-    },
-    {
-      "original_text": "君子",
-      "replaced_word": "菌子",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人不知而不愠，不亦【菌子】乎？",
-      "pinyin_orig": "jūn zǐ",
-      "pinyin_target": "jūn zǐ"
-    },
-    {
-      "original_text": "知新",
-      "replaced_word": "知心",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "温故而【知心】，可以为师矣。",
-      "pinyin_orig": "zhī xīn",
-      "pinyin_target": "zhī xīn"
-    },
-    {
-      "original_text": "为师",
-      "replaced_word": "卫师",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "温故而知新，可以【卫师】矣。",
-      "pinyin_orig": "wèi shī",
-      "pinyin_target": "wèi shī"
-    },
-    {
-      "original_text": "师矣",
-      "replaced_word": "施以",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "温故而知新，可以为【施以】。",
-      "pinyin_orig": "shī yǐ",
-      "pinyin_target": "shī yǐ"
-    },
-    {
-      "original_text": "不思",
-      "replaced_word": "布斯",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "学而【布斯】则罔，思而不学则殆。",
-      "pinyin_orig": "bù sī",
-      "pinyin_target": "bù sī"
-    },
-    {
-      "original_text": "思而",
-      "replaced_word": "咝儿",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "学而不思则罔，【咝儿】不学则殆。",
-      "pinyin_orig": "sī ér",
-      "pinyin_target": "sī ér"
-    },
-    {
-      "original_text": "知之",
-      "replaced_word": "吱吱",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "【吱吱】者不如好之者，好之者不如乐之者。",
-      "pinyin_orig": "zhī zhī",
-      "pinyin_target": "zhī zhī"
-    },
-    {
-      "original_text": "知之",
-      "replaced_word": "蜘蜘",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "【蜘蜘】者不如好之者，好之者不如乐之者。",
-      "pinyin_orig": "zhī zhī",
-      "pinyin_target": "zhī zhī"
-    },
-    {
-      "original_text": "之者",
-      "replaced_word": "知者",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "知【知者】不如好之者，好之者不如乐之者。",
-      "pinyin_orig": "zhī zhě",
-      "pinyin_target": "zhī zhě"
-    },
-    {
-      "original_text": "之者",
-      "replaced_word": "知者",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "知之者不如好【知者】，好之者不如乐之者。",
-      "pinyin_orig": "zhī zhě",
-      "pinyin_target": "zhī zhě"
-    },
-    {
-      "original_text": "之者",
-      "replaced_word": "知者",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "知之者不如好之者，好【知者】不如乐之者。",
-      "pinyin_orig": "zhī zhě",
-      "pinyin_target": "zhī zhě"
-    },
-    {
-      "original_text": "之者",
-      "replaced_word": "知者",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "知之者不如好之者，好之者不如乐【知者】。",
-      "pinyin_orig": "zhī zhě",
-      "pinyin_target": "zhī zhě"
-    },
-    {
-      "original_text": "不耻",
-      "replaced_word": "不齿",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "敏而好学，【不齿】下问。",
-      "pinyin_orig": "bù chǐ",
-      "pinyin_target": "bù chǐ"
-    },
-    {
-      "original_text": "三人",
-      "replaced_word": "三仁",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "【三仁】行，必有我师焉。择其善者而从之，其不善者而改之。",
-      "pinyin_orig": "sān rén",
-      "pinyin_target": "sān rén"
-    },
-    {
-      "original_text": "人行",
-      "replaced_word": "人形",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "三【人形】，必有我师焉。择其善者而从之，其不善者而改之。",
-      "pinyin_orig": "rén xíng",
-      "pinyin_target": "rén xíng"
     },
     {
       "original_text": "必有",
@@ -14833,16 +12833,6 @@
       "pun_sentence": "逝者【如丝】夫，不舍昼夜。",
       "pinyin_orig": "rú sī",
       "pinyin_target": "rú sī"
-    },
-    {
-      "original_text": "君子",
-      "replaced_word": "菌子",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "【菌子】坦荡荡，小人长戚戚。",
-      "pinyin_orig": "jūn zǐ",
-      "pinyin_target": "jūn zǐ"
     },
     {
       "original_text": "长戚",
@@ -16376,6 +14366,36 @@
     },
     {
       "original_text": "不知",
+      "replaced_word": "不致",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人【不致】而不愠，不亦君子乎？",
+      "pinyin_orig": "bù zhī",
+      "pinyin_target": "bú zhì"
+    },
+    {
+      "original_text": "不知",
+      "replaced_word": "不止",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人【不止】而不愠，不亦君子乎？",
+      "pinyin_orig": "bù zhī",
+      "pinyin_target": "bù zhǐ"
+    },
+    {
+      "original_text": "不知",
+      "replaced_word": "布置",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人【布置】而不愠，不亦君子乎？",
+      "pinyin_orig": "bù zhī",
+      "pinyin_target": "bù zhì"
+    },
+    {
+      "original_text": "不知",
       "replaced_word": "不值",
       "length": 2,
       "match_type": "全同音异声调",
@@ -16393,16 +14413,6 @@
       "pun_sentence": "学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人【不智】而不愠，不亦君子乎？",
       "pinyin_orig": "bù zhī",
       "pinyin_target": "bú zhì"
-    },
-    {
-      "original_text": "不知",
-      "replaced_word": "不止",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人【不止】而不愠，不亦君子乎？",
-      "pinyin_orig": "bù zhī",
-      "pinyin_target": "bù zhǐ"
     },
     {
       "original_text": "不知",
@@ -16426,31 +14436,11 @@
     },
     {
       "original_text": "不知",
-      "replaced_word": "不致",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人【不致】而不愠，不亦君子乎？",
-      "pinyin_orig": "bù zhī",
-      "pinyin_target": "bú zhì"
-    },
-    {
-      "original_text": "不知",
       "replaced_word": "布制",
       "length": 2,
       "match_type": "全同音异声调",
       "is_same_tone": false,
       "pun_sentence": "学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人【布制】而不愠，不亦君子乎？",
-      "pinyin_orig": "bù zhī",
-      "pinyin_target": "bù zhì"
-    },
-    {
-      "original_text": "不知",
-      "replaced_word": "布置",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人【布置】而不愠，不亦君子乎？",
       "pinyin_orig": "bù zhī",
       "pinyin_target": "bù zhì"
     },
@@ -18995,16 +16985,6 @@
       "pinyin_target": "sī fù"
     },
     {
-      "original_text": "斯夫",
-      "replaced_word": "私服",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "逝者如【私服】，不舍昼夜。",
-      "pinyin_orig": "sī fū",
-      "pinyin_target": "sī fú"
-    },
-    {
       "original_text": "不舍",
       "replaced_word": "布设",
       "length": 2,
@@ -21286,6 +19266,16 @@
     },
     {
       "original_text": "省也",
+      "replaced_word": "生椰",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "见贤思齐焉，见不贤而内自【生椰】。",
+      "pinyin_orig": "shěng yě",
+      "pinyin_target": "shēng yē"
+    },
+    {
+      "original_text": "省也",
       "replaced_word": "生业",
       "length": 2,
       "match_type": "全同音异声调",
@@ -22247,116 +20237,6 @@
       "pinyin_target": "tā shān zhī shí"
     },
     {
-      "original_text": "关雎",
-      "replaced_word": "鳏居",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "关【鳏居】鸠，在河之洲。窈窕淑女，君子好逑。",
-      "pinyin_orig": "guān jū",
-      "pinyin_target": "guān jū"
-    },
-    {
-      "original_text": "之洲",
-      "replaced_word": "知州",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "关关雎鸠，在河【知州】。窈窕淑女，君子好逑。",
-      "pinyin_orig": "zhī zhōu",
-      "pinyin_target": "zhī zhōu"
-    },
-    {
-      "original_text": "君子",
-      "replaced_word": "菌子",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "关关雎鸠，在河之洲。窈窕淑女，【菌子】好逑。",
-      "pinyin_orig": "jūn zǐ",
-      "pinyin_target": "jūn zǐ"
-    },
-    {
-      "original_text": "好逑",
-      "replaced_word": "好球",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "关关雎鸠，在河之洲。窈窕淑女，君子【好球】。",
-      "pinyin_orig": "hǎo qiú",
-      "pinyin_target": "hǎo qiú"
-    },
-    {
-      "original_text": "流之",
-      "replaced_word": "流汁",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "参差荇菜，左右【流汁】。窈窕淑女，寤寐求之。",
-      "pinyin_orig": "liú zhī",
-      "pinyin_target": "liú zhī"
-    },
-    {
-      "original_text": "流之",
-      "replaced_word": "硫脂",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "参差荇菜，左右【硫脂】。窈窕淑女，寤寐求之。",
-      "pinyin_orig": "liú zhī",
-      "pinyin_target": "liú zhī"
-    },
-    {
-      "original_text": "求之",
-      "replaced_word": "求知",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "参差荇菜，左右流之。窈窕淑女，寤寐【求知】。",
-      "pinyin_orig": "qiú zhī",
-      "pinyin_target": "qiú zhī"
-    },
-    {
-      "original_text": "求之",
-      "replaced_word": "虬枝",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "参差荇菜，左右流之。窈窕淑女，寤寐【虬枝】。",
-      "pinyin_orig": "qiú zhī",
-      "pinyin_target": "qiú zhī"
-    },
-    {
-      "original_text": "求之",
-      "replaced_word": "求知",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "【求知】不得，寤寐思服。悠哉悠哉，辗转反侧。",
-      "pinyin_orig": "qiú zhī",
-      "pinyin_target": "qiú zhī"
-    },
-    {
-      "original_text": "求之",
-      "replaced_word": "虬枝",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "【虬枝】不得，寤寐思服。悠哉悠哉，辗转反侧。",
-      "pinyin_orig": "qiú zhī",
-      "pinyin_target": "qiú zhī"
-    },
-    {
-      "original_text": "之不",
-      "replaced_word": "支部",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "求【支部】得，寤寐思服。悠哉悠哉，辗转反侧。",
-      "pinyin_orig": "zhī bù",
-      "pinyin_target": "zhī bù"
-    },
-    {
       "original_text": "之不",
       "replaced_word": "织布",
       "length": 2,
@@ -22365,16 +20245,6 @@
       "pun_sentence": "求【织布】得，寤寐思服。悠哉悠哉，辗转反侧。",
       "pinyin_orig": "zhī bù",
       "pinyin_target": "zhī bù"
-    },
-    {
-      "original_text": "思服",
-      "replaced_word": "私服",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "求之不得，寤寐【私服】。悠哉悠哉，辗转反侧。",
-      "pinyin_orig": "sī fú",
-      "pinyin_target": "sī fú"
     },
     {
       "original_text": "悠哉",
@@ -22395,76 +20265,6 @@
       "pun_sentence": "求之不得，寤寐思服。悠哉【优哉】，辗转反侧。",
       "pinyin_orig": "yōu zāi",
       "pinyin_target": "yōu zāi"
-    },
-    {
-      "original_text": "辗转",
-      "replaced_word": "捻转",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "求之不得，寤寐思服。悠哉悠哉，【捻转】反侧。",
-      "pinyin_orig": "niǎn zhuǎn",
-      "pinyin_target": "niǎn zhuǎn"
-    },
-    {
-      "original_text": "右采",
-      "replaced_word": "釉彩",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "参差荇菜，左【釉彩】之。窈窕淑女，琴瑟友之。",
-      "pinyin_orig": "yòu cǎi",
-      "pinyin_target": "yòu cǎi"
-    },
-    {
-      "original_text": "瑟友",
-      "replaced_word": "色友",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "参差荇菜，左右采之。窈窕淑女，琴【色友】之。",
-      "pinyin_orig": "sè yǒu",
-      "pinyin_target": "sè yǒu"
-    },
-    {
-      "original_text": "钟鼓",
-      "replaced_word": "中古",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "参差荇菜，左右芼之。窈窕淑女，【中古】乐之。",
-      "pinyin_orig": "zhōng gǔ",
-      "pinyin_target": "zhōng gǔ"
-    },
-    {
-      "original_text": "钟鼓",
-      "replaced_word": "中谷",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "参差荇菜，左右芼之。窈窕淑女，【中谷】乐之。",
-      "pinyin_orig": "zhōng gǔ",
-      "pinyin_target": "zhōng gǔ"
-    },
-    {
-      "original_text": "钟鼓",
-      "replaced_word": "忠骨",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "参差荇菜，左右芼之。窈窕淑女，【忠骨】乐之。",
-      "pinyin_orig": "zhōng gǔ",
-      "pinyin_target": "zhōng gǔ"
-    },
-    {
-      "original_text": "钟鼓",
-      "replaced_word": "终古",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "参差荇菜，左右芼之。窈窕淑女，【终古】乐之。",
-      "pinyin_orig": "zhōng gǔ",
-      "pinyin_target": "zhōng gǔ"
     },
     {
       "original_text": "鼓乐",
@@ -22495,66 +20295,6 @@
       "pun_sentence": "蒹葭苍苍，【白鹭】为霜。所谓伊人，在水一方。",
       "pinyin_orig": "bái lù",
       "pinyin_target": "bái lù"
-    },
-    {
-      "original_text": "露为",
-      "replaced_word": "禄位",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "蒹葭苍苍，白【禄位】霜。所谓伊人，在水一方。",
-      "pinyin_orig": "lù wèi",
-      "pinyin_target": "lù wèi"
-    },
-    {
-      "original_text": "所谓",
-      "replaced_word": "所为",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "蒹葭苍苍，白露为霜。【所为】伊人，在水一方。",
-      "pinyin_orig": "suǒ wèi",
-      "pinyin_target": "suǒ wèi"
-    },
-    {
-      "original_text": "伊人",
-      "replaced_word": "依人",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "蒹葭苍苍，白露为霜。所谓【依人】，在水一方。",
-      "pinyin_orig": "yī rén",
-      "pinyin_target": "yī rén"
-    },
-    {
-      "original_text": "一方",
-      "replaced_word": "亿方",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "蒹葭苍苍，白露为霜。所谓伊人，在水【亿方】。",
-      "pinyin_orig": "yì fāng",
-      "pinyin_target": "yì fāng"
-    },
-    {
-      "original_text": "溯洄",
-      "replaced_word": "速回",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "【速回】从之，道阻且长。溯游从之，宛在水中央。",
-      "pinyin_orig": "sù huí",
-      "pinyin_target": "sù huí"
-    },
-    {
-      "original_text": "道阻",
-      "replaced_word": "道祖",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "溯洄从之，【道祖】且长。溯游从之，宛在水中央。",
-      "pinyin_orig": "dào zǔ",
-      "pinyin_target": "dào zǔ"
     },
     {
       "original_text": "溯游",
@@ -22625,56 +20365,6 @@
       "pun_sentence": "蒹葭凄凄，【白鹭】未晞。所谓伊人，在水之湄。",
       "pinyin_orig": "bái lù",
       "pinyin_target": "bái lù"
-    },
-    {
-      "original_text": "露未",
-      "replaced_word": "禄位",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "蒹葭凄凄，白【禄位】晞。所谓伊人，在水之湄。",
-      "pinyin_orig": "lù wèi",
-      "pinyin_target": "lù wèi"
-    },
-    {
-      "original_text": "所谓",
-      "replaced_word": "所为",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "蒹葭凄凄，白露未晞。【所为】伊人，在水之湄。",
-      "pinyin_orig": "suǒ wèi",
-      "pinyin_target": "suǒ wèi"
-    },
-    {
-      "original_text": "伊人",
-      "replaced_word": "依人",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "蒹葭凄凄，白露未晞。所谓【依人】，在水之湄。",
-      "pinyin_orig": "yī rén",
-      "pinyin_target": "yī rén"
-    },
-    {
-      "original_text": "溯洄",
-      "replaced_word": "速回",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "【速回】从之，道阻且跻。溯游从之，宛在水中坻。",
-      "pinyin_orig": "sù huí",
-      "pinyin_target": "sù huí"
-    },
-    {
-      "original_text": "道阻",
-      "replaced_word": "道祖",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "溯洄从之，【道祖】且跻。溯游从之，宛在水中坻。",
-      "pinyin_orig": "dào zǔ",
-      "pinyin_target": "dào zǔ"
     },
     {
       "original_text": "溯游",
@@ -23267,16 +20957,6 @@
       "pinyin_target": "bào zhī"
     },
     {
-      "original_text": "风雨",
-      "replaced_word": "疯语",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "【疯语】如晦，鸡鸣不已。既见君子，云胡不喜？",
-      "pinyin_orig": "fēng yǔ",
-      "pinyin_target": "fēng yǔ"
-    },
-    {
       "original_text": "鸡鸣",
       "replaced_word": "机名",
       "length": 2,
@@ -23327,16 +21007,6 @@
       "pinyin_target": "jiàn jūn"
     },
     {
-      "original_text": "君子",
-      "replaced_word": "菌子",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "风雨如晦，鸡鸣不已。既见【菌子】，云胡不喜？",
-      "pinyin_orig": "jūn zǐ",
-      "pinyin_target": "jūn zǐ"
-    },
-    {
       "original_text": "胡不",
       "replaced_word": "狐步",
       "length": 2,
@@ -23355,16 +21025,6 @@
       "pun_sentence": "知我者谓我【薪优】，不知我者谓我何求。悠悠苍天，此何人哉！",
       "pinyin_orig": "xīn yōu",
       "pinyin_target": "xīn yōu"
-    },
-    {
-      "original_text": "不知",
-      "replaced_word": "不支",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "知我者谓我心忧，【不支】我者谓我何求。悠悠苍天，此何人哉！",
-      "pinyin_orig": "bù zhī",
-      "pinyin_target": "bù zhī"
     },
     {
       "original_text": "何求",
@@ -29507,16 +27167,6 @@
       "pinyin_target": "wō xīn"
     },
     {
-      "original_text": "不嗣",
-      "replaced_word": "布斯",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "青青子衿，悠悠我心。纵我不往，子宁【布斯】音？",
-      "pinyin_orig": "bú sì",
-      "pinyin_target": "bù sī"
-    },
-    {
       "original_text": "嗣音",
       "replaced_word": "丝印",
       "length": 2,
@@ -30398,16 +28048,6 @@
     },
     {
       "original_text": "不已",
-      "replaced_word": "不义",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "风雨如晦，鸡鸣【不义】。既见君子，云胡不喜？",
-      "pinyin_orig": "bù yǐ",
-      "pinyin_target": "bú yì"
-    },
-    {
-      "original_text": "不已",
       "replaced_word": "不依",
       "length": 2,
       "match_type": "全同音异声调",
@@ -30435,26 +28075,6 @@
       "pun_sentence": "风雨如晦，鸡鸣【不宜】。既见君子，云胡不喜？",
       "pinyin_orig": "bù yǐ",
       "pinyin_target": "bù yí"
-    },
-    {
-      "original_text": "不已",
-      "replaced_word": "不意",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "风雨如晦，鸡鸣【不意】。既见君子，云胡不喜？",
-      "pinyin_orig": "bù yǐ",
-      "pinyin_target": "bú yì"
-    },
-    {
-      "original_text": "不已",
-      "replaced_word": "不易",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "风雨如晦，鸡鸣【不易】。既见君子，云胡不喜？",
-      "pinyin_orig": "bù yǐ",
-      "pinyin_target": "bú yì"
     },
     {
       "original_text": "不已",
@@ -30878,6 +28498,36 @@
     },
     {
       "original_text": "不知",
+      "replaced_word": "不致",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "知我者谓我心忧，【不致】我者谓我何求。悠悠苍天，此何人哉！",
+      "pinyin_orig": "bù zhī",
+      "pinyin_target": "bú zhì"
+    },
+    {
+      "original_text": "不知",
+      "replaced_word": "不止",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "知我者谓我心忧，【不止】我者谓我何求。悠悠苍天，此何人哉！",
+      "pinyin_orig": "bù zhī",
+      "pinyin_target": "bù zhǐ"
+    },
+    {
+      "original_text": "不知",
+      "replaced_word": "布置",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "知我者谓我心忧，【布置】我者谓我何求。悠悠苍天，此何人哉！",
+      "pinyin_orig": "bù zhī",
+      "pinyin_target": "bù zhì"
+    },
+    {
+      "original_text": "不知",
       "replaced_word": "不值",
       "length": 2,
       "match_type": "全同音异声调",
@@ -30895,16 +28545,6 @@
       "pun_sentence": "知我者谓我心忧，【不智】我者谓我何求。悠悠苍天，此何人哉！",
       "pinyin_orig": "bù zhī",
       "pinyin_target": "bú zhì"
-    },
-    {
-      "original_text": "不知",
-      "replaced_word": "不止",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "知我者谓我心忧，【不止】我者谓我何求。悠悠苍天，此何人哉！",
-      "pinyin_orig": "bù zhī",
-      "pinyin_target": "bù zhǐ"
     },
     {
       "original_text": "不知",
@@ -30928,31 +28568,11 @@
     },
     {
       "original_text": "不知",
-      "replaced_word": "不致",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "知我者谓我心忧，【不致】我者谓我何求。悠悠苍天，此何人哉！",
-      "pinyin_orig": "bù zhī",
-      "pinyin_target": "bú zhì"
-    },
-    {
-      "original_text": "不知",
       "replaced_word": "布制",
       "length": 2,
       "match_type": "全同音异声调",
       "is_same_tone": false,
       "pun_sentence": "知我者谓我心忧，【布制】我者谓我何求。悠悠苍天，此何人哉！",
-      "pinyin_orig": "bù zhī",
-      "pinyin_target": "bù zhì"
-    },
-    {
-      "original_text": "不知",
-      "replaced_word": "布置",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "知我者谓我心忧，【布置】我者谓我何求。悠悠苍天，此何人哉！",
       "pinyin_orig": "bù zhī",
       "pinyin_target": "bù zhì"
     },
@@ -31627,16 +29247,6 @@
       "pinyin_target": "yǎng zhí"
     },
     {
-      "original_text": "仰止",
-      "replaced_word": "羊脂",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "高山【羊脂】，景行行止。虽不能至，然心向往之。",
-      "pinyin_orig": "yǎng zhǐ",
-      "pinyin_target": "yáng zhī"
-    },
-    {
       "original_text": "景行",
       "replaced_word": "景兴",
       "length": 2,
@@ -32158,6 +29768,26 @@
     },
     {
       "original_text": "之石",
+      "replaced_word": "知识",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "他山【知识】，可以攻玉。",
+      "pinyin_orig": "zhī shí",
+      "pinyin_target": "zhī shi"
+    },
+    {
+      "original_text": "之石",
+      "replaced_word": "指示",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "他山【指示】，可以攻玉。",
+      "pinyin_orig": "zhī shí",
+      "pinyin_target": "zhǐ shì"
+    },
+    {
+      "original_text": "之石",
       "replaced_word": "芝士",
       "length": 2,
       "match_type": "全同音异声调",
@@ -32258,26 +29888,6 @@
     },
     {
       "original_text": "之石",
-      "replaced_word": "指示",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "他山【指示】，可以攻玉。",
-      "pinyin_orig": "zhī shí",
-      "pinyin_target": "zhǐ shì"
-    },
-    {
-      "original_text": "之石",
-      "replaced_word": "支使",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "他山【支使】，可以攻玉。",
-      "pinyin_orig": "zhī shí",
-      "pinyin_target": "zhī shǐ"
-    },
-    {
-      "original_text": "之石",
       "replaced_word": "智士",
       "length": 2,
       "match_type": "全同音异声调",
@@ -32365,16 +29975,6 @@
       "pun_sentence": "他山【知事】，可以攻玉。",
       "pinyin_orig": "zhī shí",
       "pinyin_target": "zhī shì"
-    },
-    {
-      "original_text": "之石",
-      "replaced_word": "知识",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "他山【知识】，可以攻玉。",
-      "pinyin_orig": "zhī shí",
-      "pinyin_target": "zhī shi"
     },
     {
       "original_text": "之石",
@@ -32667,286 +30267,6 @@
       "pun_sentence": "明月【几十】有？把酒问青天。不知天上宫阙，今夕是何年。",
       "pinyin_orig": "jǐ shí",
       "pinyin_target": "jǐ shí"
-    },
-    {
-      "original_text": "时有",
-      "replaced_word": "实有",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "明月几【实有】？把酒问青天。不知天上宫阙，今夕是何年。",
-      "pinyin_orig": "shí yǒu",
-      "pinyin_target": "shí yǒu"
-    },
-    {
-      "original_text": "时有",
-      "replaced_word": "石友",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "明月几【石友】？把酒问青天。不知天上宫阙，今夕是何年。",
-      "pinyin_orig": "shí yǒu",
-      "pinyin_target": "shí yǒu"
-    },
-    {
-      "original_text": "问青",
-      "replaced_word": "问清",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "明月几时有？把酒【问清】天。不知天上宫阙，今夕是何年。",
-      "pinyin_orig": "wèn qīng",
-      "pinyin_target": "wèn qīng"
-    },
-    {
-      "original_text": "青天",
-      "replaced_word": "倾天",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "明月几时有？把酒问【倾天】。不知天上宫阙，今夕是何年。",
-      "pinyin_orig": "qīng tiān",
-      "pinyin_target": "qīng tiān"
-    },
-    {
-      "original_text": "青天",
-      "replaced_word": "清天",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "明月几时有？把酒问【清天】。不知天上宫阙，今夕是何年。",
-      "pinyin_orig": "qīng tiān",
-      "pinyin_target": "qīng tiān"
-    },
-    {
-      "original_text": "不知",
-      "replaced_word": "不支",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "明月几时有？把酒问青天。【不支】天上宫阙，今夕是何年。",
-      "pinyin_orig": "bù zhī",
-      "pinyin_target": "bù zhī"
-    },
-    {
-      "original_text": "上宫",
-      "replaced_word": "上工",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "明月几时有？把酒问青天。不知天【上工】阙，今夕是何年。",
-      "pinyin_orig": "shàng gōng",
-      "pinyin_target": "shàng gōng"
-    },
-    {
-      "original_text": "上宫",
-      "replaced_word": "上攻",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "明月几时有？把酒问青天。不知天【上攻】阙，今夕是何年。",
-      "pinyin_orig": "shàng gōng",
-      "pinyin_target": "shàng gōng"
-    },
-    {
-      "original_text": "今夕",
-      "replaced_word": "今昔",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "明月几时有？把酒问青天。不知天上宫阙，【今昔】是何年。",
-      "pinyin_orig": "jīn xī",
-      "pinyin_target": "jīn xī"
-    },
-    {
-      "original_text": "今夕",
-      "replaced_word": "矜惜",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "明月几时有？把酒问青天。不知天上宫阙，【矜惜】是何年。",
-      "pinyin_orig": "jīn xī",
-      "pinyin_target": "jīn xī"
-    },
-    {
-      "original_text": "今夕",
-      "replaced_word": "金溪",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "明月几时有？把酒问青天。不知天上宫阙，【金溪】是何年。",
-      "pinyin_orig": "jīn xī",
-      "pinyin_target": "jīn xī"
-    },
-    {
-      "original_text": "今夕",
-      "replaced_word": "金熙",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "明月几时有？把酒问青天。不知天上宫阙，【金熙】是何年。",
-      "pinyin_orig": "jīn xī",
-      "pinyin_target": "jīn xī"
-    },
-    {
-      "original_text": "夕是",
-      "replaced_word": "息事",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "明月几时有？把酒问青天。不知天上宫阙，今【息事】何年。",
-      "pinyin_orig": "xī shì",
-      "pinyin_target": "xī shì"
-    },
-    {
-      "original_text": "夕是",
-      "replaced_word": "稀世",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "明月几时有？把酒问青天。不知天上宫阙，今【稀世】何年。",
-      "pinyin_orig": "xī shì",
-      "pinyin_target": "xī shì"
-    },
-    {
-      "original_text": "夕是",
-      "replaced_word": "稀释",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "明月几时有？把酒问青天。不知天上宫阙，今【稀释】何年。",
-      "pinyin_orig": "xī shì",
-      "pinyin_target": "xī shì"
-    },
-    {
-      "original_text": "夕是",
-      "replaced_word": "西市",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "明月几时有？把酒问青天。不知天上宫阙，今【西市】何年。",
-      "pinyin_orig": "xī shì",
-      "pinyin_target": "xī shì"
-    },
-    {
-      "original_text": "夕是",
-      "replaced_word": "西式",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "明月几时有？把酒问青天。不知天上宫阙，今【西式】何年。",
-      "pinyin_orig": "xī shì",
-      "pinyin_target": "xī shì"
-    },
-    {
-      "original_text": "是何",
-      "replaced_word": "适合",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "明月几时有？把酒问青天。不知天上宫阙，今夕【适合】年。",
-      "pinyin_orig": "shì hé",
-      "pinyin_target": "shì hé"
-    },
-    {
-      "original_text": "欲乘",
-      "replaced_word": "玉成",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "我【玉成】风归去，又恐琼楼玉宇，高处不胜寒。起舞弄清影，何似在人间。",
-      "pinyin_orig": "yù chéng",
-      "pinyin_target": "yù chéng"
-    },
-    {
-      "original_text": "欲乘",
-      "replaced_word": "育成",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "我【育成】风归去，又恐琼楼玉宇，高处不胜寒。起舞弄清影，何似在人间。",
-      "pinyin_orig": "yù chéng",
-      "pinyin_target": "yù chéng"
-    },
-    {
-      "original_text": "乘风",
-      "replaced_word": "成锋",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "我欲【成锋】归去，又恐琼楼玉宇，高处不胜寒。起舞弄清影，何似在人间。",
-      "pinyin_orig": "chéng fēng",
-      "pinyin_target": "chéng fēng"
-    },
-    {
-      "original_text": "乘风",
-      "replaced_word": "成风",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "我欲【成风】归去，又恐琼楼玉宇，高处不胜寒。起舞弄清影，何似在人间。",
-      "pinyin_orig": "chéng fēng",
-      "pinyin_target": "chéng fēng"
-    },
-    {
-      "original_text": "玉宇",
-      "replaced_word": "御宇",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "我欲乘风归去，又恐琼楼【御宇】，高处不胜寒。起舞弄清影，何似在人间。",
-      "pinyin_orig": "yù yǔ",
-      "pinyin_target": "yù yǔ"
-    },
-    {
-      "original_text": "玉宇",
-      "replaced_word": "遇雨",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "我欲乘风归去，又恐琼楼【遇雨】，高处不胜寒。起舞弄清影，何似在人间。",
-      "pinyin_orig": "yù yǔ",
-      "pinyin_target": "yù yǔ"
-    },
-    {
-      "original_text": "高处",
-      "replaced_word": "高矗",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "我欲乘风归去，又恐琼楼玉宇，【高矗】不胜寒。起舞弄清影，何似在人间。",
-      "pinyin_orig": "gāo chù",
-      "pinyin_target": "gāo chù"
-    },
-    {
-      "original_text": "不胜",
-      "replaced_word": "不剩",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "我欲乘风归去，又恐琼楼玉宇，高处【不剩】寒。起舞弄清影，何似在人间。",
-      "pinyin_orig": "bú shèng",
-      "pinyin_target": "bú shèng"
-    },
-    {
-      "original_text": "胜寒",
-      "replaced_word": "盛寒",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "我欲乘风归去，又恐琼楼玉宇，高处不【盛寒】。起舞弄清影，何似在人间。",
-      "pinyin_orig": "shèng hán",
-      "pinyin_target": "shèng hán"
-    },
-    {
-      "original_text": "舞弄",
-      "replaced_word": "侮弄",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "我欲乘风归去，又恐琼楼玉宇，高处不胜寒。起【侮弄】清影，何似在人间。",
-      "pinyin_orig": "wǔ nòng",
-      "pinyin_target": "wǔ nòng"
     },
     {
       "original_text": "清影",
@@ -33860,16 +31180,6 @@
     },
     {
       "original_text": "月几",
-      "replaced_word": "月季",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "明【月季】时有？把酒问青天。不知天上宫阙，今夕是何年。",
-      "pinyin_orig": "yuè jǐ",
-      "pinyin_target": "yuè jì"
-    },
-    {
-      "original_text": "月几",
       "replaced_word": "粤籍",
       "length": 2,
       "match_type": "全同音异声调",
@@ -34560,21 +31870,21 @@
     },
     {
       "original_text": "青天",
-      "replaced_word": "擎天",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "明月几时有？把酒问【擎天】。不知天上宫阙，今夕是何年。",
-      "pinyin_orig": "qīng tiān",
-      "pinyin_target": "qíng tiān"
-    },
-    {
-      "original_text": "青天",
       "replaced_word": "晴天",
       "length": 2,
       "match_type": "全同音异声调",
       "is_same_tone": false,
       "pun_sentence": "明月几时有？把酒问【晴天】。不知天上宫阙，今夕是何年。",
+      "pinyin_orig": "qīng tiān",
+      "pinyin_target": "qíng tiān"
+    },
+    {
+      "original_text": "青天",
+      "replaced_word": "擎天",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "明月几时有？把酒问【擎天】。不知天上宫阙，今夕是何年。",
       "pinyin_orig": "qīng tiān",
       "pinyin_target": "qíng tiān"
     },
@@ -34600,6 +31910,36 @@
     },
     {
       "original_text": "不知",
+      "replaced_word": "不致",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "明月几时有？把酒问青天。【不致】天上宫阙，今夕是何年。",
+      "pinyin_orig": "bù zhī",
+      "pinyin_target": "bú zhì"
+    },
+    {
+      "original_text": "不知",
+      "replaced_word": "不止",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "明月几时有？把酒问青天。【不止】天上宫阙，今夕是何年。",
+      "pinyin_orig": "bù zhī",
+      "pinyin_target": "bù zhǐ"
+    },
+    {
+      "original_text": "不知",
+      "replaced_word": "布置",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "明月几时有？把酒问青天。【布置】天上宫阙，今夕是何年。",
+      "pinyin_orig": "bù zhī",
+      "pinyin_target": "bù zhì"
+    },
+    {
+      "original_text": "不知",
       "replaced_word": "不值",
       "length": 2,
       "match_type": "全同音异声调",
@@ -34617,16 +31957,6 @@
       "pun_sentence": "明月几时有？把酒问青天。【不智】天上宫阙，今夕是何年。",
       "pinyin_orig": "bù zhī",
       "pinyin_target": "bú zhì"
-    },
-    {
-      "original_text": "不知",
-      "replaced_word": "不止",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "明月几时有？把酒问青天。【不止】天上宫阙，今夕是何年。",
-      "pinyin_orig": "bù zhī",
-      "pinyin_target": "bù zhǐ"
     },
     {
       "original_text": "不知",
@@ -34650,31 +31980,11 @@
     },
     {
       "original_text": "不知",
-      "replaced_word": "不致",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "明月几时有？把酒问青天。【不致】天上宫阙，今夕是何年。",
-      "pinyin_orig": "bù zhī",
-      "pinyin_target": "bú zhì"
-    },
-    {
-      "original_text": "不知",
       "replaced_word": "布制",
       "length": 2,
       "match_type": "全同音异声调",
       "is_same_tone": false,
       "pun_sentence": "明月几时有？把酒问青天。【布制】天上宫阙，今夕是何年。",
-      "pinyin_orig": "bù zhī",
-      "pinyin_target": "bù zhì"
-    },
-    {
-      "original_text": "不知",
-      "replaced_word": "布置",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "明月几时有？把酒问青天。【布置】天上宫阙，今夕是何年。",
       "pinyin_orig": "bù zhī",
       "pinyin_target": "bù zhì"
     },
@@ -36060,26 +33370,6 @@
     },
     {
       "original_text": "一时",
-      "replaced_word": "一世",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "乱石穿空，惊涛拍岸，卷起千堆雪。江山如画，【一世】多少豪杰。",
-      "pinyin_orig": "yì shí",
-      "pinyin_target": "yí shì"
-    },
-    {
-      "original_text": "一时",
-      "replaced_word": "一事",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "乱石穿空，惊涛拍岸，卷起千堆雪。江山如画，【一事】多少豪杰。",
-      "pinyin_orig": "yì shí",
-      "pinyin_target": "yí shì"
-    },
-    {
-      "original_text": "一时",
       "replaced_word": "一十",
       "length": 2,
       "match_type": "全同音异声调",
@@ -36097,16 +33387,6 @@
       "pun_sentence": "乱石穿空，惊涛拍岸，卷起千堆雪。江山如画，【一师】多少豪杰。",
       "pinyin_orig": "yì shí",
       "pinyin_target": "yì shī"
-    },
-    {
-      "original_text": "一时",
-      "replaced_word": "一式",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "乱石穿空，惊涛拍岸，卷起千堆雪。江山如画，【一式】多少豪杰。",
-      "pinyin_orig": "yì shí",
-      "pinyin_target": "yí shì"
     },
     {
       "original_text": "一时",
@@ -36157,16 +33437,6 @@
       "pun_sentence": "乱石穿空，惊涛拍岸，卷起千堆雪。江山如画，【以示】多少豪杰。",
       "pinyin_orig": "yì shí",
       "pinyin_target": "yǐ shì"
-    },
-    {
-      "original_text": "一时",
-      "replaced_word": "仪式",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "乱石穿空，惊涛拍岸，卷起千堆雪。江山如画，【仪式】多少豪杰。",
-      "pinyin_orig": "yì shí",
-      "pinyin_target": "yí shì"
     },
     {
       "original_text": "一时",
@@ -36257,16 +33527,6 @@
       "pun_sentence": "乱石穿空，惊涛拍岸，卷起千堆雪。江山如画，【医师】多少豪杰。",
       "pinyin_orig": "yì shí",
       "pinyin_target": "yī shī"
-    },
-    {
-      "original_text": "一时",
-      "replaced_word": "宜市",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "乱石穿空，惊涛拍岸，卷起千堆雪。江山如画，【宜市】多少豪杰。",
-      "pinyin_orig": "yì shí",
-      "pinyin_target": "yí shì"
     },
     {
       "original_text": "一时",
@@ -36507,16 +33767,6 @@
       "pun_sentence": "乱石穿空，惊涛拍岸，卷起千堆雪。江山如画，【逸诗】多少豪杰。",
       "pinyin_orig": "yì shí",
       "pinyin_target": "yì shī"
-    },
-    {
-      "original_text": "一时",
-      "replaced_word": "遗事",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "乱石穿空，惊涛拍岸，卷起千堆雪。江山如画，【遗事】多少豪杰。",
-      "pinyin_orig": "yì shí",
-      "pinyin_target": "yí shì"
     },
     {
       "original_text": "一时",
@@ -37640,16 +34890,6 @@
     },
     {
       "original_text": "过也",
-      "replaced_word": "国野",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "三杯两盏淡酒，怎敌他、晚来风急！雁【国野】，正伤心，却是旧时相识。",
-      "pinyin_orig": "guò yě",
-      "pinyin_target": "guó yě"
-    },
-    {
-      "original_text": "过也",
       "replaced_word": "果业",
       "length": 2,
       "match_type": "全同音异声调",
@@ -37677,6 +34917,16 @@
       "pun_sentence": "三杯两盏淡酒，怎敌他、晚来风急！雁过也，【正上】心，却是旧时相识。",
       "pinyin_orig": "zhèng shāng",
       "pinyin_target": "zhèng shàng"
+    },
+    {
+      "original_text": "伤心",
+      "replaced_word": "上新",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "三杯两盏淡酒，怎敌他、晚来风急！雁过也，正【上新】，却是旧时相识。",
+      "pinyin_orig": "shāng xīn",
+      "pinyin_target": "shàng xīn"
     },
     {
       "original_text": "伤心",
@@ -40351,126 +37601,6 @@
       "pinyin_target": "yì diǎn tōng"
     },
     {
-      "original_text": "疑是",
-      "replaced_word": "一世",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "床前明月光，【一世】地上霜。举头望明月，低头思故乡。",
-      "pinyin_orig": "yí shì",
-      "pinyin_target": "yí shì"
-    },
-    {
-      "original_text": "疑是",
-      "replaced_word": "一事",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "床前明月光，【一事】地上霜。举头望明月，低头思故乡。",
-      "pinyin_orig": "yí shì",
-      "pinyin_target": "yí shì"
-    },
-    {
-      "original_text": "疑是",
-      "replaced_word": "一式",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "床前明月光，【一式】地上霜。举头望明月，低头思故乡。",
-      "pinyin_orig": "yí shì",
-      "pinyin_target": "yí shì"
-    },
-    {
-      "original_text": "疑是",
-      "replaced_word": "仪式",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "床前明月光，【仪式】地上霜。举头望明月，低头思故乡。",
-      "pinyin_orig": "yí shì",
-      "pinyin_target": "yí shì"
-    },
-    {
-      "original_text": "疑是",
-      "replaced_word": "宜市",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "床前明月光，【宜市】地上霜。举头望明月，低头思故乡。",
-      "pinyin_orig": "yí shì",
-      "pinyin_target": "yí shì"
-    },
-    {
-      "original_text": "疑是",
-      "replaced_word": "遗事",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "床前明月光，【遗事】地上霜。举头望明月，低头思故乡。",
-      "pinyin_orig": "yí shì",
-      "pinyin_target": "yí shì"
-    },
-    {
-      "original_text": "是地",
-      "replaced_word": "世弟",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "床前明月光，疑【世弟】上霜。举头望明月，低头思故乡。",
-      "pinyin_orig": "shì dì",
-      "pinyin_target": "shì dì"
-    },
-    {
-      "original_text": "是地",
-      "replaced_word": "市地",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "床前明月光，疑【市地】上霜。举头望明月，低头思故乡。",
-      "pinyin_orig": "shì dì",
-      "pinyin_target": "shì dì"
-    },
-    {
-      "original_text": "是地",
-      "replaced_word": "柿蒂",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "床前明月光，疑【柿蒂】上霜。举头望明月，低头思故乡。",
-      "pinyin_orig": "shì dì",
-      "pinyin_target": "shì dì"
-    },
-    {
-      "original_text": "地上",
-      "replaced_word": "递上",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "床前明月光，疑是【递上】霜。举头望明月，低头思故乡。",
-      "pinyin_orig": "dì shàng",
-      "pinyin_target": "dì shàng"
-    },
-    {
-      "original_text": "故乡",
-      "replaced_word": "顾湘",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "床前明月光，疑是地上霜。举头望明月，低头思【顾湘】。",
-      "pinyin_orig": "gù xiāng",
-      "pinyin_target": "gù xiāng"
-    },
-    {
-      "original_text": "眠不",
-      "replaced_word": "棉布",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "春【棉布】觉晓，处处闻啼鸟。夜来风雨声，花落知多少。",
-      "pinyin_orig": "mián bù",
-      "pinyin_target": "mián bù"
-    },
-    {
       "original_text": "不觉",
       "replaced_word": "不绝",
       "length": 2,
@@ -40481,66 +37611,6 @@
       "pinyin_target": "bù jué"
     },
     {
-      "original_text": "风雨",
-      "replaced_word": "疯语",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "春眠不觉晓，处处闻啼鸟。夜来【疯语】声，花落知多少。",
-      "pinyin_orig": "fēng yǔ",
-      "pinyin_target": "fēng yǔ"
-    },
-    {
-      "original_text": "雨声",
-      "replaced_word": "语声",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "春眠不觉晓，处处闻啼鸟。夜来风【语声】，花落知多少。",
-      "pinyin_orig": "yǔ shēng",
-      "pinyin_target": "yǔ shēng"
-    },
-    {
-      "original_text": "依山",
-      "replaced_word": "衣衫",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "白日【衣衫】尽，黄河入海流。欲穷千里目，更上一层楼。",
-      "pinyin_orig": "yī shān",
-      "pinyin_target": "yī shān"
-    },
-    {
-      "original_text": "河入",
-      "replaced_word": "核入",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "白日依山尽，黄【核入】海流。欲穷千里目，更上一层楼。",
-      "pinyin_orig": "hé rù",
-      "pinyin_target": "hé rù"
-    },
-    {
-      "original_text": "欲穷",
-      "replaced_word": "郁琼",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "白日依山尽，黄河入海流。【郁琼】千里目，更上一层楼。",
-      "pinyin_orig": "yù qióng",
-      "pinyin_target": "yù qióng"
-    },
-    {
-      "original_text": "里目",
-      "replaced_word": "李牧",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "白日依山尽，黄河入海流。欲穷千【李牧】，更上一层楼。",
-      "pinyin_orig": "lǐ mù",
-      "pinyin_target": "lǐ mù"
-    },
-    {
       "original_text": "上一",
       "replaced_word": "上衣",
       "length": 2,
@@ -40549,66 +37619,6 @@
       "pun_sentence": "白日依山尽，黄河入海流。欲穷千里目，更【上衣】层楼。",
       "pinyin_orig": "shàng yī",
       "pinyin_target": "shàng yī"
-    },
-    {
-      "original_text": "上一",
-      "replaced_word": "尚衣",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "白日依山尽，黄河入海流。欲穷千里目，更【尚衣】层楼。",
-      "pinyin_orig": "shàng yī",
-      "pinyin_target": "shàng yī"
-    },
-    {
-      "original_text": "蓑笠",
-      "replaced_word": "缩慄",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "千山鸟飞绝，万径人踪灭。孤舟【缩慄】翁，独钓寒江雪。",
-      "pinyin_orig": "suō lì",
-      "pinyin_target": "suō lì"
-    },
-    {
-      "original_text": "笠翁",
-      "replaced_word": "利翁",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "千山鸟飞绝，万径人踪灭。孤舟蓑【利翁】，独钓寒江雪。",
-      "pinyin_orig": "lì wēng",
-      "pinyin_target": "lì wēng"
-    },
-    {
-      "original_text": "寒江",
-      "replaced_word": "寒螿",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "千山鸟飞绝，万径人踪灭。孤舟蓑笠翁，独钓【寒螿】雪。",
-      "pinyin_orig": "hán jiāng",
-      "pinyin_target": "hán jiāng"
-    },
-    {
-      "original_text": "寒江",
-      "replaced_word": "涵江",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "千山鸟飞绝，万径人踪灭。孤舟蓑笠翁，独钓【涵江】雪。",
-      "pinyin_orig": "hán jiāng",
-      "pinyin_target": "hán jiāng"
-    },
-    {
-      "original_text": "寒江",
-      "replaced_word": "邗江",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "千山鸟飞绝，万径人踪灭。孤舟蓑笠翁，独钓【邗江】雪。",
-      "pinyin_orig": "hán jiāng",
-      "pinyin_target": "hán jiāng"
     },
     {
       "original_text": "寒江",
@@ -40729,16 +37739,6 @@
       "pun_sentence": "独在异乡为异客，每逢佳节【贝斯】亲。遥知兄弟登高处，遍插茱萸少一人。",
       "pinyin_orig": "bèi sī",
       "pinyin_target": "bèi sī"
-    },
-    {
-      "original_text": "高处",
-      "replaced_word": "高矗",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "独在异乡为异客，每逢佳节倍思亲。遥知兄弟登【高矗】，遍插茱萸少一人。",
-      "pinyin_orig": "gāo chù",
-      "pinyin_target": "gāo chù"
     },
     {
       "original_text": "一人",
@@ -41549,16 +38549,6 @@
       "pun_sentence": "借问酒家何处有？牧童【窑址】杏花村。",
       "pinyin_orig": "yáo zhǐ",
       "pinyin_target": "yáo zhǐ"
-    },
-    {
-      "original_text": "不知",
-      "replaced_word": "不支",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "商女【不支】亡国恨，隔江犹唱后庭花。",
-      "pinyin_orig": "bù zhī",
-      "pinyin_target": "bù zhī"
     },
     {
       "original_text": "亡国",
@@ -44207,16 +41197,6 @@
       "match_type": "全同音异声调",
       "is_same_tone": false,
       "pun_sentence": "独在异乡为异客，每逢佳节倍思亲。遥知兄弟登高处，遍插茱萸少【伊人】。",
-      "pinyin_orig": "yì rén",
-      "pinyin_target": "yī rén"
-    },
-    {
-      "original_text": "一人",
-      "replaced_word": "依人",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "独在异乡为异客，每逢佳节倍思亲。遥知兄弟登高处，遍插茱萸少【依人】。",
       "pinyin_orig": "yì rén",
       "pinyin_target": "yī rén"
     },
@@ -48252,6 +45232,36 @@
     },
     {
       "original_text": "不知",
+      "replaced_word": "不致",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "商女【不致】亡国恨，隔江犹唱后庭花。",
+      "pinyin_orig": "bù zhī",
+      "pinyin_target": "bú zhì"
+    },
+    {
+      "original_text": "不知",
+      "replaced_word": "不止",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "商女【不止】亡国恨，隔江犹唱后庭花。",
+      "pinyin_orig": "bù zhī",
+      "pinyin_target": "bù zhǐ"
+    },
+    {
+      "original_text": "不知",
+      "replaced_word": "布置",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "商女【布置】亡国恨，隔江犹唱后庭花。",
+      "pinyin_orig": "bù zhī",
+      "pinyin_target": "bù zhì"
+    },
+    {
+      "original_text": "不知",
       "replaced_word": "不值",
       "length": 2,
       "match_type": "全同音异声调",
@@ -48269,16 +45279,6 @@
       "pun_sentence": "商女【不智】亡国恨，隔江犹唱后庭花。",
       "pinyin_orig": "bù zhī",
       "pinyin_target": "bú zhì"
-    },
-    {
-      "original_text": "不知",
-      "replaced_word": "不止",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "商女【不止】亡国恨，隔江犹唱后庭花。",
-      "pinyin_orig": "bù zhī",
-      "pinyin_target": "bù zhǐ"
     },
     {
       "original_text": "不知",
@@ -48302,31 +45302,11 @@
     },
     {
       "original_text": "不知",
-      "replaced_word": "不致",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "商女【不致】亡国恨，隔江犹唱后庭花。",
-      "pinyin_orig": "bù zhī",
-      "pinyin_target": "bú zhì"
-    },
-    {
-      "original_text": "不知",
       "replaced_word": "布制",
       "length": 2,
       "match_type": "全同音异声调",
       "is_same_tone": false,
       "pun_sentence": "商女【布制】亡国恨，隔江犹唱后庭花。",
-      "pinyin_orig": "bù zhī",
-      "pinyin_target": "bù zhì"
-    },
-    {
-      "original_text": "不知",
-      "replaced_word": "布置",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "商女【布置】亡国恨，隔江犹唱后庭花。",
       "pinyin_orig": "bù zhī",
       "pinyin_target": "bù zhì"
     },
@@ -48472,6 +45452,16 @@
     },
     {
       "original_text": "努力",
+      "replaced_word": "奴隶",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "少壮不【奴隶】，老大徒伤悲。",
+      "pinyin_orig": "nǔ lì",
+      "pinyin_target": "nú lì"
+    },
+    {
+      "original_text": "努力",
       "replaced_word": "努里",
       "length": 2,
       "match_type": "全同音异声调",
@@ -48481,14 +45471,14 @@
       "pinyin_target": "nǔ lǐ"
     },
     {
-      "original_text": "努力",
-      "replaced_word": "奴隶",
+      "original_text": "老大",
+      "replaced_word": "劳大",
       "length": 2,
       "match_type": "全同音异声调",
       "is_same_tone": false,
-      "pun_sentence": "少壮不【奴隶】，老大徒伤悲。",
-      "pinyin_orig": "nǔ lì",
-      "pinyin_target": "nú lì"
+      "pun_sentence": "少壮不努力，【劳大】徒伤悲。",
+      "pinyin_orig": "lǎo dà",
+      "pinyin_target": "láo dà"
     },
     {
       "original_text": "大徒",
@@ -48582,6 +45572,16 @@
     },
     {
       "original_text": "枫渔",
+      "replaced_word": "风雨",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "月落乌啼霜满天，江【风雨】火对愁眠。",
+      "pinyin_orig": "fēng yú",
+      "pinyin_target": "fēng yǔ"
+    },
+    {
+      "original_text": "枫渔",
       "replaced_word": "冯裕",
       "length": 2,
       "match_type": "全同音异声调",
@@ -48612,16 +45612,6 @@
     },
     {
       "original_text": "枫渔",
-      "replaced_word": "疯语",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "月落乌啼霜满天，江【疯语】火对愁眠。",
-      "pinyin_orig": "fēng yú",
-      "pinyin_target": "fēng yǔ"
-    },
-    {
-      "original_text": "枫渔",
       "replaced_word": "讽喻",
       "length": 2,
       "match_type": "全同音异声调",
@@ -48649,16 +45639,6 @@
       "pun_sentence": "月落乌啼霜满天，江【逢遇】火对愁眠。",
       "pinyin_orig": "fēng yú",
       "pinyin_target": "féng yù"
-    },
-    {
-      "original_text": "枫渔",
-      "replaced_word": "风雨",
-      "length": 2,
-      "match_type": "全同音异声调",
-      "is_same_tone": false,
-      "pun_sentence": "月落乌啼霜满天，江【风雨】火对愁眠。",
-      "pinyin_orig": "fēng yú",
-      "pinyin_target": "fēng yǔ"
     },
     {
       "original_text": "渔火",
