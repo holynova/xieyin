@@ -1,0 +1,392 @@
+{
+  "《诗经全集名篇》": [
+    {
+      "original_text": "葭苍",
+      "replaced_word": "加仓",
+      "length": 2,
+      "match_type": "全同音同声调",
+      "is_same_tone": true,
+      "pun_sentence": "蒹【加仓】苍，白露为霜。所谓伊人，在水一方。",
+      "pinyin_orig": "jiā cāng",
+      "pinyin_target": "jiā cāng"
+    },
+    {
+      "original_text": "友之",
+      "replaced_word": "优质",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "参差荇菜，左右采之。窈窕淑女，琴瑟【优质】。",
+      "pinyin_orig": "yǒu zhī",
+      "pinyin_target": "yōu zhì"
+    },
+    {
+      "original_text": "不喜",
+      "replaced_word": "不息",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "风雨如晦，鸡鸣不已。既见君子，云胡【不息】？",
+      "pinyin_orig": "bù xǐ",
+      "pinyin_target": "bù xī"
+    },
+    {
+      "original_text": "食野",
+      "replaced_word": "失业",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "呦呦鹿鸣，【失业】之苹。我有嘉宾，鼓瑟吹笙。",
+      "pinyin_orig": "shí yě",
+      "pinyin_target": "shī yè"
+    },
+    {
+      "original_text": "食野",
+      "replaced_word": "事业",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "呦呦鹿鸣，【事业】之苹。我有嘉宾，鼓瑟吹笙。",
+      "pinyin_orig": "shí yě",
+      "pinyin_target": "shì yè"
+    }
+  ],
+  "《楚辞名篇》": [
+    {
+      "original_text": "木兰",
+      "replaced_word": "木栏",
+      "length": 2,
+      "match_type": "全同音同声调",
+      "is_same_tone": true,
+      "pun_sentence": "朝饮【木栏】之坠露兮，夕餐秋菊之落英。",
+      "pinyin_orig": "mù lán",
+      "pinyin_target": "mù lán"
+    },
+    {
+      "original_text": "公子",
+      "replaced_word": "工资",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "风飒飒兮木萧萧，思【工资】兮徒离忧。",
+      "pinyin_orig": "gōng zi",
+      "pinyin_target": "gōng zī"
+    }
+  ],
+  "《唐诗三百首全本精选》": [
+    {
+      "original_text": "同是",
+      "replaced_word": "同事",
+      "length": 2,
+      "match_type": "全同音同声调",
+      "is_same_tone": true,
+      "pun_sentence": "【同事】天涯沦落人，相逢何必曾相识。",
+      "pinyin_orig": "tóng shì",
+      "pinyin_target": "tóng shì"
+    },
+    {
+      "original_text": "努力",
+      "replaced_word": "奴隶",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "少壮不【奴隶】，老大徒伤悲。",
+      "pinyin_orig": "nǔ lì",
+      "pinyin_target": "nú lì"
+    },
+    {
+      "original_text": "老大",
+      "replaced_word": "劳大",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "少壮不努力，【劳大】徒伤悲。",
+      "pinyin_orig": "lǎo dà",
+      "pinyin_target": "láo dà"
+    },
+    {
+      "original_text": "枫渔",
+      "replaced_word": "风雨",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "月落乌啼霜满天，江【风雨】火对愁眠。",
+      "pinyin_orig": "fēng yú",
+      "pinyin_target": "fēng yǔ"
+    }
+  ],
+  "《宋词三百首全本精选》": [
+    {
+      "original_text": "清秋",
+      "replaced_word": "请求",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "多情自古伤离别，更那堪，冷落【请求】节！今宵酒醒何处？杨柳岸，晓风残月。",
+      "pinyin_orig": "qīng qiū",
+      "pinyin_target": "qǐng qiú"
+    },
+    {
+      "original_text": "众里",
+      "replaced_word": "中立",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "【中立】寻他千百度。蓦然回首，那人却在，灯火阑珊处。",
+      "pinyin_orig": "zhòng lǐ",
+      "pinyin_target": "zhōng lì"
+    }
+  ],
+  "《周易全篇精选》": [
+    {
+      "original_text": "有余",
+      "replaced_word": "有雨",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "积善之家，必【有雨】庆；积不善之家，必有余殃。",
+      "pinyin_orig": "yǒu yú",
+      "pinyin_target": "yǒu yǔ"
+    },
+    {
+      "original_text": "有余",
+      "replaced_word": "有雨",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "积善之家，必有余庆；积不善之家，必【有雨】殃。",
+      "pinyin_orig": "yǒu yú",
+      "pinyin_target": "yǒu yǔ"
+    }
+  ],
+  "《礼记·大学·中庸》": [
+    {
+      "original_text": "之道",
+      "replaced_word": "指导",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "大学【指导】，在明明德，在亲民，在止于至善。",
+      "pinyin_orig": "zhī dào",
+      "pinyin_target": "zhǐ dǎo"
+    },
+    {
+      "original_text": "知道",
+      "replaced_word": "指导",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "玉不琢，不成器；人不学，不【指导】。",
+      "pinyin_orig": "zhī dào",
+      "pinyin_target": "zhǐ dǎo"
+    }
+  ],
+  "《庄子全篇精选》": [
+    {
+      "original_text": "有鱼",
+      "replaced_word": "有余",
+      "length": 2,
+      "match_type": "全同音同声调",
+      "is_same_tone": true,
+      "pun_sentence": "北冥【有余】，其名为鲲。鲲之大，不知其几千里也。",
+      "pinyin_orig": "yǒu yú",
+      "pinyin_target": "yǒu yú"
+    },
+    {
+      "original_text": "有鱼",
+      "replaced_word": "有雨",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "北冥【有雨】，其名为鲲。鲲之大，不知其几千里也。",
+      "pinyin_orig": "yǒu yú",
+      "pinyin_target": "yǒu yǔ"
+    },
+    {
+      "original_text": "同风",
+      "replaced_word": "通风",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "大鹏一日【通风】起，扶摇直上九万里。",
+      "pinyin_orig": "tóng fēng",
+      "pinyin_target": "tōng fēng"
+    },
+    {
+      "original_text": "生也",
+      "replaced_word": "生椰",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "吾【生椰】有涯，而知也无涯。以有涯随无涯，殆已！",
+      "pinyin_orig": "shēng yě",
+      "pinyin_target": "shēng yē"
+    }
+  ],
+  "《论语全篇精选》": [
+    {
+      "original_text": "时习",
+      "replaced_word": "实习",
+      "length": 2,
+      "match_type": "全同音同声调",
+      "is_same_tone": true,
+      "pun_sentence": "学而【实习】之，不亦说乎？有朋自远方来，不亦乐乎？人不知而不愠，不亦君子乎？",
+      "pinyin_orig": "shí xí",
+      "pinyin_target": "shí xí"
+    },
+    {
+      "original_text": "自远",
+      "replaced_word": "资源",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "学而时习之，不亦说乎？有朋【资源】方来，不亦乐乎？人不知而不愠，不亦君子乎？",
+      "pinyin_orig": "zì yuǎn",
+      "pinyin_target": "zī yuán"
+    },
+    {
+      "original_text": "我师",
+      "replaced_word": "卧室",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "三人行，必有【卧室】焉。择其善者而从之，其不善者而改之。",
+      "pinyin_orig": "wǒ shī",
+      "pinyin_target": "wò shì"
+    },
+    {
+      "original_text": "省也",
+      "replaced_word": "生椰",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "见贤思齐焉，见不贤而内自【生椰】。",
+      "pinyin_orig": "shěng yě",
+      "pinyin_target": "shēng yē"
+    },
+    {
+      "original_text": "不习",
+      "replaced_word": "不息",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "吾日三省吾身：为人谋而不忠乎？与朋友交而不信乎？传【不息】乎？",
+      "pinyin_orig": "bù xí",
+      "pinyin_target": "bù xī"
+    }
+  ],
+  "《道德经八十一章全本》": [
+    {
+      "original_text": "里之",
+      "replaced_word": "离职",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "千【离职】行，始于足下。",
+      "pinyin_orig": "lǐ zhī",
+      "pinyin_target": "lí zhí"
+    },
+    {
+      "original_text": "之道",
+      "replaced_word": "指导",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "天【指导】，损有余而补不足。人之道，则不然，损不足以奉有余。",
+      "pinyin_orig": "zhī dào",
+      "pinyin_target": "zhǐ dǎo"
+    },
+    {
+      "original_text": "有余",
+      "replaced_word": "有雨",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "天之道，损【有雨】而补不足。人之道，则不然，损不足以奉有余。",
+      "pinyin_orig": "yǒu yú",
+      "pinyin_target": "yǒu yǔ"
+    },
+    {
+      "original_text": "之道",
+      "replaced_word": "指导",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "天之道，损有余而补不足。人【指导】，则不然，损不足以奉有余。",
+      "pinyin_orig": "zhī dào",
+      "pinyin_target": "zhǐ dǎo"
+    },
+    {
+      "original_text": "有余",
+      "replaced_word": "有雨",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "天之道，损有余而补不足。人之道，则不然，损不足以奉【有雨】。",
+      "pinyin_orig": "yǒu yú",
+      "pinyin_target": "yǒu yǔ"
+    },
+    {
+      "original_text": "国之",
+      "replaced_word": "果汁",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "柔弱胜刚强。鱼不可脱于渊，【果汁】利器不可以示人。",
+      "pinyin_orig": "guó zhī",
+      "pinyin_target": "guǒ zhī"
+    },
+    {
+      "original_text": "之利",
+      "replaced_word": "直立",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "柔弱胜刚强。鱼不可脱于渊，国【直立】器不可以示人。",
+      "pinyin_orig": "zhī lì",
+      "pinyin_target": "zhí lì"
+    }
+  ],
+  "《历代名篇辞赋合集》": [
+    {
+      "original_text": "游于",
+      "replaced_word": "有余",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "壬戌之秋，七月既望，苏子与客泛舟【有余】赤壁之下。清风徐来，水波不兴。举酒属客，诵明月之诗，歌窈窕之章。",
+      "pinyin_orig": "yóu yú",
+      "pinyin_target": "yǒu yú"
+    },
+    {
+      "original_text": "游于",
+      "replaced_word": "有雨",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "壬戌之秋，七月既望，苏子与客泛舟【有雨】赤壁之下。清风徐来，水波不兴。举酒属客，诵明月之诗，歌窈窕之章。",
+      "pinyin_orig": "yóu yú",
+      "pinyin_target": "yǒu yǔ"
+    },
+    {
+      "original_text": "蠡之",
+      "replaced_word": "离职",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "落霞与孤鹜齐飞，秋水共长天一色。渔舟唱晚，响穷彭【离职】滨；雁阵惊寒，声断衡阳之浦。",
+      "pinyin_orig": "lí zhī",
+      "pinyin_target": "lí zhí"
+    },
+    {
+      "original_text": "曜秋",
+      "replaced_word": "要求",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "翩若惊鸿，婉若游龙。荣【要求】菊，华茂春松。髣髴兮若轻云之蔽月，飘飖兮若流风之回雪。",
+      "pinyin_orig": "yào qiū",
+      "pinyin_target": "yāo qiú"
+    }
+  ]
+}

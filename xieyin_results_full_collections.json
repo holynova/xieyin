@@ -1,0 +1,237 @@
+{
+  "《唐诗三百首合集》": [
+    {
+      "original_text": "同是",
+      "replaced_word": "同事",
+      "length": 2,
+      "match_type": "全同音同声调",
+      "is_same_tone": true,
+      "pun_sentence": "【同事】天涯沦落人，相逢何必曾相识。",
+      "pinyin_orig": "tóng shì",
+      "pinyin_target": "tóng shì"
+    },
+    {
+      "original_text": "努力",
+      "replaced_word": "奴隶",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "少壮不【奴隶】，老大徒伤悲。",
+      "pinyin_orig": "nǔ lì",
+      "pinyin_target": "nú lì"
+    },
+    {
+      "original_text": "老大",
+      "replaced_word": "劳大",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "少壮不努力，【劳大】徒伤悲。",
+      "pinyin_orig": "lǎo dà",
+      "pinyin_target": "láo dà"
+    },
+    {
+      "original_text": "枫渔",
+      "replaced_word": "风雨",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "月落乌啼霜满天，江【风雨】火对愁眠。",
+      "pinyin_orig": "fēng yú",
+      "pinyin_target": "fēng yǔ"
+    }
+  ],
+  "《宋词三百首合集》": [],
+  "《元曲三百首合集》": [],
+  "《历代辞赋合集》": [
+    {
+      "original_text": "游于",
+      "replaced_word": "有余",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "壬戌之秋，七月既望，苏子与客泛舟【有余】赤壁之下。清风徐来，水波不兴。举酒属客，诵明月之诗，歌窈窕之章。",
+      "pinyin_orig": "yóu yú",
+      "pinyin_target": "yǒu yú"
+    },
+    {
+      "original_text": "游于",
+      "replaced_word": "有雨",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "壬戌之秋，七月既望，苏子与客泛舟【有雨】赤壁之下。清风徐来，水波不兴。举酒属客，诵明月之诗，歌窈窕之章。",
+      "pinyin_orig": "yóu yú",
+      "pinyin_target": "yǒu yǔ"
+    },
+    {
+      "original_text": "蠡之",
+      "replaced_word": "离职",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "落霞与孤鹜齐飞，秋水共长天一色。渔舟唱晚，响穷彭【离职】滨；雁阵惊寒，声断衡阳之浦。",
+      "pinyin_orig": "lí zhī",
+      "pinyin_target": "lí zhí"
+    }
+  ],
+  "《声律启蒙合集》": [],
+  "《三字经全本》": [
+    {
+      "original_text": "之初",
+      "replaced_word": "支出",
+      "length": 2,
+      "match_type": "全同音同声调",
+      "is_same_tone": true,
+      "pun_sentence": "人【支出】，性本善。性相近，习相远。",
+      "pinyin_orig": "zhī chū",
+      "pinyin_target": "zhī chū"
+    },
+    {
+      "original_text": "习相",
+      "replaced_word": "西厢",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "人之初，性本善。性相近，【西厢】远。",
+      "pinyin_orig": "xí xiāng",
+      "pinyin_target": "xī xiāng"
+    },
+    {
+      "original_text": "之道",
+      "replaced_word": "指导",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "苟不教，性乃迁。教【指导】，贵以专。",
+      "pinyin_orig": "zhī dào",
+      "pinyin_target": "zhǐ dǎo"
+    },
+    {
+      "original_text": "五行",
+      "replaced_word": "无形",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "曰水火，木金土。此【无形】，本乎数。",
+      "pinyin_orig": "wǔ xíng",
+      "pinyin_target": "wú xíng"
+    }
+  ],
+  "《千字文全本》": [
+    {
+      "original_text": "有虞",
+      "replaced_word": "有余",
+      "length": 2,
+      "match_type": "全同音同声调",
+      "is_same_tone": true,
+      "pun_sentence": "始制文字，乃服衣裳。推位让国，【有余】陶唐。",
+      "pinyin_orig": "yǒu yú",
+      "pinyin_target": "yǒu yú"
+    },
+    {
+      "original_text": "有虞",
+      "replaced_word": "有雨",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "始制文字，乃服衣裳。推位让国，【有雨】陶唐。",
+      "pinyin_orig": "yǒu yú",
+      "pinyin_target": "yǒu yǔ"
+    }
+  ],
+  "《论语全篇》": [
+    {
+      "original_text": "时习",
+      "replaced_word": "实习",
+      "length": 2,
+      "match_type": "全同音同声调",
+      "is_same_tone": true,
+      "pun_sentence": "学而【实习】之，不亦说乎？有朋自远方来，不亦乐乎？",
+      "pinyin_orig": "shí xí",
+      "pinyin_target": "shí xí"
+    },
+    {
+      "original_text": "自远",
+      "replaced_word": "资源",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "学而时习之，不亦说乎？有朋【资源】方来，不亦乐乎？",
+      "pinyin_orig": "zì yuǎn",
+      "pinyin_target": "zī yuán"
+    },
+    {
+      "original_text": "下问",
+      "replaced_word": "下文",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "敏而好学，不耻【下文】。",
+      "pinyin_orig": "xià wèn",
+      "pinyin_target": "xià wén"
+    },
+    {
+      "original_text": "我师",
+      "replaced_word": "卧室",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "三人行，必有【卧室】焉。择其善者而从之。",
+      "pinyin_orig": "wǒ shī",
+      "pinyin_target": "wò shì"
+    },
+    {
+      "original_text": "省也",
+      "replaced_word": "生椰",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "见贤思齐焉，见不贤而内自【生椰】。",
+      "pinyin_orig": "shěng yě",
+      "pinyin_target": "shēng yē"
+    }
+  ],
+  "《道德经八十一章全本》": [
+    {
+      "original_text": "里之",
+      "replaced_word": "离职",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "千【离职】行，始于足下。",
+      "pinyin_orig": "lǐ zhī",
+      "pinyin_target": "lí zhí"
+    },
+    {
+      "original_text": "之道",
+      "replaced_word": "指导",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "天【指导】，损有余而补不足。",
+      "pinyin_orig": "zhī dào",
+      "pinyin_target": "zhǐ dǎo"
+    },
+    {
+      "original_text": "有余",
+      "replaced_word": "有雨",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "天之道，损【有雨】而补不足。",
+      "pinyin_orig": "yǒu yú",
+      "pinyin_target": "yǒu yǔ"
+    },
+    {
+      "original_text": "国之",
+      "replaced_word": "果汁",
+      "length": 2,
+      "match_type": "全同音异声调",
+      "is_same_tone": false,
+      "pun_sentence": "鱼不可脱于渊，【果汁】利器不可以示人。",
+      "pinyin_orig": "guó zhī",
+      "pinyin_target": "guǒ zhī"
+    }
+  ]
+}
