@@ -1,6 +1,6 @@
-# Codex Resets (https://codex-resets.com/) 真实设计规范 (Design System)
+# 古籍谐音梗追踪器设计规范
 
-本规范精准提取自 **Codex Resets** 的官方源码样式（Visual Thesis: **Sticker-Sheet Neo-Brutalism**）。
+本规范记录古籍谐音梗追踪器当前使用的暖色纸张质感、卡片布局与交互反馈，作为后续页面维护的统一依据。
 
 ---
 
@@ -12,14 +12,14 @@
    - **边框 (Border)**：`2px solid #26201a`（2像素纯硬黑线）。
    - **投影 (Shadow)**：`4px 4px 0 #26201a`（物理 4px 4px 无模糊黑色偏移硬投影）。
 3. **贴纸卡片与微妙倾斜 (Pastel Sticker Cards with Slight Rotation)**：
-   - 卡片带有微微随机倾斜角度（`-0.4deg` / `0.8deg` / `-1.2deg`），营造轻松幽默的贴纸效果（Sticker-sheet feel）。
+   - 卡片带有微微随机倾斜角度（`-0.4deg` / `0.8deg` / `-1.2deg`），营造轻松幽默的层次感。
    - 核心数字/梗词带有鲜明暖黄色手贴底纹（`#ffd84d`）。
 4. **物理按压反馈 (Physical Depress Feedback)**：
    - 按钮在点击/激活时下沉：`transform: translate(3px, 3px); box-shadow: 0 0 0 #26201a;`。
 
 ---
 
-## 🎨 二、 官方精准色彩系统 (Color Tokens)
+## 🎨 二、 页面色彩系统 (Color Tokens)
 
 ```css
 :root {
@@ -52,7 +52,7 @@
 ### 1. Masthead (顶栏)
 - 左侧为带 2px 粗黑边边框与 3px 阴影的圆形 Avatar，带倾斜悬浮旋转效果（`transform: rotate(-4deg)`）。
 - 主标题：`font-size: 32px; font-weight: 800;` 加上圆润的粗体 Display 字体。
-- 右侧包含药丸型 Telegram / 订阅样式的硬阴影按钮。
+- 右侧包含通往项目源码的硬阴影按钮。
 
 ### 2. Hero Box (核心大面板)
 - 纸质微点背景：`background-image: radial-gradient(rgba(38, 32, 26, 0.1) 1.5px, transparent 1.5px);`。

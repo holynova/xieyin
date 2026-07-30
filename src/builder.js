@@ -1,7 +1,7 @@
 /**
  * 前端 HTML 构建器 (src/builder.js - Node.js JavaScript 版)
  * 职责：读取 dist/xieyin_results.json，生成离线单文件 HTML 网页
- * 特性：在 Masthead 中加入 GitHub Repo 链接按钮
+ * 特性：提供词库质量信息、筛选和项目源码入口
  */
 
 const fs = require('fs');
@@ -29,7 +29,15 @@ function buildHtml(
         kw: item.replaced_word,
         pyO: item.pinyin_orig,
         pyT: item.pinyin_target,
-        sameTone: item.is_same_tone
+        sameTone: item.is_same_tone,
+        modernScore: item.modern_score,
+        qualityScore: item.quality_score,
+        source: item.source,
+        category: item.category,
+        curated: item.curated,
+        wordCount: item.word_count,
+        contextDiversity: item.context_diversity,
+        zipf: item.zipf
       });
       uniqueWordsSet.add(item.replaced_word);
     }
@@ -37,17 +45,21 @@ function buildHtml(
 
   const jsonEmbedded = JSON.stringify(allItems);
   const wordsList = Array.from(uniqueWordsSet);
+  const sameToneWordsList = Array.from(new Set(
+    allItems.filter(item => item.sameTone).map(item => item.kw)
+  ));
   const wordsEmbedded = JSON.stringify(wordsList);
+  const sameToneWordsEmbedded = JSON.stringify(sameToneWordsList);
   const totalCount = allItems.length;
-  const uniqueWordCount = wordsList.length;
   const sameToneCount = allItems.filter(i => i.sameTone).length;
+  const sameToneWordCount = sameToneWordsList.length;
 
   const htmlContent = `<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Codex Resets — 古籍典籍谐音梗追踪器</title>
+  <title>古籍谐音梗追踪器</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Noto+Serif+SC:wght@700;900&display=swap" rel="stylesheet">
@@ -114,6 +126,9 @@ function buildHtml(
 
     .filter-card { background: var(--card); border: var(--border); border-radius: var(--radius); box-shadow: var(--shadow-sm); padding: 20px; margin-bottom: 32px; }
     .search-input { width: 100%; background: var(--paper); border: var(--border); border-radius: 10px; padding: 12px 16px; font-size: 15px; outline: none; margin-bottom: 14px; }
+    .filter-group { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-top: 12px; }
+    .filter-group:first-of-type { margin-top: 0; }
+    .filter-label { min-width: 68px; font-family: var(--font-mono); font-size: 12px; color: var(--ink-3); }
     .category-pills { display: flex; gap: 8px; flex-wrap: wrap; }
     .pill-btn { background: var(--paper); border: var(--border); color: var(--ink); padding: 6px 14px; border-radius: 999px; font-family: var(--font-display); font-size: 13px; font-weight: 700; cursor: pointer; box-shadow: 2px 2px 0 var(--ink); }
     .pill-btn.active { background: var(--accent); color: #fff; transform: translate(2px, 2px); box-shadow: 0 0 0 var(--ink); }
@@ -154,40 +169,40 @@ function buildHtml(
     <div class="masthead-brand">
       <div class="masthead-avatar">🎯</div>
       <div>
-        <h1 class="masthead-title">Codex Resets · 古籍典籍谐音梗追踪器</h1>
-        <p class="masthead-tagline">涵盖明星/电影/流行歌曲/地气现代词 &middot; 点击词汇标签即时过滤</p>
+        <h1 class="masthead-title">古籍谐音梗追踪器</h1>
+        <p class="masthead-tagline">从古籍原句中寻找现代汉语谐音表达 &middot; 点击词语即可筛选</p>
       </div>
     </div>
     <a href="https://github.com/holynova/xieyin" target="_blank" class="github-link-btn">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
-      <span>GitHub Repo</span>
+      <span>项目源码</span>
     </a>
   </header>
 
   <main>
     <section class="hero">
       <p class="hero-explainer">
-        严守 <strong>不跨标点断句</strong> 与 <strong>N字对N字全音节对齐法则</strong>。
+        严守 <strong>不跨标点断句</strong> 与 <strong>N字对N字全音节对齐法则</strong>，默认只展示同音同调优选结果。
       </p>
 
       <div class="hero-card">
         <span class="hero-label">典籍反差梗示范</span>
-        <span class="hero-figure">落霞与【鼓舞】齐飞，秋水共长天一色。</span>
-        <p class="hero-sub">《滕王阁序》「孤鹜」(gū wù) ── 现代高频词《鼓舞》(gǔ wǔ)</p>
+        <span class="hero-figure">【天知道】，损有余而补不足。</span>
+        <p class="hero-sub">《道德经》「天之道」(tiān zhī dào) ── 现代常用语「天知道」(tiān zhī dào)</p>
       </div>
 
       <dl class="stat-row">
         <div class="stat-tile stat-tile--sun">
-          <dt>扫描发现总梗数</dt>
-          <dd class="mono" id="statCount">${totalCount}</dd>
+          <dt>当前显示结果</dt>
+          <dd class="mono" id="statCount">${sameToneCount}</dd>
         </div>
         <div class="stat-tile stat-tile--rose">
-          <dt>发现真现代词</dt>
-          <dd class="mono">${uniqueWordCount} 个</dd>
+          <dt>同音同调现代词</dt>
+          <dd class="mono">${sameToneWordCount} 个</dd>
         </div>
         <div class="stat-tile stat-tile--sky">
-          <dt>完全同音同调梗</dt>
-          <dd class="mono" id="statSameTone">${sameToneCount}</dd>
+          <dt>扩展候选总数</dt>
+          <dd class="mono">${totalCount}</dd>
         </div>
       </dl>
     </section>
@@ -195,23 +210,33 @@ function buildHtml(
     <section class="word-cloud-card">
       <div class="word-cloud-header">
         <div class="word-cloud-title">
-          <span>📦 扫描发现的全量现代词汇展示墙</span>
+          <span>📦 候选现代词</span>
         </div>
-        <span class="word-cloud-sub">共匹配到 ${uniqueWordCount} 个真现代词汇（点击可直接搜索过滤）</span>
+        <span class="word-cloud-sub">词频、语境覆盖度与人工审核后的候选词（点击可过滤）</span>
       </div>
       <div class="word-tags-container" id="wordTagsContainer"></div>
     </section>
 
     <section class="filter-card">
       <input type="text" class="search-input" id="searchInput" placeholder="搜索任意现代词（如：晴天、加仓、同事、实习、离职、指导）、古籍...">
-      <div class="category-pills" id="categoryPills">
-        <button class="pill-btn active" data-cat="ALL">全部典籍 (${totalCount}条)</button>
-        <button class="pill-btn" data-cat="《唐诗名篇全本》">《唐诗名篇》</button>
-        <button class="pill-btn" data-cat="《宋词名篇全本》">《宋词名篇》</button>
-        <button class="pill-btn" data-cat="《历代名篇辞赋》">《名篇辞赋》</button>
-        <button class="pill-btn" data-cat="《道德经八十一章全本》">《道德经》</button>
-        <button class="pill-btn" data-cat="《诗经全集名篇》">《诗经全集》</button>
-        <button class="pill-btn" data-cat="《论语全篇精选》">《论语全篇》</button>
+      <div class="filter-group">
+        <span class="filter-label">匹配精度</span>
+        <div class="category-pills" id="tonePills">
+          <button class="pill-btn active" data-tone="same">同音同调 (${sameToneCount})</button>
+          <button class="pill-btn" data-tone="all">扩展匹配 (${totalCount})</button>
+        </div>
+      </div>
+      <div class="filter-group">
+        <span class="filter-label">典籍范围</span>
+        <div class="category-pills" id="categoryPills">
+          <button class="pill-btn active" data-cat="ALL">全部典籍</button>
+          <button class="pill-btn" data-cat="《唐诗名篇全本》">《唐诗名篇》</button>
+          <button class="pill-btn" data-cat="《宋词名篇全本》">《宋词名篇》</button>
+          <button class="pill-btn" data-cat="《历代名篇辞赋》">《名篇辞赋》</button>
+          <button class="pill-btn" data-cat="《道德经八十一章全本》">《道德经》</button>
+          <button class="pill-btn" data-cat="《诗经全集名篇》">《诗经全集》</button>
+          <button class="pill-btn" data-cat="《论语全篇精选》">《论语全篇》</button>
+        </div>
       </div>
     </section>
 
@@ -234,18 +259,22 @@ function buildHtml(
 
 <script>
   const RAW_DATA = ${jsonEmbedded};
-  const WORDS_LIST = ${wordsEmbedded};
+  const WORDS_BY_TONE = {
+    same: ${sameToneWordsEmbedded},
+    all: ${wordsEmbedded}
+  };
 
   let currentPage = 1;
   const pageSize = 15;
   let activeCat = 'ALL';
+  let toneMode = 'same';
   let searchQuery = '';
 
   const punList = document.getElementById('punList');
   const searchInput = document.getElementById('searchInput');
   const categoryPills = document.getElementById('categoryPills');
+  const tonePills = document.getElementById('tonePills');
   const statCount = document.getElementById('statCount');
-  const statSameTone = document.getElementById('statSameTone');
   const toast = document.getElementById('toast');
   const pageInfo = document.getElementById('pageInfo');
   const prevBtn = document.getElementById('prevBtn');
@@ -254,9 +283,19 @@ function buildHtml(
   const wordTagsContainer = document.getElementById('wordTagsContainer');
 
   function renderWordCloud() {
-    wordTagsContainer.innerHTML = WORDS_LIST.map(word => {
+    wordTagsContainer.innerHTML = WORDS_BY_TONE[toneMode].map(word => {
       return \`<span class="word-tag-sticker" onclick="selectWord('\${word}')">\${word}</span>\`;
     }).join('');
+  }
+
+  function getFilteredData() {
+    return RAW_DATA.filter(item => {
+      const matchTone = toneMode === 'all' || item.sameTone;
+      const matchCat = activeCat === 'ALL' || item.doc === activeCat;
+      const q = searchQuery.toLowerCase().trim();
+      const matchQ = !q || item.pun.toLowerCase().includes(q) || item.orig.toLowerCase().includes(q) || item.kw.toLowerCase().includes(q) || item.oText.toLowerCase().includes(q);
+      return matchTone && matchCat && matchQ;
+    });
   }
 
   function selectWord(word) {
@@ -268,15 +307,9 @@ function buildHtml(
   }
 
   function render() {
-    const filtered = RAW_DATA.filter(item => {
-      const matchCat = activeCat === 'ALL' || item.doc === activeCat;
-      const q = searchQuery.toLowerCase().trim();
-      const matchQ = !q || item.pun.toLowerCase().includes(q) || item.orig.toLowerCase().includes(q) || item.kw.toLowerCase().includes(q) || item.oText.toLowerCase().includes(q);
-      return matchCat && matchQ;
-    });
+    const filtered = getFilteredData();
 
     statCount.textContent = filtered.length;
-    statSameTone.textContent = filtered.filter(i => i.sameTone).length;
 
     const totalPages = Math.ceil(filtered.length / pageSize) || 1;
     if (currentPage > totalPages) currentPage = totalPages;
@@ -313,7 +346,8 @@ function buildHtml(
 
           <div class="mono-breakdown">
             <div>
-              切片 <strong>\${item.oText}</strong> (\${item.pyO}) ──▶ 现代词 <strong>\${item.kw}</strong> (\${item.pyT})
+              切片 <strong>\${item.oText}</strong> (\${item.pyO}) ──▶ 现代词 <strong>\${item.kw}</strong> (\${item.pyT})<br>
+              来源：\${item.source} · 现代度 \${item.modernScore}/100\${item.curated ? ' · 人工审核' : ''}
             </div>
             <button class="btn-copy" onclick="copyText('\${item.pun.replace(/【|】/g, '')}')">复制</button>
           </div>
@@ -338,11 +372,7 @@ function buildHtml(
   });
 
   nextBtn.addEventListener('click', () => {
-    const filtered = RAW_DATA.filter(item => {
-      const matchCat = activeCat === 'ALL' || item.doc === activeCat;
-      const q = searchQuery.toLowerCase().trim();
-      return matchCat && (!q || item.pun.toLowerCase().includes(q) || item.orig.toLowerCase().includes(q) || item.kw.toLowerCase().includes(q));
-    });
+    const filtered = getFilteredData();
     const totalPages = Math.ceil(filtered.length / pageSize) || 1;
     if (currentPage < totalPages) {
       currentPage++;
@@ -359,10 +389,21 @@ function buildHtml(
 
   categoryPills.addEventListener('click', (e) => {
     if (e.target.classList.contains('pill-btn')) {
-      document.querySelectorAll('.pill-btn').forEach(btn => btn.classList.remove('active'));
+      categoryPills.querySelectorAll('.pill-btn').forEach(btn => btn.classList.remove('active'));
       e.target.classList.add('active');
       activeCat = e.target.getAttribute('data-cat');
       currentPage = 1;
+      render();
+    }
+  });
+
+  tonePills.addEventListener('click', (e) => {
+    if (e.target.classList.contains('pill-btn')) {
+      tonePills.querySelectorAll('.pill-btn').forEach(btn => btn.classList.remove('active'));
+      e.target.classList.add('active');
+      toneMode = e.target.getAttribute('data-tone');
+      currentPage = 1;
+      renderWordCloud();
       render();
     }
   });
