@@ -1,0 +1,21 @@
+{
+  "name": "xieyin",
+  "version": "1.0.0",
+  "description": "Codex Resets - 典籍谐音梗追踪器与离线展示系统",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js",
+    "start": "node build.js"
+  },
+  "keywords": [
+    "homophonic",
+    "puns",
+    "classical-chinese",
+    "neo-brutalism"
+  ],
+  "author": "holy_nova",
+  "license": "ISC",
+  "dependencies": {
+    "pinyin-pro": "^3.27.0"
+  }
+}
