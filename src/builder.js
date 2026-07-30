@@ -1,6 +1,7 @@
 /**
  * 前端 HTML 构建器 (src/builder.js - Node.js JavaScript 版)
- * 职责：读取 dist/xieyin_results.json，生成离线单文件 HTML 网页（100% Codex-Resets 视觉）
+ * 职责：读取 dist/xieyin_results.json，生成离线单文件 HTML 网页
+ * 特性：新增“扫描发现的全量现代词库”专属展示板块，点击可即时筛选典籍梗！
  */
 
 const fs = require('fs');
@@ -16,6 +17,8 @@ function buildHtml(
   const dataJson = JSON.parse(content);
 
   const allItems = [];
+  const uniqueWordsSet = new Set();
+
   for (const [doc, items] of Object.entries(dataJson)) {
     for (const item of items) {
       allItems.push({
@@ -28,11 +31,15 @@ function buildHtml(
         pyT: item.pinyin_target,
         sameTone: item.is_same_tone
       });
+      uniqueWordsSet.add(item.replaced_word);
     }
   }
 
   const jsonEmbedded = JSON.stringify(allItems);
+  const wordsList = Array.from(uniqueWordsSet);
+  const wordsEmbedded = JSON.stringify(wordsList);
   const totalCount = allItems.length;
+  const uniqueWordCount = wordsList.length;
   const sameToneCount = allItems.filter(i => i.sameTone).length;
 
   const htmlContent = `<!DOCTYPE html>
@@ -40,7 +47,7 @@ function buildHtml(
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Codex Resets — 古籍典籍谐音梗追踪器 (Node.js Build)</title>
+  <title>Codex Resets — 古籍典籍谐音梗追踪器</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Noto+Serif+SC:wght@700;900&display=swap" rel="stylesheet">
@@ -90,6 +97,18 @@ function buildHtml(
     .stat-tile dt { font-family: var(--font-mono); font-size: 11px; text-transform: uppercase; opacity: 0.8; margin-bottom: 4px; }
     .stat-tile dd { font-family: var(--font-display); font-size: 32px; font-weight: 800; }
 
+    /* 📦 新增专属板块：扫描发现的全量现代词云墙 */
+    .word-cloud-card { background: var(--card); border: var(--border); border-radius: var(--radius); box-shadow: var(--shadow); padding: 24px 28px; margin-bottom: 36px; }
+    .word-cloud-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; border-bottom: 1.5px dashed rgba(38,32,26,0.2); padding-bottom: 12px; }
+    .word-cloud-title { font-family: var(--font-display); font-size: 20px; font-weight: 800; display: flex; align-items: center; gap: 8px; }
+    .word-cloud-sub { font-family: var(--font-mono); font-size: 12px; color: var(--ink-3); }
+    .word-tags-container { display: flex; flex-wrap: wrap; gap: 8px; max-height: 220px; overflow-y: auto; padding: 4px; }
+    .word-tags-container::-webkit-scrollbar { width: 6px; }
+    .word-tags-container::-webkit-scrollbar-thumb { background: var(--ink-3); border-radius: 4px; }
+    .word-tag-sticker { background: var(--paper); border: 1.5px solid var(--ink); padding: 3px 10px; border-radius: 8px; font-family: var(--font-display); font-size: 13px; font-weight: 700; color: var(--ink); cursor: pointer; box-shadow: 2px 2px 0 var(--ink); transition: all 0.15s ease; user-select: none; }
+    .word-tag-sticker:hover { background: var(--sun); transform: translate(-1px, -1px); box-shadow: 3px 3px 0 var(--ink); }
+    .word-tag-sticker:active { transform: translate(1px, 1px); box-shadow: 1px 1px 0 var(--ink); }
+
     .filter-card { background: var(--card); border: var(--border); border-radius: var(--radius); box-shadow: var(--shadow-sm); padding: 20px; margin-bottom: 32px; }
     .search-input { width: 100%; background: var(--paper); border: var(--border); border-radius: 10px; padding: 12px 16px; font-size: 15px; outline: none; margin-bottom: 14px; }
     .category-pills { display: flex; gap: 8px; flex-wrap: wrap; }
@@ -130,10 +149,10 @@ function buildHtml(
 <div class="page">
   <header class="masthead">
     <div class="masthead-brand">
-      <div class="masthead-avatar">⚡</div>
+      <div class="masthead-avatar">🎯</div>
       <div>
-        <h1 class="masthead-title">Codex Resets · 典籍谐音梗追踪器</h1>
-        <p class="masthead-tagline">Node.js 自动化流水线生成 &middot; 离线全量数据内嵌网页</p>
+        <h1 class="masthead-title">Codex Resets · 古籍典籍谐音梗追踪器</h1>
+        <p class="masthead-tagline">涵盖明星/电影/流行歌曲/地气现代词 &middot; 点击词汇标签即时过滤</p>
       </div>
     </div>
   </header>
@@ -156,18 +175,29 @@ function buildHtml(
           <dd class="mono" id="statCount">${totalCount}</dd>
         </div>
         <div class="stat-tile stat-tile--rose">
-          <dt>完全同音同调梗</dt>
-          <dd class="mono" id="statSameTone">${sameToneCount}</dd>
+          <dt>发现真实现代词</dt>
+          <dd class="mono">${uniqueWordCount} 个</dd>
         </div>
         <div class="stat-tile stat-tile--sky">
-          <dt>Node.js构建</dt>
-          <dd class="mono">SUCCESS</dd>
+          <dt>完全同音同调梗</dt>
+          <dd class="mono" id="statSameTone">${sameToneCount}</dd>
         </div>
       </dl>
     </section>
 
+    <!-- 📦 新增专属板块：直接展示扫描发现的全量现代词汇 -->
+    <section class="word-cloud-card">
+      <div class="word-cloud-header">
+        <div class="word-cloud-title">
+          <span>📦 扫描发现的全量现代词汇展示墙</span>
+        </div>
+        <span class="word-cloud-sub">共匹配到 ${uniqueWordCount} 个真实现代词汇（点击可直接搜索过滤）</span>
+      </div>
+      <div class="word-tags-container" id="wordTagsContainer"></div>
+    </section>
+
     <section class="filter-card">
-      <input type="text" class="search-input" id="searchInput" placeholder="搜索任意关键词（如：晴天、鼓舞、起飞、犹豫、由于、宇宙、加仓）、古籍...">
+      <input type="text" class="search-input" id="searchInput" placeholder="搜索任意现代词（如：晴天、加仓、同事、实习、离职、指导）、古籍...">
       <div class="category-pills" id="categoryPills">
         <button class="pill-btn active" data-cat="ALL">全部典籍 (${totalCount}条)</button>
         <button class="pill-btn" data-cat="《唐诗名篇全本》">《唐诗名篇》</button>
@@ -180,7 +210,7 @@ function buildHtml(
     </section>
 
     <div class="section-head">
-      <h2>典籍谐音梗日志</h2>
+      <h2>典籍谐音梗日志列表</h2>
       <span class="section-sub" id="resultSummary">正在加载数据...</span>
     </div>
 
@@ -198,6 +228,7 @@ function buildHtml(
 
 <script>
   const RAW_DATA = ${jsonEmbedded};
+  const WORDS_LIST = ${wordsEmbedded};
 
   let currentPage = 1;
   const pageSize = 15;
@@ -214,6 +245,22 @@ function buildHtml(
   const prevBtn = document.getElementById('prevBtn');
   const nextBtn = document.getElementById('nextBtn');
   const resultSummary = document.getElementById('resultSummary');
+  const wordTagsContainer = document.getElementById('wordTagsContainer');
+
+  // 渲染专属现代词汇 Sticker 标签墙
+  function renderWordCloud() {
+    wordTagsContainer.innerHTML = WORDS_LIST.map(word => {
+      return \`<span class="word-tag-sticker" onclick="selectWord('\${word}')">\${word}</span>\`;
+    }).join('');
+  }
+
+  function selectWord(word) {
+    searchInput.value = word;
+    searchQuery = word;
+    currentPage = 1;
+    render();
+    window.scrollTo({ top: 580, behavior: 'smooth' });
+  }
 
   function render() {
     const filtered = RAW_DATA.filter(item => {
@@ -281,7 +328,7 @@ function buildHtml(
     if (currentPage > 1) {
       currentPage--;
       render();
-      window.scrollTo({ top: 380, behavior: 'smooth' });
+      window.scrollTo({ top: 580, behavior: 'smooth' });
     }
   });
 
@@ -295,7 +342,7 @@ function buildHtml(
     if (currentPage < totalPages) {
       currentPage++;
       render();
-      window.scrollTo({ top: 380, behavior: 'smooth' });
+      window.scrollTo({ top: 580, behavior: 'smooth' });
     }
   });
 
@@ -315,6 +362,7 @@ function buildHtml(
     }
   });
 
+  renderWordCloud();
   render();
 </script>
 </body>
