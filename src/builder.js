@@ -1,7 +1,7 @@
 /**
  * 前端 HTML 构建器 (src/builder.js - Node.js JavaScript 版)
  * 职责：读取 dist/xieyin_results.json，生成离线单文件 HTML 网页
- * 特性：新增“扫描发现的全量现代词库”专属展示板块，点击可即时筛选典籍梗！
+ * 特性：在 Masthead 中加入 GitHub Repo 链接按钮
  */
 
 const fs = require('fs');
@@ -77,11 +77,15 @@ function buildHtml(
     .mono { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
     .page { max-width: 880px; margin: 0 auto; padding: 0 24px 72px; }
 
-    .masthead { display: flex; align-items: center; gap: 16px; padding: 34px 0 16px; border-bottom: 1px solid rgba(38,32,26,0.15); margin-bottom: 32px; }
+    .masthead { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 34px 0 16px; border-bottom: 1px solid rgba(38,32,26,0.15); margin-bottom: 32px; }
     .masthead-brand { display: flex; align-items: center; gap: 14px; }
     .masthead-avatar { width: 52px; height: 52px; border-radius: 50%; border: var(--border); box-shadow: var(--shadow-sm); background: var(--sun); display: flex; align-items: center; justify-content: center; font-size: 26px; transform: rotate(-4deg); }
-    .masthead-title { font-family: var(--font-display); font-size: clamp(26px, 4.5vw, 34px); font-weight: 800; line-height: 1.05; }
+    .masthead-title { font-family: var(--font-display); font-size: clamp(24px, 4.5vw, 34px); font-weight: 800; line-height: 1.05; }
     .masthead-tagline { font-size: 13px; font-style: italic; color: var(--ink-2); margin-top: 2px; }
+    
+    .github-link-btn { display: inline-flex; align-items: center; gap: 8px; background: var(--card); border: var(--border); border-radius: 10px; padding: 8px 14px; font-family: var(--font-display); font-size: 13px; font-weight: 800; color: var(--ink); text-decoration: none; box-shadow: var(--shadow-sm); transition: all 0.15s ease; white-space: nowrap; }
+    .github-link-btn:hover { background: var(--sun); transform: translate(-1px, -1px); box-shadow: var(--shadow); }
+    .github-link-btn:active { transform: translate(1px, 1px); box-shadow: none; }
 
     .hero-explainer { max-width: 58ch; color: var(--ink-2); font-size: 17px; margin-bottom: 24px; }
     .hero-card { background: var(--card); background-image: radial-gradient(rgba(38, 32, 26, 0.12) 1.5px, transparent 1.5px); background-size: 18px 18px; border: var(--border); border-radius: var(--radius); box-shadow: 6px 6px 0 var(--ink); padding: 26px 30px 30px; transform: rotate(-0.4deg); margin-bottom: 32px; }
@@ -97,7 +101,6 @@ function buildHtml(
     .stat-tile dt { font-family: var(--font-mono); font-size: 11px; text-transform: uppercase; opacity: 0.8; margin-bottom: 4px; }
     .stat-tile dd { font-family: var(--font-display); font-size: 32px; font-weight: 800; }
 
-    /* 📦 新增专属板块：扫描发现的全量现代词云墙 */
     .word-cloud-card { background: var(--card); border: var(--border); border-radius: var(--radius); box-shadow: var(--shadow); padding: 24px 28px; margin-bottom: 36px; }
     .word-cloud-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; border-bottom: 1.5px dashed rgba(38,32,26,0.2); padding-bottom: 12px; }
     .word-cloud-title { font-family: var(--font-display); font-size: 20px; font-weight: 800; display: flex; align-items: center; gap: 8px; }
@@ -155,6 +158,10 @@ function buildHtml(
         <p class="masthead-tagline">涵盖明星/电影/流行歌曲/地气现代词 &middot; 点击词汇标签即时过滤</p>
       </div>
     </div>
+    <a href="https://github.com/holynova/xieyin" target="_blank" class="github-link-btn">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+      <span>GitHub Repo</span>
+    </a>
   </header>
 
   <main>
@@ -175,7 +182,7 @@ function buildHtml(
           <dd class="mono" id="statCount">${totalCount}</dd>
         </div>
         <div class="stat-tile stat-tile--rose">
-          <dt>发现真实现代词</dt>
+          <dt>发现真现代词</dt>
           <dd class="mono">${uniqueWordCount} 个</dd>
         </div>
         <div class="stat-tile stat-tile--sky">
@@ -185,13 +192,12 @@ function buildHtml(
       </dl>
     </section>
 
-    <!-- 📦 新增专属板块：直接展示扫描发现的全量现代词汇 -->
     <section class="word-cloud-card">
       <div class="word-cloud-header">
         <div class="word-cloud-title">
           <span>📦 扫描发现的全量现代词汇展示墙</span>
         </div>
-        <span class="word-cloud-sub">共匹配到 ${uniqueWordCount} 个真实现代词汇（点击可直接搜索过滤）</span>
+        <span class="word-cloud-sub">共匹配到 ${uniqueWordCount} 个真现代词汇（点击可直接搜索过滤）</span>
       </div>
       <div class="word-tags-container" id="wordTagsContainer"></div>
     </section>
@@ -247,7 +253,6 @@ function buildHtml(
   const resultSummary = document.getElementById('resultSummary');
   const wordTagsContainer = document.getElementById('wordTagsContainer');
 
-  // 渲染专属现代词汇 Sticker 标签墙
   function renderWordCloud() {
     wordTagsContainer.innerHTML = WORDS_LIST.map(word => {
       return \`<span class="word-tag-sticker" onclick="selectWord('\${word}')">\${word}</span>\`;
