@@ -1,6 +1,6 @@
 /**
- * 典籍谐音梗挖掘器 (src/miner.js - 高标精细化现代常用词版)
- * 职责：读取已大幅清洗的 data/ 词库，彻底隔离儿化音残字与生僻古风，挖掘地道谐音梗
+ * 典籍谐音梗挖掘器 (src/miner.js - 官方权威汉语大词典版)
+ * 职责：只载入 CC-CEDICT 官方权威汉语词典 (official_cedict.txt)，彻底摒弃旧机械生成词库！
  */
 
 const fs = require('fs');
@@ -10,7 +10,7 @@ const HomophonicEngine = require('./engine');
 function loadAllDictionaries(dictDir = path.join(process.cwd(), 'data', 'dictionaries')) {
   const wordsSet = new Set();
 
-  // 流行文化与常用热词表
+  // 流行文化与知名现代热词
   const popCulture = [
     "晴天", "七里香", "稻香", "青花瓷", "双截棍", "卡路里", "小苹果", "孤勇者", "野狼", "告白气球", "奢香夫人",
     "泰坦尼克", "阿凡达", "流浪地球", "热辣滚烫", "战狼", "满江红", "大话西游", "霸王别姬", "楚门的世界", "泰囧",
@@ -31,6 +31,8 @@ function loadAllDictionaries(dictDir = path.join(process.cwd(), 'data', 'diction
   if (fs.existsSync(dictDir)) {
     const files = fs.readdirSync(dictDir);
     for (const fname of files) {
+      // 仅读取 official_cedict.txt 以及 THUOCL 清华网络词库 txt
+      if (!fname.endsWith('.txt')) continue;
       const fpath = path.join(dictDir, fname);
       if (!fs.statSync(fpath).isFile()) continue;
 
@@ -38,13 +40,9 @@ function loadAllDictionaries(dictDir = path.join(process.cwd(), 'data', 'diction
       const lines = content.split('\n');
 
       for (const line of lines) {
-        const parts = line.trim().split(/\s+/);
-        if (!parts || parts.length === 0) continue;
-        const word = parts[0];
-        const freq = parseInt(parts[1], 10) || 1;
-
-        // 仅保留 2-4 字纯汉字，词频 >= 100，且不以 "儿" 结尾
-        if (/^[\u4e00-\u9fa5]{2,4}$/.test(word) && freq >= 100 && !word.endsWith('儿')) {
+        const word = line.trim().split(/\s+/)[0];
+        // 校验：必须是 2-4 字纯汉字，且不以 "儿" 结尾
+        if (/^[\u4e00-\u9fa5]{2,4}$/.test(word) && !word.endsWith('儿')) {
           wordsSet.add(word);
         }
       }
@@ -52,7 +50,7 @@ function loadAllDictionaries(dictDir = path.join(process.cwd(), 'data', 'diction
   }
 
   const finalWords = Array.from(wordsSet);
-  console.log(`[Miner JS] 已成功载入经大幅清洗的高频真实现代词库，共 ${finalWords.length} 个规范常用词！`);
+  console.log(`[Miner JS] 成功载入《CC-CEDICT 官方权威汉语大词典》与清华网络词库，共 ${finalWords.length} 个标准规范词汇！`);
   return finalWords;
 }
 
@@ -80,7 +78,7 @@ function minePuns(outputPath = path.join(process.cwd(), 'dist', 'xieyin_results.
   console.log('[Miner JS] 初始化 Node.js 谐音匹配引擎...');
   const engine = new HomophonicEngine(words);
 
-  console.log('[Miner JS] 开始挖掘高品质古籍典籍谐音梗...');
+  console.log('[Miner JS] 开始在权威汉语大词典下深度挖掘规范典籍梗...');
   let totalCount = 0;
   const resultsExport = {};
 
@@ -88,7 +86,6 @@ function minePuns(outputPath = path.join(process.cwd(), 'dist', 'xieyin_results.
     const bookPuns = [];
     for (const sent of sentences) {
       const puns = engine.findPuns(sent);
-      // 过滤掉儿化音
       const cleanPuns = puns.filter(p => !p.replaced_word.endsWith('儿'));
       bookPuns.push(...cleanPuns);
     }
@@ -103,7 +100,7 @@ function minePuns(outputPath = path.join(process.cwd(), 'dist', 'xieyin_results.
 
     resultsExport[bookName] = bookPuns;
     totalCount += bookPuns.length;
-    console.log(`  - ${bookName}: 挖掘到 ${bookPuns.length} 条高品质真梗！`);
+    console.log(`  - ${bookName}: 挖掘到 ${bookPuns.length} 条权威规范梗！`);
   }
 
   const distDir = path.dirname(outputPath);
