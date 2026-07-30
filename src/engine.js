@@ -1,71 +1,69 @@
 /**
- * 核心算法引擎模块 (src/engine.js)
- * 规则：
- * 1. 绝不跨标点符号断句切片。
- * 2. N字严格替换N字（无声调拼音逐字完全相同）。
+ * Homophonic matching engine.
+ *
+ * Rules:
+ * 1. Never create a window across punctuation or paragraph boundaries.
+ * 2. Match N Han characters against N Han characters.
+ * 3. Resolve polyphonic characters from the complete clause, then slice the
+ *    resolved pinyin arrays. Never re-pronounce an isolated 2–4 character span.
  */
 
-const { pinyin } = require('pinyin-pro');
+const { pinyin, customPinyin } = require('pinyin-pro');
+
+const HAN_RE = /\p{Script=Han}/u;
+const BOUNDARY_RE = /[，,。．.;；:：?？!！、…—–\-\n\r\t“”‘’「」『』《》〈〉（）()【】\[\]{}]/u;
+const PINYIN_OPTIONS = { type: 'array', toneSandhi: false, segmentit: 2 };
 
 class HomophonicEngine {
-  constructor(dictionaryWords) {
+  constructor(dictionaryWords, options = {}) {
     this.pinyinMap = new Map();
+    if (options.pinyinOverrides && Object.keys(options.pinyinOverrides).length) {
+      customPinyin(options.pinyinOverrides, { polyphonic: 'replace' });
+    }
 
     const uniqueWords = Array.from(new Set(dictionaryWords));
     for (const rawWord of uniqueWords) {
       const cleanWord = rawWord.trim();
       if (!cleanWord) continue;
-
-      // 使用 pinyin-pro 获取带声调与无声调拼音数组
-      const pFull = pinyin(cleanWord, { toneType: 'symbol', type: 'array' }).join(' ');
-      const pNormKey = pinyin(cleanWord, { toneType: 'none', type: 'array' }).join(' ');
-
+      const pFull = this._toPinyin(cleanWord, 'symbol').join(' ');
+      const pNormKey = this._toPinyin(cleanWord, 'none').join(' ');
       const item = {
         word: cleanWord,
-        length: cleanWord.length,
+        length: Array.from(cleanWord).length,
         pinyinFull: pFull,
         pinyinNormKey: pNormKey
       };
-
-      if (!this.pinyinMap.has(pNormKey)) {
-        this.pinyinMap.set(pNormKey, []);
-      }
+      if (!this.pinyinMap.has(pNormKey)) this.pinyinMap.set(pNormKey, []);
       this.pinyinMap.get(pNormKey).push(item);
     }
   }
 
+  _toPinyin(text, toneType) {
+    return pinyin(text, { ...PINYIN_OPTIONS, toneType });
+  }
+
   _splitIntoSubsentences(text) {
-    // 依据标点符号切割子句
-    const parts = text.split(/([，。；？！、\n\r\t“”《》兮])/);
     const result = [];
-    let currOffset = 0;
+    let chars = [];
+    let indices = [];
 
-    for (const part of parts) {
-      if (!part || /[，。；？！、\n\r\t“”《》兮]/.test(part)) {
-        currOffset += part ? part.length : 0;
-        continue;
+    const flush = () => {
+      if (chars.length) result.push({ subText: chars.join(''), indices });
+      chars = [];
+      indices = [];
+    };
+
+    let codeUnitOffset = 0;
+    for (const character of text) {
+      if (BOUNDARY_RE.test(character)) {
+        flush();
+      } else if (HAN_RE.test(character)) {
+        chars.push(character);
+        indices.push(codeUnitOffset);
       }
-
-      const chars = [];
-      const indices = [];
-
-      for (let i = 0; i < part.length; i++) {
-        const ch = part[i];
-        if (/[\u4e00-\u9fa5]/.test(ch)) {
-          chars.push(ch);
-          indices.push(currOffset + i);
-        }
-      }
-
-      if (chars.length > 0) {
-        result.append
-          ? result.append({ subText: chars.join(''), indices })
-          : result.push({ subText: chars.join(''), indices });
-      }
-
-      currOffset += part.length;
+      codeUnitOffset += character.length;
     }
-
+    flush();
     return result;
   }
 
@@ -76,58 +74,50 @@ class HomophonicEngine {
     for (const sub of subSents) {
       const chars = sub.subText;
       const indices = sub.indices;
-      const n = chars.length;
+      const n = Array.from(chars).length;
+      const contextFull = this._toPinyin(chars, 'symbol');
+      const contextNorm = this._toPinyin(chars, 'none');
+      if (contextFull.length !== n || contextNorm.length !== n) {
+        throw new Error(`拼音与汉字未对齐：${chars}`);
+      }
 
       for (let length = minLen; length <= maxLen; length++) {
         if (length > n) continue;
-
         for (let i = 0; i <= n - length; i++) {
-          const subChars = chars.slice(i, i + length);
-          const subPFull = pinyin(subChars, { toneType: 'symbol', type: 'array' }).join(' ');
-          const subPNormKey = pinyin(subChars, { toneType: 'none', type: 'array' }).join(' ');
+          const subChars = Array.from(chars).slice(i, i + length).join('');
+          const subPFull = contextFull.slice(i, i + length).join(' ');
+          const subPNormKey = contextNorm.slice(i, i + length).join(' ');
+          const candidateItems = this.pinyinMap.get(subPNormKey) || [];
 
-          if (this.pinyinMap.has(subPNormKey)) {
-            const candidateItems = this.pinyinMap.get(subPNormKey);
-
-            for (const item of candidateItems) {
-              if (subChars === item.word) continue;
-
-              const isSameTone = (subPFull === item.pinyinFull);
-              const matchType = isSameTone ? '全同音同调' : '全同音异声调';
-              const startIdx = indices[i];
-              const endIdx = indices[i + length - 1] + 1;
-
-              const punSent = fullSentence.slice(0, startIdx) + `【${item.word}】` + fullSentence.slice(endIdx);
-
-              matches.push({
-                original_text: subChars,
-                replaced_word: item.word,
-                length: length,
-                match_type: matchType,
-                is_same_tone: isSameTone,
-                pun_sentence: punSent,
-                pinyin_orig: subPFull,
-                pinyin_target: item.pinyinFull
-              });
-            }
+          for (const item of candidateItems) {
+            if (subChars === item.word) continue;
+            const isSameTone = subPFull === item.pinyinFull;
+            const startIdx = indices[i];
+            const endIdx = indices[i + length - 1] + 1;
+            matches.push({
+              original_text: subChars,
+              replaced_word: item.word,
+              length,
+              match_type: isSameTone ? '全同音同调' : '全同音异声调',
+              is_same_tone: isSameTone,
+              pun_sentence: `${fullSentence.slice(0, startIdx)}【${item.word}】${fullSentence.slice(endIdx)}`,
+              pinyin_orig: subPFull,
+              pinyin_target: item.pinyinFull
+            });
           }
         }
       }
     }
 
-    // 去重逻辑
     const seen = new Set();
-    const uniqueMatches = [];
-    for (const m of matches) {
-      const key = `${m.pun_sentence}_${m.replaced_word}`;
-      if (!seen.has(key)) {
-        seen.add(key);
-        uniqueMatches.push(m);
-      }
-    }
-
-    return uniqueMatches;
+    return matches.filter(match => {
+      const key = `${match.pun_sentence}_${match.replaced_word}`;
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
   }
 }
 
 module.exports = HomophonicEngine;
+module.exports.BOUNDARY_RE = BOUNDARY_RE;

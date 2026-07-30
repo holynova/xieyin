@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "description": "古诗文语境中 pinyin-pro 未稳定识别的多音词。键必须是完整上下文短语。",
+  "overrides": {
+    "还来就菊花": "huán lái jiù jú huā",
+    "便要还家": "biàn yāo huán jiā",
+    "浩浩汤汤": "hào hào shāng shāng",
+    "属予作文以记之": "zhǔ yú zuò wén yǐ jì zhī",
+    "范增数目项王": "fàn zēng shuò mù xiàng wáng",
+    "木直中绳": "mù zhí zhòng shéng",
+    "虽有槁暴": "suī yǒu gǎo pù",
+    "君子生非异也": "jūn zǐ xìng fēi yì yě",
+    "知明而行无过矣": "zhì míng ér xíng wú guò yǐ",
+    "渌水荡漾清猿啼": "lù shuǐ dàng yàng qīng yuán tí"
+  }
+}

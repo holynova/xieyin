@@ -5,7 +5,9 @@
   "main": "build.js",
   "scripts": {
     "build": "node build.js",
-    "start": "node build.js"
+    "start": "node build.js",
+    "test": "node --test",
+    "corpus:refresh": "node scripts/build_textbook_corpus.js"
   },
   "keywords": [
     "homophonic",

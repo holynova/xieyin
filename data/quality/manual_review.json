@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-07-30",
+  "method": "按小学、初中、高中、更多经典和同调／异调八个分层，在质量排序的多个分位点各抽取6条，共48条。",
+  "criteria": [
+    "原句或篇目具有广泛认知度",
+    "替换后能一眼看懂反差",
+    "读音在完整上下文中成立",
+    "不保留冒犯性、乱码或明显不成句的结果"
+  ],
+  "reviewed_count": 48,
+  "passed_count": 38,
+  "samples": [
+    { "result_id": "fc2c3ae99966", "verdict": "pass", "note": "看到／看道，反差清楚" },
+    { "result_id": "a156450a48e0", "verdict": "pass", "note": "事儿／示儿，口语感强" },
+    { "result_id": "6ae61b1e22db", "verdict": "pass", "note": "封面／风面，画面明确" },
+    { "result_id": "35c7ed1a431c", "verdict": "pass", "note": "延长／檐长，可理解" },
+    { "result_id": "9c7f36d487c3", "verdict": "pass", "note": "当做／当作，熟句反差" },
+    { "result_id": "e7437d0f22de", "verdict": "fail", "note": "替换后不成句" },
+
+    { "result_id": "a46b5205949b", "verdict": "pass", "note": "得到／得道，典型强结果" },
+    { "result_id": "892d622e735f", "verdict": "pass", "note": "慢慢／漫漫，自然" },
+    { "result_id": "0bedcc7bec47", "verdict": "pass", "note": "骑士／其氏，反差明确" },
+    { "result_id": "6b64c0e078b3", "verdict": "pass", "note": "轻轻／青青，熟句好懂" },
+    { "result_id": "b7bdd9fbd88c", "verdict": "fail", "note": "不已封疆语义生硬" },
+    { "result_id": "9cc77affec90", "verdict": "pass", "note": "不适／不是，反差可读" },
+
+    { "result_id": "115efbab44f1", "verdict": "pass", "note": "出来／初来，读起来顺" },
+    { "result_id": "be99b87527eb", "verdict": "pass", "note": "礼物／礼勿，反差很强" },
+    { "result_id": "dc6562606053", "verdict": "pass", "note": "仪式／遗世，现代感明确" },
+    { "result_id": "2af846f4396a", "verdict": "pass", "note": "告知／告之，自然" },
+    { "result_id": "2ad03e28104f", "verdict": "fail", "note": "替换后语义不完整" },
+    { "result_id": "20ffc6d85307", "verdict": "pass", "note": "置于／至于，可理解" },
+
+    { "result_id": "72e1a7d73df5", "verdict": "pass", "note": "知道／只道，熟句反差" },
+    { "result_id": "073a72efd631", "verdict": "pass", "note": "合适／何事，梗意清楚" },
+    { "result_id": "115843927769", "verdict": "fail", "note": "拆分篇名导致不自然" },
+    { "result_id": "d89cce4ccaaa", "verdict": "pass", "note": "绅士／身是，反差清楚" },
+    { "result_id": "6994873b9e42", "verdict": "pass", "note": "心意／心易，语义成立" },
+    { "result_id": "b2352333c85a", "verdict": "fail", "note": "视力残阳不成句" },
+
+    { "result_id": "330d6ab23c38", "verdict": "pass", "note": "出来／处来，熟句好懂" },
+    { "result_id": "34273f0b01e9", "verdict": "pass", "note": "唯一／惟弈，反差成立" },
+    { "result_id": "b8ba0f09a862", "verdict": "pass", "note": "消失／小时，简洁" },
+    { "result_id": "a76010d73b5a", "verdict": "fail", "note": "冒犯性词语，不展示" },
+    { "result_id": "138aca8f0952", "verdict": "pass", "note": "无辜／无故，反差自然" },
+    { "result_id": "1a27af2d3388", "verdict": "fail", "note": "脖子天涯不成句" },
+
+    { "result_id": "f2782d0432df", "verdict": "pass", "note": "不要／不妖，效果直接" },
+    { "result_id": "f64c44a188d2", "verdict": "pass", "note": "意思／一寺，读得通" },
+    { "result_id": "39c8212ab927", "verdict": "pass", "note": "只能／之能，语义成立" },
+    { "result_id": "8167c7b1c907", "verdict": "pass", "note": "手术／手熟，反差强" },
+    { "result_id": "6a73c6302735", "verdict": "pass", "note": "奇迹／其几，现代感强" },
+    { "result_id": "bf8b4087e667", "verdict": "fail", "note": "切片错误感明显" },
+
+    { "result_id": "ec24170ee536", "verdict": "pass", "note": "就是／旧时，熟句反差" },
+    { "result_id": "188b13ae4212", "verdict": "pass", "note": "晴天／青天，一眼能懂" },
+    { "result_id": "c4243e5ad845", "verdict": "pass", "note": "医院／衣远，荒诞感成立" },
+    { "result_id": "ce002eb44c25", "verdict": "pass", "note": "经验／静言，现代词明确" },
+    { "result_id": "2560a6afc917", "verdict": "fail", "note": "年龄表经年不成句" },
+    { "result_id": "2a2ff96bd20b", "verdict": "pass", "note": "模式／莫使，反差明确" },
+
+    { "result_id": "bc46ce7da456", "verdict": "pass", "note": "就是／旧时，经典熟句" },
+    { "result_id": "c4f874ccb528", "verdict": "pass", "note": "机会／几回，语义自然" },
+    { "result_id": "48641dfe1084", "verdict": "pass", "note": "一边／易变，反差可读" },
+    { "result_id": "f6b5c5545dbb", "verdict": "pass", "note": "时刻／是客，荒诞清楚" },
+    { "result_id": "773a46f55f51", "verdict": "pass", "note": "指导／只道，现代感强" },
+    { "result_id": "8efe6cf42ec3", "verdict": "fail", "note": "驾驶不期不成句" }
+  ]
+}
