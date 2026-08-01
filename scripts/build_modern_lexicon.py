@@ -35,6 +35,7 @@ SUBTLEX_URL = (
     "https://www.ugent.be/plone_portal/pp/experimentele-psychologie/"
     "en/research/documents/subtlexch/subtlexch131210.zip"
 )
+DEFAULT_IDIOM_PATH = Path("data/dictionaries/THUOCL_chengyu.txt")
 PURE_HAN = re.compile(r"^[\u4e00-\u9fff]{2,4}$")
 
 # Focus on words that can carry a punchline. Function words, numbers and
@@ -43,6 +44,7 @@ ALLOWED_POS = {"n", "v", "a", "d", "vn", "an", "ad", "b", "z"}
 MIN_WORD_COUNT = 40
 MIN_CONTEXT_DIVERSITY = 20
 MIN_ZIPF = 3.2
+COMMON_IDIOM_LIMIT = 500
 
 # Explicit regression guard for low-frequency domain terms and historical
 # names that previously leaked into the UI.
@@ -82,6 +84,18 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="生成带现代度评分的中文词库")
     parser.add_argument("--subtlex-zip", type=Path, help="本地 SUBTLEX-CH zip")
     parser.add_argument(
+        "--idiom-path",
+        type=Path,
+        default=DEFAULT_IDIOM_PATH,
+        help="THUOCL 高频成语词表",
+    )
+    parser.add_argument(
+        "--idiom-limit",
+        type=int,
+        default=COMMON_IDIOM_LIMIT,
+        help="按 THUOCL 频次选取的常用成语数量",
+    )
+    parser.add_argument(
         "--output",
         type=Path,
         default=Path("data/dictionaries/modern_lexicon.json"),
@@ -111,7 +125,35 @@ def modern_score(word_count: int, context_diversity: int, zipf: float) -> int:
     return round(100 * (0.35 * count_component + 0.35 * diversity_component + 0.30 * zipf_component))
 
 
-def build_records(rows: list[dict[str, str]]) -> list[dict[str, object]]:
+def load_common_idioms(path: Path, limit: int) -> list[tuple[str, int]]:
+    if limit < 0:
+        raise ValueError("成语数量不能为负数")
+    if not path.exists():
+        raise FileNotFoundError(f"缺少 THUOCL 成语词表：{path}")
+
+    frequencies: dict[str, int] = {}
+    for line_number, raw_line in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
+        parts = raw_line.split()
+        if len(parts) != 2 or not parts[1].isdigit():
+            raise ValueError(f"THUOCL 成语词表第 {line_number} 行格式无效")
+        word, frequency_text = parts
+        if not PURE_HAN.fullmatch(word) or len(word) != 4:
+            continue
+        frequencies[word] = max(frequencies.get(word, 0), int(frequency_text))
+
+    return sorted(frequencies.items(), key=lambda item: (-item[1], item[0]))[:limit]
+
+
+def idiom_modern_score(rank: int, total: int) -> int:
+    if total <= 1:
+        return 92
+    return round(92 - 8 * (rank - 1) / (total - 1))
+
+
+def build_records(
+    rows: list[dict[str, str]],
+    common_idioms: list[tuple[str, int]] | None = None,
+) -> list[dict[str, object]]:
     subtlex_by_word = {row["Word"]: row for row in rows}
     records: dict[str, dict[str, object]] = {}
 
@@ -144,6 +186,31 @@ def build_records(rows: list[dict[str, str]]) -> list[dict[str, object]]:
             "curated": False,
         }
 
+    idioms = common_idioms or []
+    for rank, (word, idiom_frequency) in enumerate(idioms, 1):
+        if word in EXCLUDED_WORDS:
+            continue
+        row = subtlex_by_word.get(word)
+        word_count = int(row["WCount"]) if row else 0
+        context_diversity = int(row["W-CD"]) if row else 0
+        zipf = round(zipf_frequency(word, "zh"), 2)
+        records[word] = {
+            "word": word,
+            "source": "THUOCL高频成语+SUBTLEX-CH" if row else "THUOCL高频成语",
+            "category": "常用成语",
+            "pos": row["Dominant.PoS"] if row else "idiom",
+            "word_count": word_count,
+            "context_diversity": context_diversity,
+            "zipf": zipf,
+            "modern_score": max(
+                idiom_modern_score(rank, len(idioms)),
+                modern_score(word_count, context_diversity, zipf),
+            ),
+            "curated": False,
+            "idiom_frequency": idiom_frequency,
+            "idiom_rank": rank,
+        }
+
     for word, category in CURATED_TERMS.items():
         if not PURE_HAN.fullmatch(word) or word in EXCLUDED_WORDS:
             continue
@@ -171,7 +238,8 @@ def build_records(rows: list[dict[str, str]]) -> list[dict[str, object]]:
 
 def main() -> None:
     args = parse_args()
-    records = build_records(load_subtlex(args.subtlex_zip))
+    common_idioms = load_common_idioms(args.idiom_path, args.idiom_limit)
+    records = build_records(load_subtlex(args.subtlex_zip), common_idioms)
     payload = {
         "schema_version": 1,
         "data_license": "CC BY-SA 4.0 compatible derived data; retain this metadata",
@@ -187,6 +255,12 @@ def main() -> None:
             "min_context_diversity": MIN_CONTEXT_DIVERSITY,
             "min_zipf": MIN_ZIPF,
             "proper_nouns": "自动排除；仅允许人工白名单加入",
+            "common_idioms": {
+                "source": "THUOCL_chengyu.txt",
+                "selection": "按语料频次降序，仅取高频前段",
+                "limit": args.idiom_limit,
+                "selected": len(common_idioms),
+            },
         },
         "attribution": [
             {
@@ -198,6 +272,12 @@ def main() -> None:
                 "name": "wordfreq",
                 "citation": "Robyn Speer (2022), wordfreq v3.0",
                 "url": "https://github.com/rspeer/wordfreq",
+            },
+            {
+                "name": "THUOCL 成语词表",
+                "citation": "Tsinghua University Natural Language Processing Lab, THU Open Chinese Lexicon",
+                "url": "https://github.com/thunlp/THUOCL",
+                "license": "MIT",
             },
         ],
         "record_count": len(records),

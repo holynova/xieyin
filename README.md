@@ -23,10 +23,15 @@ npm run corpus:refresh
 
 - 主语料：[SUBTLEX-CH](https://www.ugent.be/pp/experimentele-psychologie/en/research/documents/subtlexch)，使用影视字幕词频、语境覆盖度和词性。
 - 交叉评分：[wordfreq](https://github.com/rspeer/wordfreq)，用于多语料现代度排序。
+- 常用成语：[THUOCL 成语词表](https://github.com/thunlp/THUOCL)，按语料频次只取前 500 条，并单独标记为“常用成语”；不整表引入生僻成语。
 - 人工白名单：网络生活新词及明确的流行文化词，避免低频专名自动混入。
 - 默认页面只展示同音同调结果；异声调结果保留在“包含异调”中。
 
 已生成的结构化词库位于 `data/dictionaries/modern_lexicon.json`，包含来源、评分与署名元数据。旧 CEDICT 和 THUOCL 文件仅作为历史数据保留，不再由挖掘器自动加载。
+
+## 流行歌词来源边界
+
+流行歌曲歌词默认不随项目发布。只有公版歌词、取得明确网络传播许可的歌词，或用户在本地临时输入且不上传、不保存的文本，才适合作为匹配源。歌曲名、歌手、词曲作者和正版页面链接可以作为来源元数据，但仅有元数据不能参与逐字谐音匹配。
 
 重新生成词库：
 

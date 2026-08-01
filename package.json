@@ -1,6 +1,6 @@
 {
   "name": "xieyin",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "从古籍原句中寻找现代汉语谐音表达的离线展示系统",
   "main": "build.js",
   "scripts": {

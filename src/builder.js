@@ -8,6 +8,17 @@ const fs = require('fs');
 const path = require('path');
 
 const PROJECT_URL = 'https://holynova.github.io/xieyin/';
+const SEARCH_FIELDS = ['kw', 'oText', 'work', 'author', 'stage', 'grade', 'semester', 'doc'];
+
+function matchesSearchRecord(item, query) {
+  const normalizedQuery = String(query || '').toLowerCase().trim();
+  if (!normalizedQuery) return true;
+  const haystack = SEARCH_FIELDS
+    .map(field => item[field] || '')
+    .join(' ')
+    .toLowerCase();
+  return haystack.includes(normalizedQuery);
+}
 const PROJECT_QR_DATA_URL = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNyAzNyIgc2hhcGUtcmVuZGVyaW5nPSJjcmlzcEVkZ2VzIj48cGF0aCBmaWxsPSIjZmZmZGY3IiBkPSJNMCAwaDM3djM3SDB6Ii8+PHBhdGggZmlsbD0iIzI2MjAxYSIgZD0iTTQgNGg3djFINHpNMTIgNGgydjFIMTJ6TTE2IDRoMnYxSDE2ek0xOSA0aDF2MUgxOXpNMjIgNGgxdjFIMjJ6TTI0IDRoMXYxSDI0ek0yNiA0aDd2MUgyNnpNNCA1aDF2MUg0ek0xMCA1aDF2MUgxMHpNMTUgNWgydjFIMTV6TTE5IDVoNHYxSDE5ek0yNCA1aDF2MUgyNHpNMjYgNWgxdjFIMjZ6TTMyIDVoMXYxSDMyek00IDZoMXYxSDR6TTYgNmgzdjFINnpNMTAgNmgxdjFIMTB6TTEyIDZoM3YxSDEyek0xOCA2aDF2MUgxOHpNMjAgNmgxdjFIMjB6TTIyIDZoM3YxSDIyek0yNiA2aDF2MUgyNnpNMjggNmgzdjFIMjh6TTMyIDZoMXYxSDMyek00IDdoMXYxSDR6TTYgN2gzdjFINnpNMTAgN2gxdjFIMTB6TTEzIDdoMXYxSDEzek0xNSA3aDF2MUgxNXpNMTcgN2gxdjFIMTd6TTE5IDdoMXYxSDE5ek0yMSA3aDJ2MUgyMXpNMjQgN2gxdjFIMjR6TTI2IDdoMXYxSDI2ek0yOCA3aDN2MUgyOHpNMzIgN2gxdjFIMzJ6TTQgOGgxdjFINHpNNiA4aDN2MUg2ek0xMCA4aDF2MUgxMHpNMTQgOGg1djFIMTR6TTIwIDhoMXYxSDIwek0yNCA4aDF2MUgyNHpNMjYgOGgxdjFIMjZ6TTI4IDhoM3YxSDI4ek0zMiA4aDF2MUgzMnpNNCA5aDF2MUg0ek0xMCA5aDF2MUgxMHpNMTUgOWgxdjFIMTV6TTE3IDloMXYxSDE3ek0yMSA5aDJ2MUgyMXpNMjQgOWgxdjFIMjR6TTI2IDloMXYxSDI2ek0zMiA5aDF2MUgzMnpNNCAxMGg3djFINHpNMTIgMTBoMXYxSDEyek0xNCAxMGgxdjFIMTR6TTE2IDEwaDF2MUgxNnpNMTggMTBoMXYxSDE4ek0yMCAxMGgxdjFIMjB6TTIyIDEwaDF2MUgyMnpNMjQgMTBoMXYxSDI0ek0yNiAxMGg3djFIMjZ6TTEyIDExaDJ2MUgxMnpNMTYgMTFoMnYxSDE2ek0xOSAxMWgxdjFIMTl6TTIyIDExaDJ2MUgyMnpNNCAxMmgxdjFINHpNNiAxMmgxdjFINnpNOSAxMmgydjFIOXpNMTUgMTJoMXYxSDE1ek0xNyAxMmgzdjFIMTd6TTI0IDEyaDN2MUgyNHpNMzAgMTJoMXYxSDMwek0zMiAxMmgxdjFIMzJ6TTYgMTNoMnYxSDZ6TTExIDEzaDF2MUgxMXpNMTMgMTNoMXYxSDEzek0xNiAxM2gxdjFIMTZ6TTE5IDEzaDJ2MUgxOXpNMjQgMTNoMXYxSDI0ek0yNyAxM2g1djFIMjd6TTQgMTRoMXYxSDR6TTcgMTRoMXYxSDd6TTkgMTRoNXYxSDl6TTE2IDE0aDF2MUgxNnpNMTggMTRoMnYxSDE4ek0yMSAxNGg0djFIMjF6TTI3IDE0aDR2MUgyN3pNMzIgMTRoMXYxSDMyek01IDE1aDF2MUg1ek03IDE1aDF2MUg3ek0xMyAxNWgxdjFIMTN6TTE2IDE1aDN2MUgxNnpNMjIgMTVoMXYxSDIyek0yNSAxNWgydjFIMjV6TTMwIDE1aDF2MUgzMHpNMzIgMTVoMXYxSDMyek01IDE2aDN2MUg1ek0xMCAxNmgxdjFIMTB6TTEzIDE2aDJ2MUgxM3pNMTcgMTZoMXYxSDE3ek0yMCAxNmgzdjFIMjB6TTI2IDE2aDF2MUgyNnpNMjggMTZoMXYxSDI4ek0zMiAxNmgxdjFIMzJ6TTUgMTdoMXYxSDV6TTggMTdoMXYxSDh6TTEyIDE3aDJ2MUgxMnpNMTUgMTdoMnYxSDE1ek0xOCAxN2gxdjFIMTh6TTIwIDE3aDJ2MUgyMHpNMjMgMTdoMnYxSDIzek0yNiAxN2gxdjFIMjZ6TTI4IDE3aDF2MUgyOHpNMzAgMTdoMXYxSDMwek01IDE4aDR2MUg1ek0xMCAxOGg0djFIMTB6TTE4IDE4aDR2MUgxOHpNMjYgMThoNHYxSDI2ek0zMSAxOGgydjFIMzF6TTQgMTloMXYxSDR6TTYgMTloMXYxSDZ6TTggMTloMnYxSDh6TTExIDE5aDF2MUgxMXpNMTQgMTloMnYxSDE0ek0xNyAxOWgzdjFIMTd6TTIxIDE5aDJ2MUgyMXpNMjUgMTloMnYxSDI1ek0yOSAxOWgydjFIMjl6TTMyIDE5aDF2MUgzMnpNNCAyMGgzdjFINHpNMTAgMjBoM3YxSDEwek0xNSAyMGgydjFIMTV6TTE4IDIwaDR2MUgxOHpNMjQgMjBoMnYxSDI0ek0yOSAyMGgxdjFIMjl6TTMxIDIwaDJ2MUgzMXpNNCAyMWg0djFINHpNOSAyMWgxdjFIOXpNMTMgMjFoMnYxSDEzek0xNyAyMWgxdjFIMTd6TTIxIDIxaDF2MUgyMXpNMjUgMjFoMnYxSDI1ek0yOSAyMWgydjFIMjl6TTQgMjJoMXYxSDR6TTYgMjJoMXYxSDZ6TTggMjJoM3YxSDh6TTE0IDIyaDJ2MUgxNHpNMTkgMjJoMnYxSDE5ek0yMyAyMmgxdjFIMjN6TTI1IDIyaDJ2MUgyNXpNMzAgMjJoMnYxSDMwek02IDIzaDF2MUg2ek0xMyAyM2gydjFIMTN6TTE2IDIzaDN2MUgxNnpNMjEgMjNoNHYxSDIxek0yNyAyM2gydjFIMjd6TTMyIDIzaDF2MUgzMnpNNSAyNGgxdjFINXpNNyAyNGgxdjFIN3pNMTAgMjRoMXYxSDEwek0xMiAyNGg0djFIMTJ6TTE3IDI0aDF2MUgxN3pNMjAgMjRoMnYxSDIwek0yMyAyNGg3djFIMjN6TTMxIDI0aDJ2MUgzMXpNMTkgMjVoMXYxSDE5ek0yMSAyNWgxdjFIMjF6TTI0IDI1aDF2MUgyNHpNMjggMjVoM3YxSDI4ek00IDI2aDd2MUg0ek0xMyAyNmgxdjFIMTN6TTE1IDI2aDN2MUgxNXpNMTkgMjZoNnYxSDE5ek0yNiAyNmgxdjFIMjZ6TTI4IDI2aDF2MUgyOHpNMzIgMjZoMXYxSDMyek00IDI3aDF2MUg0ek0xMCAyN2gxdjFIMTB6TTEyIDI3aDJ2MUgxMnpNMTcgMjdoNXYxSDE3ek0yMyAyN2gydjFIMjN6TTI4IDI3aDF2MUgyOHpNMzIgMjdoMXYxSDMyek00IDI4aDF2MUg0ek02IDI4aDN2MUg2ek0xMCAyOGgxdjFIMTB6TTE0IDI4aDJ2MUgxNHpNMTggMjhoMnYxSDE4ek0yMyAyOGg4djFIMjN6TTQgMjloMXYxSDR6TTYgMjloM3YxSDZ6TTEwIDI5aDF2MUgxMHpNMTQgMjloMnYxSDE0ek0yMiAyOWgxdjFIMjJ6TTI0IDI5aDJ2MUgyNHpNMjggMjloMnYxSDI4ek0zMSAyOWgydjFIMzF6TTQgMzBoMXYxSDR6TTYgMzBoM3YxSDZ6TTEwIDMwaDF2MUgxMHpNMTIgMzBoMXYxSDEyek0xNCAzMGgxdjFIMTR6TTIxIDMwaDF2MUgyMXpNMjUgMzBoMXYxSDI1ek0yOSAzMGgxdjFIMjl6TTQgMzFoMXYxSDR6TTEwIDMxaDF2MUgxMHpNMTMgMzFoMXYxSDEzek0xNyAzMWgxdjFIMTd6TTIxIDMxaDF2MUgyMXpNMjQgMzFoMXYxSDI0ek0yOCAzMWgxdjFIMjh6TTMwIDMxaDF2MUgzMHpNNCAzMmg3djFINHpNMTIgMzJoM3YxSDEyek0xNiAzMmgzdjFIMTZ6TTIwIDMyaDN2MUgyMHpNMjUgMzJoNnYxSDI1ek0zMiAzMmgxdjFIMzJ6Ii8+PC9zdmc+";
 
 function buildHtml(
@@ -300,7 +311,7 @@ function buildHtml(
     </section>
 
     <section class="filter-card">
-      <input type="text" class="search-input" id="searchInput" placeholder="搜索现代词、篇名、作者或课本年级...">
+      <input type="text" class="search-input" id="searchInput" placeholder="搜索现代词、原词、篇名、作者或课本年级...">
       <div class="filter-group">
         <span class="filter-label">匹配方式</span>
         <div class="category-pills" id="tonePills">
@@ -319,7 +330,7 @@ function buildHtml(
           <button class="pill-btn" data-scope="B">课外经典 <span class="pill-count" data-scope-count="B"></span></button>
         </div>
       </div>
-      <p class="filter-note">数字为匹配结果条数，“全部”已合并重复内容。</p>
+      <p class="filter-note">搜索匹配词条与篇目信息，不扫描整句上下文。数字为匹配结果条数，“全部”已合并重复内容。</p>
     </section>
 
     <div class="section-head">
@@ -365,6 +376,7 @@ function buildHtml(
   const RAW_DATA = ${jsonEmbedded};
   const PROJECT_URL = ${projectUrlEmbedded};
   const QR_CODE_DATA_URL = ${qrCodeEmbedded};
+  const SEARCH_FIELDS = ${JSON.stringify(SEARCH_FIELDS)};
   const WORDS_BY_TONE = {
     same: ${sameToneWordsEmbedded},
     all: ${wordsEmbedded}
@@ -407,7 +419,7 @@ function buildHtml(
   function matchesSearch(item) {
     const q = searchQuery.toLowerCase().trim();
     if (!q) return true;
-    const haystack = [item.pun, item.orig, item.kw, item.oText, item.work, item.author, item.stage, item.grade].join(' ').toLowerCase();
+    const haystack = SEARCH_FIELDS.map(field => item[field] || '').join(' ').toLowerCase();
     return haystack.includes(q);
   }
 
@@ -909,6 +921,8 @@ function buildHtml(
 }
 
 module.exports = buildHtml;
+module.exports.matchesSearchRecord = matchesSearchRecord;
+module.exports.SEARCH_FIELDS = SEARCH_FIELDS;
 
 if (require.main === module) {
   buildHtml();

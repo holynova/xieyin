@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.2.1 - 2026-08-01
+
+### Features
+- Add the 500 most common idioms to the structured modern lexicon, with source and frequency metadata.
+
+### Fixes
+- Restrict page search to structured word and work metadata so words appearing elsewhere in a sentence do not produce unrelated matches.
+
+### Documentation
+- Clarify the modern lexicon boundary and lyric-source copyright policy.
+
 ## 1.2.0 - 2026-07-30
 
 ### Features

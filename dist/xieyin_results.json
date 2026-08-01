@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-07-30T16:22:19.319Z",
+  "generated_at": "2026-08-01T15:09:15.354Z",
   "corpus_summary": {
     "total_works": 413,
     "tier_a_works": 314,
@@ -1936,6 +1936,44 @@
       ],
       "text_source_url": "https://www.gushiwenku.cn/shiwen/4fd61a6/",
       "result_id": "c903b15e0c44",
+      "manual_review": null
+    },
+    {
+      "original_text": "世而不见",
+      "replaced_word": "视而不见",
+      "length": 4,
+      "match_type": "全同音同调",
+      "is_same_tone": true,
+      "pun_sentence": "人君无愚、智、贤、不肖，莫不欲求忠以自为，举贤以自佐；然亡国破家相随属，而圣君治国累【视而不见】者，其所谓忠者不忠，而所谓贤者不贤也。",
+      "pinyin_orig": "shì ér bù jiàn",
+      "pinyin_target": "shì ér bù jiàn",
+      "quality_score": 316,
+      "modern_score": 90,
+      "modern_source": "THUOCL高频成语+SUBTLEX-CH",
+      "category": "常用成语",
+      "pos": "v",
+      "word_count": 131,
+      "context_diversity": 123,
+      "zipf": 3.61,
+      "curated": false,
+      "corpus_id": "高中-6bf773f",
+      "work_title": "屈原列传",
+      "author": "司马迁",
+      "dynasty": "两汉",
+      "school_stage": "高中",
+      "grade": "选修",
+      "semester": "中册",
+      "textbook_location": "选修（中册）",
+      "familiarity_tier": "A",
+      "familiarity_score": 94,
+      "curriculum_sources": [
+        {
+          "label": "教育部《普通高中语文课程标准（2017年版2020年修订）》附录1",
+          "url": "https://www.pep.com.cn/xw/zt/rjwy/gzkb2020/202205/P020220517522412911080.pdf"
+        }
+      ],
+      "text_source_url": "https://www.gushiwenku.cn/shiwen/6bf773f/",
+      "result_id": "f29607c9b3ca",
       "manual_review": null
     },
     {
@@ -17563,44 +17601,6 @@
       ],
       "text_source_url": "https://www.gushiwenku.cn/shiwen/957bb4d/",
       "result_id": "b7c1a8d6cadb",
-      "manual_review": null
-    },
-    {
-      "original_text": "家相",
-      "replaced_word": "家乡",
-      "length": 2,
-      "match_type": "全同音同调",
-      "is_same_tone": true,
-      "pun_sentence": "人君无愚、智、贤、不肖，莫不欲求忠以自为，举贤以自佐；然亡国破【家乡】随属，而圣君治国累世而不见者，其所谓忠者不忠，而所谓贤者不贤也。",
-      "pinyin_orig": "jiā xiāng",
-      "pinyin_target": "jiā xiāng",
-      "quality_score": 290,
-      "modern_score": 70,
-      "modern_source": "SUBTLEX-CH+wordfreq",
-      "category": "通用现代词",
-      "pos": "n",
-      "word_count": 513,
-      "context_diversity": 367,
-      "zipf": 4.4,
-      "curated": false,
-      "corpus_id": "高中-6bf773f",
-      "work_title": "屈原列传",
-      "author": "司马迁",
-      "dynasty": "两汉",
-      "school_stage": "高中",
-      "grade": "选修",
-      "semester": "中册",
-      "textbook_location": "选修（中册）",
-      "familiarity_tier": "A",
-      "familiarity_score": 94,
-      "curriculum_sources": [
-        {
-          "label": "教育部《普通高中语文课程标准（2017年版2020年修订）》附录1",
-          "url": "https://www.pep.com.cn/xw/zt/rjwy/gzkb2020/202205/P020220517522412911080.pdf"
-        }
-      ],
-      "text_source_url": "https://www.gushiwenku.cn/shiwen/6bf773f/",
-      "result_id": "4730cd7cf915",
       "manual_review": null
     },
     {

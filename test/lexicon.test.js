@@ -7,11 +7,13 @@ const test = require('node:test');
 const HomophonicEngine = require('../src/engine');
 const minePuns = require('../src/miner');
 const buildHtml = require('../src/builder');
+const { matchesSearchRecord } = buildHtml;
 const prepareData = require('../src/prepareData');
 const { loadModernLexicon, loadAllCorpus, loadPinyinOverrides } = minePuns;
 
 const BAD_WORDS = ['脂习', '封谞', '姬奭', '死股', '豫尔', '粿汁', '计网', '视向'];
 const EXPECTED_WORDS = ['知道', '可以', '同事', '实习', '鼓舞', '晴天', '摸鱼', '内卷'];
+const EXPECTED_IDIOMS = ['坚定不移', '全力以赴', '实事求是', '不可思议', '理所当然', '迫不及待', '不知不觉', '叹为观止'];
 const LEGACY_BRAND = ['Codex', 'Resets'].join(' ');
 const LEGACY_HOST = ['codex', 'resets.com'].join('-');
 
@@ -25,6 +27,17 @@ test('modern lexicon is structured, scored, and excludes known pollution', () =>
     assert.equal(metadataByWord.has(word), true, `${word} should remain available`);
     assert.ok(Number.isFinite(metadataByWord.get(word).modern_score));
   }
+  for (const word of EXPECTED_IDIOMS) {
+    const item = metadataByWord.get(word);
+    assert.ok(item, `${word} should be included as a common idiom`);
+    assert.equal(item.category, '常用成语');
+    assert.match(item.source, /^THUOCL高频成语/);
+    assert.ok(item.modern_score >= 84);
+    assert.ok(Number.isInteger(item.idiom_rank));
+    assert.ok(Number.isInteger(item.idiom_frequency));
+  }
+  assert.equal(payload.criteria.common_idioms.selected, 500);
+  assert.equal(payload.words.filter(item => item.category === '常用成语').length, 500);
 });
 
 test('curated textbook corpus and restored legacy classics load together', () => {
@@ -61,6 +74,25 @@ test('engine respects punctuation and resolves polyphones from full context', ()
   const contextual = engine.findPuns('待到重阳日，还来就菊花。');
   assert.ok(contextual.some(row => row.original_text === '还来' && row.replaced_word === '环来'));
   assert.equal(contextual.find(row => row.replaced_word === '环来').pinyin_orig, 'huán lái');
+});
+
+test('search only matches structured fields, not unrelated words in the full sentence', () => {
+  const xiangshuiResult = {
+    pun: '汉文有道恩犹薄，【香水】无情吊岂知？',
+    orig: '汉文有道恩犹薄，湘水无情吊岂知？',
+    kw: '香水',
+    oText: '湘水',
+    work: '长沙过贾谊宅',
+    author: '刘长卿',
+    stage: '初中',
+    grade: '九年级上册',
+    semester: '上'
+  };
+
+  assert.equal(matchesSearchRecord(xiangshuiResult, '无情'), false);
+  assert.equal(matchesSearchRecord(xiangshuiResult, '香水'), true);
+  assert.equal(matchesSearchRecord(xiangshuiResult, '湘水'), true);
+  assert.equal(matchesSearchRecord(xiangshuiResult, '长沙过贾谊宅'), true);
 });
 
 test('mined output merges textbook and restored classics by default', () => {
