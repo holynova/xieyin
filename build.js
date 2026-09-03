@@ -2,7 +2,7 @@
  * 统一一键构建流水线脚本 (build.js - Node.js JavaScript 版)
  * 支持运行：
  *   node build.js
- *   npm run build
+ *   pnpm run build
  */
 
 const prepareData = require('./src/prepareData');

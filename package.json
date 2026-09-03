@@ -5,6 +5,7 @@
   "main": "build.js",
   "scripts": {
     "build": "node build.js",
+    "build:pages": "pnpm run build",
     "start": "node build.js",
     "test": "node --test",
     "corpus:refresh": "node scripts/build_textbook_corpus.js"
@@ -19,5 +20,8 @@
   "license": "ISC",
   "dependencies": {
     "pinyin-pro": "^3.27.0"
+  },
+  "devDependencies": {
+    "wrangler": "4.92.0"
   }
 }

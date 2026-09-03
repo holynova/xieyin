@@ -14,7 +14,7 @@
 课本与人工精选数据位于 `data/corpus/textbook_classics.json` 与 `data/corpus/more_classics.json`，旧版六组语料继续保留在 `data/corpus/`。普通构建只校验快照，不联网、也不会自动覆盖人工整理的数据。如需主动刷新课本原文快照：
 
 ```bash
-npm run corpus:refresh
+pnpm run corpus:refresh
 ```
 
 当前的分层人工抽查记录位于 `data/quality/manual_review.json`。质量指标使用分阶段、分声调抽样的通过率，已判定失败的结果会在后续挖掘时自动排除。
@@ -43,8 +43,8 @@ python3 scripts/build_modern_lexicon.py
 构建与回归测试：
 
 ```bash
-npm run build
-npm test
+pnpm run build
+pnpm test
 ```
 
 ## 分享卡片
