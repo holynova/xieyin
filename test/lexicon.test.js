@@ -147,7 +147,7 @@ test('mined output merges textbook and restored classics by default', () => {
     assert.match(html, /e\.target\.closest\('\.pill-btn'\)/);
     assert.match(html, /人工抽查通过率/);
     assert.match(html, /79%/);
-    assert.match(html, /现代词来源：/);
+    assert.match(html, /词库来源：/);
     assert.match(html, /new Intl\.Collator\('zh-CN-u-co-pinyin'\)/);
     assert.match(html, /PINYIN_COLLATOR\.compare\(a, b\)/);
     assert.match(html, /生成分享卡/);
