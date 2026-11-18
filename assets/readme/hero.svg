@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="360" viewBox="0 0 1200 360"
+     role="img" aria-labelledby="title desc">
+  <title id="title">古籍谐音梗追踪器 — 从课本古籍中寻找现代汉语谐音表达</title>
+  <desc id="desc">暖纸底标题：古籍谐音梗追踪器；右侧是一张梗卡：【得到】者多助，失道者寡助，得道 dé dào 与现代词得到 dé dào 同音同调。</desc>
+
+  <rect width="1200" height="360" rx="26" fill="#fff4dd"/>
+
+  <g id="title-block" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <text x="56" y="62" font-size="19" letter-spacing="3" fill="#c23a10">古籍 × 现代汉语 · HOMOPHONE PUN TRACKER</text>
+    <text x="56" y="132" font-size="58" font-weight="700" fill="#26201a">古籍谐音梗追踪器</text>
+    <text x="56" y="176" font-size="23" fill="#26201a">Xieyin — 从课本古籍里，找出撞上现代词的同音梗</text>
+    <text x="56" y="214" font-size="19" fill="#5c5347">不跨标点断句，全音节完全对齐；离线页面，可按来源与学段筛选。</text>
+    <g id="chips" font-size="18" fill="#26201a" text-anchor="middle">
+      <g><rect x="56" y="244" width="150" height="36" rx="18" fill="#ffd84d" stroke="#26201a" stroke-width="1.5"/><text x="131" y="268">1,549 条谐音</text></g>
+      <g><rect x="218" y="244" width="132" height="36" rx="18" fill="#ffb9cc" stroke="#26201a" stroke-width="1.5"/><text x="284" y="268">413 篇经典</text></g>
+      <g><rect x="362" y="244" width="168" height="36" rx="18" fill="#a5dcff" stroke="#26201a" stroke-width="1.5"/><text x="446" y="268">同音同调 866</text></g>
+    </g>
+  </g>
+
+  <g id="pun-card" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <rect x="766" y="54" width="384" height="252" rx="14" fill="#26201a"/>
+    <rect x="760" y="48" width="384" height="252" rx="14" fill="#fffdf7" stroke="#26201a" stroke-width="2"/>
+    <text x="784" y="80" font-size="18" fill="#5c5347">典籍反差梗示范</text>
+    <g id="highlight">
+      <rect x="784" y="96" width="336" height="56" rx="10" fill="#ffd84d"/>
+      <text x="800" y="132" font-size="24" font-weight="700" fill="#26201a">【得到】者多助，失道者寡助。</text>
+    </g>
+    <text x="784" y="190" font-size="18" fill="#26201a">《得道多助失道寡助》· 孟子</text>
+    <text x="784" y="222" font-size="20" font-weight="700" fill="#26201a">得道 (dé dào) → 得到 (dé dào)</text>
+    <g id="tone-pills" font-size="18" fill="#26201a" text-anchor="middle">
+      <g><rect x="784" y="244" width="150" height="36" rx="18" fill="#ffb9cc" stroke="#26201a" stroke-width="1.5"/><text x="859" y="268">同音同调</text></g>
+      <g><rect x="946" y="244" width="150" height="36" rx="18" fill="#a5dcff" stroke="#26201a" stroke-width="1.5"/><text x="1021" y="268">2 字窗口</text></g>
+    </g>
+  </g>
+</svg>
