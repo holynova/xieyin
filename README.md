@@ -1,24 +1,24 @@
+<p align="right"><a href="README.en.md">English</a></p>
+
 <p align="center">
   <img src="./assets/readme/hero.svg" width="100%" alt="古籍谐音梗追踪器 — 【得到】者多助，失道者寡助：得道 dé dào 与现代词得到 dé dào 同音同调">
 </p>
 
 <p align="center">
-  <a href="https://xiaosang.cc/xieyin/">▶ 在线浏览 Browse Online</a>
+  <a href="https://xiaosang.cc/xieyin/">▶ 在线浏览</a>
   ·
   <a href="https://github.com/holynova/xieyin">GitHub 仓库</a>
 </p>
 
 古籍谐音梗追踪器：从小学、初中、高中课本经典与熟知古籍中，找出撞上现代汉语常用词的同音表达，做成可筛选的离线页面。共 413 篇经典、1,549 条谐音结果：得道 → 得到（《得道多助失道寡助》）、看道 → 看到（《王戎不取道旁李》）、之道 → 知道（《三字经》）。系统严守不跨标点断句与全音节完全对齐两条法则，再用现代口语词频、语境覆盖度、词性过滤和人工白名单提升结果质量。
 
-Xieyin finds modern Mandarin homophones hiding in classical Chinese texts — the textbook classics from primary through high school plus well-known ancient works — and presents them in a filterable offline page. 413 works, 1,549 homophone matches: 得道 → 得到 (dé dào, from Mencius), 看道 → 看到 (kàn dào), 之道 → 知道 (zhī dào). Matching never crosses punctuation and requires full-syllable alignment; results are ranked by modern spoken word frequency, context diversity, part-of-speech filters, and a curated whitelist.
-
-## 截图 / Screenshot
+## 截图
 
 <p align="center">
   <img src="./assets/readme/screenshot-home.png" width="800" alt="首页：古籍谐音梗追踪器，典籍反差梗示范【得到】者多助，失道者寡助；统计 413 篇/段、人工抽查通过率 79%、分层抽查样本 48 条；下方是候选现代词标签墙">
 </p>
 
-## 数字 / Numbers
+## 数字
 
 | 维度 | 数量 |
 |---|---|
@@ -30,7 +30,7 @@ Xieyin finds modern Mandarin homophones hiding in classical Chinese texts — th
 
 以上数字均取自 `dist/xieyin_results.json` 与页面统计（v1.2.1）。
 
-## 语料 / Corpus
+## 语料
 
 - **A 级 · 314 篇教材经典**：小学 124、初中 124、高中 66 篇，依据人教社小学 112 首、初中 85 首古诗词与 39 篇古文书目，以及教育部高中语文课程标准附录；现代诗词不进入古文匹配源。
 - **B 级 · 99 篇课外经典**：12 篇人工精选高认知经典，加上旧版完整恢复的唐诗、宋词、诗经、论语、道德经与历代辞赋片段。
@@ -43,13 +43,13 @@ Xieyin finds modern Mandarin homophones hiding in classical Chinese texts — th
 npm run corpus:refresh
 ```
 
-## 匹配规则 / Matching Rules
+## 匹配规则
 
 - **不跨标点断句**：冒号、引号、括号等均作为边界，"兮"等正文汉字不会被误当作标点。
 - **全音节完全对齐**：先按完整子句确定多音字读音，再从已确定的读音序列切出 2–4 字窗口。
 - **分层人工抽查**：抽查记录在 `data/quality/manual_review.json`，质量指标使用分阶段、分声调抽样的通过率；已判定失败的结果会在后续挖掘时自动排除。
 
-## 现代词库 / Modern Lexicon
+## 现代词库
 
 - **主语料**：[SUBTLEX-CH](https://www.ugent.be/pp/experimentele-psychologie/en/research/documents/subtlexch)，影视字幕词频、语境覆盖度和词性。
 - **交叉评分**：[wordfreq](https://github.com/rspeer/wordfreq)，用于多语料现代度排序。
@@ -65,11 +65,11 @@ python3 scripts/build_modern_lexicon.py
 
 **流行歌词来源边界**：流行歌曲歌词默认不随项目发布。只有公版歌词、取得明确网络传播许可的歌词，或用户在本地临时输入且不上传、不保存的文本，才适合作为匹配源。歌曲名、歌手、词曲作者和正版页面链接可以作为来源元数据，但仅有元数据不能参与逐字谐音匹配。
 
-## 分享卡片 / Share Cards
+## 分享卡片
 
 每条匹配结果都可以生成一张 1080 × 1440 的手机分享卡片：保留谐音改写、原词与现代词对照、作品来源信息，并内置项目二维码；支持直接保存为 PNG，在支持文件分享的手机浏览器中也可以调起系统分享。
 
-## 构建与测试 / Build & Test
+## 构建与测试
 
 ```bash
 npm run build   # 一键三步：准备数据 → 挖掘导出 JSON → 构建静态 HTML
@@ -78,7 +78,7 @@ npm test        # 回归测试（node --test）
 
 构建产物同时写到 `dist/` 与根目录 `index.html`，直接打开即用，离线可看。
 
-## 技术 / Tech
+## 技术
 
 - 挖掘引擎：Node.js，拼音用 [pinyin-pro](https://github.com/zh-lx/pinyin-pro)（3.27，唯一依赖）。
 - 构建流水线：`build.js` 串起三步——`src/prepareData.js` 准备典籍与词库、`src/miner.js` 挖掘并导出 `dist/xieyin_results.json`、`src/builder.js` 读 JSON 生成单文件静态页。
@@ -97,18 +97,3 @@ data/quality/               分层人工抽查记录
 test/lexicon.test.js        词库回归测试
 design.md                   页面视觉设计规范
 ```
-
-## English
-
-**Xieyin** (谐音, "homophone") is a tracker that mines classical Chinese texts for accidental homophones of modern Mandarin words, and ships the results as a filterable offline page.
-
-- **Corpus**: 413 works — 314 textbook classics (primary 124, middle 124, high school 66, per People's Education Press lists and the Ministry of Education curriculum appendix) plus 99 extracurricular classics (Tang poetry, Song ci, Shijing, Lunyu, Daodejing, and ci-fu fragments).
-- **Results**: 1,549 matches — 866 same-tone, 683 different-tone; 1,542 two-character, 6 three-character, 1 four-character. Default view shows same-tone only; toggle "包含异调" to include different tones.
-- **Rules**: matching never crosses punctuation (colons, quotes, brackets are boundaries); polyphonic characters are resolved against the full clause first, then 2–4 character windows are cut from the resolved pinyin sequence. Failed matches found in stratified manual review (48 samples, 79% pass rate) are automatically excluded from later mining.
-- **Modern lexicon**: SUBTLEX-CH subtitle frequencies + wordfreq cross-scoring + top-500 THUOCL idioms + a curated whitelist of internet and pop-culture words.
-- **Share cards**: every match generates a 1080 × 1440 mobile card (pun rewrite, original vs. modern word, source work, project QR code) — save as PNG or invoke system share.
-- **Build**: `npm run build` (prepare data → mine to JSON → build static HTML), `npm test`. Single dependency: pinyin-pro.
-
-## 许可 / License
-
-ISC，见 `package.json`。
